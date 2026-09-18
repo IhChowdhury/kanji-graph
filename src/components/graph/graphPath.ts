@@ -1,6 +1,6 @@
 import type { Edge } from 'reactflow'
 
-import { getKanjiInfo } from '../../data/kanjiCatalog'
+import type { KanjiInfo } from '../../types/kanji'
 
 export interface AncestorPath {
   nodeIds: Set<string>
@@ -61,9 +61,14 @@ export function computeAncestorPath(
  * parent edge, not just the primary one.
  *
  * Returns the chain in root-to-selected order, e.g. ['木', '休'].
- * Returns [] if nothing is selected.
+ * Returns [] if nothing is selected. Stops early (rather than throwing) if a
+ * step's data isn't loaded yet - e.g. a cross-level parent whose JLPT level
+ * hasn't been enabled - since the catalog only ever contains loaded levels.
  */
-export function computeLearningPath(character: string | null): string[] {
+export function computeLearningPath(
+  character: string | null,
+  catalog: Record<string, KanjiInfo>,
+): string[] {
   if (!character) return []
 
   const chain: string[] = []
@@ -73,7 +78,7 @@ export function computeLearningPath(character: string | null): string[] {
   while (current && !visited.has(current)) {
     visited.add(current)
     chain.push(current)
-    current = getKanjiInfo(current).components[0]
+    current = catalog[current]?.components[0]
   }
 
   return chain.reverse()

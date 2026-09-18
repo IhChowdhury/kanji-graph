@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-09-18T06:28:49.627Z",
+  "defaultLevel": "N5",
+  "levels": {
+    "N5": {
+      "available": true,
+      "kanjiCount": 103,
+      "edgeCount": 83
+    },
+    "N4": {
+      "available": true,
+      "kanjiCount": 181,
+      "edgeCount": 218
+    },
+    "N3": {
+      "available": true,
+      "kanjiCount": 739,
+      "edgeCount": 938
+    },
+    "N2": {
+      "available": true,
+      "kanjiCount": 1207,
+      "edgeCount": 1587
+    },
+    "N1": {
+      "available": false,
+      "kanjiCount": 0,
+      "edgeCount": 0,
+      "reason": "No verified kanji currently classified at this level."
+    }
+  },
+  "joyo": {
+    "available": true,
+    "kanjiCount": 2136,
+    "edgeCount": 2693
+  }
+}

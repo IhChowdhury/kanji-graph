@@ -1,0 +1,1775 @@
+[
+  {
+    "kanji": "一",
+    "meaning": "one",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひとつ"
+    ],
+    "components": [],
+    "strokes": 1
+  },
+  {
+    "kanji": "七",
+    "meaning": "seven",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "ななつ",
+      "なの"
+    ],
+    "components": [
+      "一",
+      "乙"
+    ],
+    "strokes": 2
+  },
+  {
+    "kanji": "万",
+    "meaning": "ten thousand",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "components": [
+      "一"
+    ],
+    "strokes": 3
+  },
+  {
+    "kanji": "三",
+    "meaning": "three",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "みつ",
+      "みっつ"
+    ],
+    "components": [
+      "一"
+    ],
+    "strokes": 3
+  },
+  {
+    "kanji": "上",
+    "meaning": "above",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunyomi": [
+      "うえ",
+      "かみ",
+      "あげる",
+      "あがる",
+      "あがり",
+      "のぼる",
+      "のぼり",
+      "のぼせる",
+      "のぼす",
+      "たてまつる"
+    ],
+    "components": [
+      "一"
+    ],
+    "strokes": 3
+  },
+  {
+    "kanji": "下",
+    "meaning": "below",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "もと",
+      "さげる",
+      "さがる",
+      "くだる",
+      "くだり",
+      "くだす",
+      "くださる",
+      "おろす",
+      "おりる"
+    ],
+    "components": [
+      "一"
+    ],
+    "strokes": 3
+  },
+  {
+    "kanji": "中",
+    "meaning": "in",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか",
+      "うち",
+      "あたる"
+    ],
+    "components": [
+      "口"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "九",
+    "meaning": "nine",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここのつ"
+    ],
+    "components": [
+      "乙"
+    ],
+    "strokes": 2
+  },
+  {
+    "kanji": "二",
+    "meaning": "two",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふたつ",
+      "ふたたび"
+    ],
+    "components": [],
+    "strokes": 2
+  },
+  {
+    "kanji": "五",
+    "meaning": "five",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつつ"
+    ],
+    "components": [
+      "二"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "人",
+    "meaning": "person",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "components": [],
+    "strokes": 2
+  },
+  {
+    "kanji": "今",
+    "meaning": "now",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "components": [
+      "人"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "休",
+    "meaning": "rest",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やすむ",
+      "やすまる",
+      "やすめる"
+    ],
+    "components": [
+      "人",
+      "木"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "会",
+    "meaning": "meeting",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "あう",
+      "あわせる",
+      "あつまる"
+    ],
+    "components": [
+      "人"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "何",
+    "meaning": "what",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "components": [
+      "人",
+      "可"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "先",
+    "meaning": "before",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき",
+      "まず"
+    ],
+    "components": [
+      "八"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "入",
+    "meaning": "enter",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunyomi": [
+      "いる",
+      "いれる",
+      "はいる"
+    ],
+    "components": [],
+    "strokes": 2
+  },
+  {
+    "kanji": "八",
+    "meaning": "eight",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [
+      "や",
+      "やつ",
+      "やっつ",
+      "よう"
+    ],
+    "components": [],
+    "strokes": 2
+  },
+  {
+    "kanji": "六",
+    "meaning": "six",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "むつ",
+      "むっつ",
+      "むい"
+    ],
+    "components": [
+      "八"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "円",
+    "meaning": "circle",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まるい",
+      "まる",
+      "まど",
+      "まどか",
+      "まろやか"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "出",
+    "meaning": "exit",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "でる",
+      "だす",
+      "いでる",
+      "いだす"
+    ],
+    "components": [
+      "山"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "分",
+    "meaning": "part",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わける",
+      "わけ",
+      "わかれる",
+      "わかる",
+      "わかつ"
+    ],
+    "components": [
+      "八",
+      "刀"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "前",
+    "meaning": "in front",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "components": [],
+    "strokes": 9
+  },
+  {
+    "kanji": "北",
+    "meaning": "north",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "components": [],
+    "strokes": 5
+  },
+  {
+    "kanji": "十",
+    "meaning": "ten",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "components": [],
+    "strokes": 2
+  },
+  {
+    "kanji": "千",
+    "meaning": "thousand",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "components": [
+      "十"
+    ],
+    "strokes": 3
+  },
+  {
+    "kanji": "午",
+    "meaning": "noon",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "components": [
+      "干"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "半",
+    "meaning": "half",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なかば"
+    ],
+    "components": [
+      "二",
+      "十"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "南",
+    "meaning": "south",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "components": [
+      "十"
+    ],
+    "strokes": 9
+  },
+  {
+    "kanji": "友",
+    "meaning": "friend",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "components": [
+      "又"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "口",
+    "meaning": "mouth",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "古",
+    "meaning": "old",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふるい"
+    ],
+    "components": [
+      "十",
+      "口"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "右",
+    "meaning": "right",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "components": [
+      "口"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "名",
+    "meaning": "name",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "components": [
+      "夕",
+      "口"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "四",
+    "meaning": "four",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よつ",
+      "よっつ",
+      "よん"
+    ],
+    "components": [
+      "八"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "国",
+    "meaning": "country",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "components": [
+      "玉"
+    ],
+    "strokes": 8
+  },
+  {
+    "kanji": "土",
+    "meaning": "soil",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "外",
+    "meaning": "outside",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はずす",
+      "はずれる"
+    ],
+    "components": [
+      "夕"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "多",
+    "meaning": "many",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "おおい",
+      "まさに",
+      "まさる"
+    ],
+    "components": [
+      "夕"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "大",
+    "meaning": "large",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おおきい"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "天",
+    "meaning": "heavens",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あまつ",
+      "あめ"
+    ],
+    "components": [
+      "一",
+      "大"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "女",
+    "meaning": "woman",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "子",
+    "meaning": "child",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "kunyomi": [
+      "こ",
+      "ね"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "学",
+    "meaning": "study",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まなぶ"
+    ],
+    "components": [
+      "子"
+    ],
+    "strokes": 8
+  },
+  {
+    "kanji": "安",
+    "meaning": "relax",
+    "jlpt": "N5",
+    "grade": 3,
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やすい",
+      "やすまる",
+      "やす",
+      "やすらか"
+    ],
+    "components": [
+      "女"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "小",
+    "meaning": "little",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちいさい"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "少",
+    "meaning": "few",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "すくない",
+      "すこし"
+    ],
+    "components": [
+      "小"
+    ],
+    "strokes": 4
+  },
+  {
+    "kanji": "山",
+    "meaning": "mountain",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "川",
+    "meaning": "stream",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "components": [],
+    "strokes": 3
+  },
+  {
+    "kanji": "左",
+    "meaning": "left",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "components": [
+      "工"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "年",
+    "meaning": "year",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "components": [
+      "干"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "店",
+    "meaning": "store",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "みせ",
+      "たな"
+    ],
+    "components": [
+      "占"
+    ],
+    "strokes": 8
+  },
+  {
+    "kanji": "後",
+    "meaning": "behind",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "のち",
+      "うしろ",
+      "うしろ",
+      "あと",
+      "おくれる"
+    ],
+    "components": [],
+    "strokes": 9
+  },
+  {
+    "kanji": "手",
+    "meaning": "hand",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "シュ",
+      "ズ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "新",
+    "meaning": "new",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたらしい",
+      "あらた"
+    ],
+    "components": [
+      "斤"
+    ],
+    "strokes": 13
+  },
+  {
+    "kanji": "日",
+    "meaning": "day",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "時",
+    "meaning": "time",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "components": [
+      "日",
+      "寺"
+    ],
+    "strokes": 10
+  },
+  {
+    "kanji": "書",
+    "meaning": "write",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "かく"
+    ],
+    "components": [],
+    "strokes": 10
+  },
+  {
+    "kanji": "月",
+    "meaning": "month",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "木",
+    "meaning": "tree",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "kunyomi": [
+      "き"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "本",
+    "meaning": "book",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "components": [
+      "木"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "来",
+    "meaning": "come",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "くる",
+      "きたる",
+      "きたす",
+      "きたす",
+      "きたる",
+      "き",
+      "こ"
+    ],
+    "components": [
+      "米"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "東",
+    "meaning": "east",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "components": [
+      "木",
+      "日"
+    ],
+    "strokes": 8
+  },
+  {
+    "kanji": "校",
+    "meaning": "exam",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "components": [
+      "木",
+      "交"
+    ],
+    "strokes": 10
+  },
+  {
+    "kanji": "母",
+    "meaning": "mother",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは",
+      "も"
+    ],
+    "components": [],
+    "strokes": 5
+  },
+  {
+    "kanji": "毎",
+    "meaning": "every",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [
+      "ごと"
+    ],
+    "components": [],
+    "strokes": 6
+  },
+  {
+    "kanji": "気",
+    "meaning": "spirit",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いき",
+      "き"
+    ],
+    "components": [],
+    "strokes": 6
+  },
+  {
+    "kanji": "水",
+    "meaning": "water",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "火",
+    "meaning": "fire",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "父",
+    "meaning": "father",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "components": [],
+    "strokes": 4
+  },
+  {
+    "kanji": "生",
+    "meaning": "life",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "いきる",
+      "いかす",
+      "いける",
+      "うまれる",
+      "うまれる",
+      "うまれ",
+      "うまれ",
+      "うむ",
+      "おう",
+      "はえる",
+      "はやす",
+      "き",
+      "なま",
+      "なる",
+      "なす",
+      "むす"
+    ],
+    "components": [],
+    "strokes": 5
+  },
+  {
+    "kanji": "男",
+    "meaning": "male",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ",
+      "お"
+    ],
+    "components": [
+      "田",
+      "力"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "白",
+    "meaning": "white",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しろい"
+    ],
+    "components": [
+      "日"
+    ],
+    "strokes": 5
+  },
+  {
+    "kanji": "百",
+    "meaning": "hundred",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "components": [
+      "一",
+      "白"
+    ],
+    "strokes": 6
+  },
+  {
+    "kanji": "目",
+    "meaning": "eye",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "components": [],
+    "strokes": 5
+  },
+  {
+    "kanji": "社",
+    "meaning": "company",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "components": [
+      "示",
+      "土"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "空",
+    "meaning": "empty",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "クウ"
+    ],
+    "kunyomi": [
+      "そら",
+      "あく",
+      "あき",
+      "あける",
+      "から",
+      "すく",
+      "すかす",
+      "むなしい"
+    ],
+    "components": [
+      "穴",
+      "工"
+    ],
+    "strokes": 8
+  },
+  {
+    "kanji": "立",
+    "meaning": "stand up",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "リツ",
+      "リュウ",
+      "リットル"
+    ],
+    "kunyomi": [
+      "たつ",
+      "たてる"
+    ],
+    "components": [],
+    "strokes": 5
+  },
+  {
+    "kanji": "耳",
+    "meaning": "ear",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "components": [],
+    "strokes": 6
+  },
+  {
+    "kanji": "聞",
+    "meaning": "hear",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "きく",
+      "きこえる"
+    ],
+    "components": [
+      "門",
+      "耳"
+    ],
+    "strokes": 14
+  },
+  {
+    "kanji": "花",
+    "meaning": "flower",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "components": [
+      "化"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "行",
+    "meaning": "going",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunyomi": [
+      "いく",
+      "ゆく",
+      "おこなう",
+      "おこなう"
+    ],
+    "components": [],
+    "strokes": 6
+  },
+  {
+    "kanji": "西",
+    "meaning": "west",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "components": [],
+    "strokes": 6
+  },
+  {
+    "kanji": "見",
+    "meaning": "see",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "みる",
+      "みえる",
+      "みせる"
+    ],
+    "components": [
+      "目"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "言",
+    "meaning": "say",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "いう",
+      "こと"
+    ],
+    "components": [
+      "口"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "話",
+    "meaning": "tale",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はなす",
+      "はなし"
+    ],
+    "components": [
+      "言",
+      "舌"
+    ],
+    "strokes": 13
+  },
+  {
+    "kanji": "語",
+    "meaning": "word",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かたる",
+      "かたらう"
+    ],
+    "components": [
+      "言",
+      "吾"
+    ],
+    "strokes": 14
+  },
+  {
+    "kanji": "読",
+    "meaning": "read",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunyomi": [
+      "よむ"
+    ],
+    "components": [
+      "言",
+      "売"
+    ],
+    "strokes": 14
+  },
+  {
+    "kanji": "買",
+    "meaning": "buy",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "かう"
+    ],
+    "components": [
+      "貝"
+    ],
+    "strokes": 12
+  },
+  {
+    "kanji": "足",
+    "meaning": "leg",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "たりる",
+      "たる",
+      "たす"
+    ],
+    "components": [
+      "口"
+    ],
+    "strokes": 7
+  },
+  {
+    "kanji": "車",
+    "meaning": "car",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "components": [],
+    "strokes": 7
+  },
+  {
+    "kanji": "週",
+    "meaning": "week",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [],
+    "components": [
+      "周"
+    ],
+    "strokes": 11
+  },
+  {
+    "kanji": "道",
+    "meaning": "road-way",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ドウ",
+      "トウ"
+    ],
+    "kunyomi": [
+      "みち",
+      "いう"
+    ],
+    "components": [
+      "首"
+    ],
+    "strokes": 12
+  },
+  {
+    "kanji": "金",
+    "meaning": "gold",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "かね"
+    ],
+    "components": [],
+    "strokes": 8
+  },
+  {
+    "kanji": "長",
+    "meaning": "long",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "ながい",
+      "おさ"
+    ],
+    "components": [],
+    "strokes": 8
+  },
+  {
+    "kanji": "間",
+    "meaning": "interval",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "components": [
+      "門",
+      "日"
+    ],
+    "strokes": 12
+  },
+  {
+    "kanji": "雨",
+    "meaning": "rain",
+    "jlpt": "N5",
+    "grade": 1,
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ"
+    ],
+    "components": [],
+    "strokes": 8
+  },
+  {
+    "kanji": "電",
+    "meaning": "electricity",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "components": [
+      "雨"
+    ],
+    "strokes": 13
+  },
+  {
+    "kanji": "食",
+    "meaning": "eat",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "くう",
+      "くらう",
+      "たべる",
+      "はむ"
+    ],
+    "components": [],
+    "strokes": 9
+  },
+  {
+    "kanji": "飲",
+    "meaning": "drink",
+    "jlpt": "N5",
+    "grade": 3,
+    "onyomi": [
+      "イン",
+      "オン"
+    ],
+    "kunyomi": [
+      "のむ"
+    ],
+    "components": [
+      "食",
+      "欠"
+    ],
+    "strokes": 12
+  },
+  {
+    "kanji": "駅",
+    "meaning": "station",
+    "jlpt": "N5",
+    "grade": 3,
+    "onyomi": [
+      "エキ"
+    ],
+    "kunyomi": [],
+    "components": [
+      "馬",
+      "尺"
+    ],
+    "strokes": 14
+  },
+  {
+    "kanji": "高",
+    "meaning": "tall",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たかい",
+      "たか",
+      "たかまる",
+      "たかめる"
+    ],
+    "components": [],
+    "strokes": 10
+  },
+  {
+    "kanji": "魚",
+    "meaning": "fish",
+    "jlpt": "N5",
+    "grade": 2,
+    "onyomi": [
+      "ギョ"
+    ],
+    "kunyomi": [
+      "うお",
+      "さかな"
+    ],
+    "components": [],
+    "strokes": 11
+  }
+]

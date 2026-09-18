@@ -1,4 +1,4 @@
-import { getKanjiInfo } from '../../data/kanjiCatalog'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import type { KanjiInfo } from '../../types/kanji'
 
 function capitalize(text: string): string {
@@ -28,11 +28,18 @@ function buildMnemonicSentence(
 }
 
 function MnemonicPanel({ kanji }: { kanji: KanjiInfo }) {
+  const catalog = useKanjiDatasetStore((state) => state.catalog)
+
   if (kanji.components.length === 0) return null
 
-  const componentMeanings = kanji.components.map(
-    (component) => getKanjiInfo(component).meaning,
-  )
+  // A component whose level isn't loaded yet is skipped rather than
+  // crashing - see the cross-level policy in KANJIGRAPH_PROJECT.md.
+  const componentMeanings = kanji.components
+    .map((component) => catalog[component]?.meaning)
+    .filter((meaning): meaning is string => Boolean(meaning))
+
+  if (componentMeanings.length === 0) return null
+
   const sentence = buildMnemonicSentence(componentMeanings, kanji.meaning)
 
   return (

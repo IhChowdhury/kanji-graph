@@ -3,9 +3,11 @@ import type { Edge, Node } from 'reactflow'
 
 import type { KanjiNodeData } from '../../types/kanji'
 
-// Matches KanjiNode's rendered footprint (w-28 card plus badge/button overhang).
-const NODE_WIDTH = 112
-const NODE_HEIGHT = 96
+// Matches KanjiNode's rendered footprint (w-28 card plus badge/button
+// overhang). Exported so other modules (e.g. viewportFit.ts) that need a
+// node's approximate on-screen extent share this one definition.
+export const NODE_WIDTH = 112
+export const NODE_HEIGHT = 96
 const NODE_SEP = 32
 const RANK_SEP = 72
 const COMPONENT_GAP = 56

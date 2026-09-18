@@ -8,9 +8,23 @@ import {
   type PracticeAttempt,
 } from '../../store/usePracticeHistoryStore'
 import {
+  computeOverallScore,
+  passesStrokeGate,
+  scoreAcceptedStroke,
+  strokeAccuracyPercent,
+  type GateThresholds,
+  type ScoreBreakdown,
+  type StrokeScore,
+} from './scoring'
+import {
   angleBetweenDegrees,
+  boundingBox,
+  boundingBoxIoU,
   directionVector,
   distance,
+  pathLength,
+  ratioScore,
+  type BoundingBox,
   type Point,
   type Vector,
 } from './strokeGeometry'
@@ -22,26 +36,57 @@ const CORRECT_COLOR = '#16a34a'
 // KanjiVG paths live in a 0-109 viewBox; the canvas is CANVAS_SIZE square.
 const REFERENCE_SCALE = CANVAS_SIZE / 109
 
-// How far off (in degrees) a drawn stroke's overall direction may be from
-// the reference stroke's direction and still count as correct. Generous
-// enough for imprecise mouse/touch input, strict enough to catch a
-// genuinely wrong or reversed stroke.
-const CORRECT_ANGLE_THRESHOLD_DEGREES = 70
+// Number of points sampled along each reference stroke's curve (via
+// getPointAtLength) to build its bounding box - more than just start/end,
+// since many KanjiVG strokes curve and a start/end-only box would miss the
+// curve's actual extent.
+const REFERENCE_SAMPLE_COUNT = 16
 
-// How far (in canvas pixels) a drawn stroke's start/end may be from the
-// *specific* expected stroke's start/end and still count as correct.
-// Direction alone isn't enough to identify which stroke was drawn - many
-// kanji have several strokes pointing the same general way (e.g. multiple
-// horizontal strokes), so without a position check, drawing any stroke
-// with a similar direction to the current one would be wrongly accepted
-// regardless of where it was actually drawn. This anchors the match to
-// the current expected stroke's actual location, not just its direction.
-const MAX_POINT_DISTANCE = CANVAS_SIZE * 0.3
+// Strict stroke-order/shape gate thresholds (see scoring.ts for how these
+// also drive the continuous per-stroke accuracy scoring, not just
+// accept/reject).
+const GATE: GateThresholds = {
+  // How far off (in degrees) a drawn stroke's overall direction may be from
+  // the reference stroke's direction and still count as correct. Generous
+  // enough for imprecise mouse/touch input, strict enough to catch a
+  // genuinely wrong or reversed stroke.
+  maxAngleDiffDegrees: 70,
+  // How far (in canvas pixels) a drawn stroke's start/end may be from the
+  // *specific* expected stroke's start/end and still count as correct.
+  // Direction alone isn't enough to identify which stroke was drawn - many
+  // kanji have several strokes pointing the same general way (e.g. multiple
+  // horizontal strokes), so without a position check, drawing any stroke
+  // with a similar direction to the current one would be wrongly accepted
+  // regardless of where it was actually drawn.
+  maxPointDistance: CANVAS_SIZE * 0.3,
+  // A drawn stroke's path length must be within this fraction of the
+  // reference's length (in either direction - e.g. 0.35 allows anywhere
+  // from 35% to ~286% of the reference length), and its bounding-box
+  // overlap (IoU) with the reference must be at least MIN_BBOX_OVERLAP.
+  // These exist specifically to catch a stroke whose start, end, and net
+  // angle all happen to land close to the reference but whose actual path
+  // is a scribble/wiggle far longer (or a wildly different shape/extent)
+  // than a real stroke - the "shape differs significantly" bug this
+  // scoring pass was written to fix. Deliberately generous (not
+  // exact-match) so ordinary imprecise handwriting still passes.
+  minLengthRatio: 0.35,
+  minBboxOverlap: 0.15,
+}
 
 interface ReferenceStroke {
   start: Point
   end: Point
   vector: Vector
+  length: number
+  boundingBox: BoundingBox
+}
+
+const DEFAULT_REFERENCE_STROKE: ReferenceStroke = {
+  start: { x: 0, y: 0 },
+  end: { x: 0, y: 0 },
+  vector: { x: 0, y: 0 },
+  length: 0,
+  boundingBox: { minX: 0, minY: 0, maxX: 0, maxY: 0 },
 }
 
 const EMPTY_HISTORY: PracticeAttempt[] = []
@@ -75,18 +120,30 @@ function WritingPracticePanel({ character }: { character: string }) {
 
   useLayoutEffect(() => {
     referenceStrokesRef.current = referencePathRefs.current.map((el) => {
-      if (!el) return { start: { x: 0, y: 0 }, end: { x: 0, y: 0 }, vector: { x: 0, y: 0 } }
-      const length = el.getTotalLength()
-      if (length === 0) {
-        return { start: { x: 0, y: 0 }, end: { x: 0, y: 0 }, vector: { x: 0, y: 0 } }
+      if (!el) return DEFAULT_REFERENCE_STROKE
+      const svgLength = el.getTotalLength()
+      if (svgLength === 0) return DEFAULT_REFERENCE_STROKE
+
+      // Sample along the curve (not just start/end) so curved strokes get
+      // an accurate bounding box, then scale every sampled point from the
+      // SVG's 0-109 viewBox into canvas-pixel space so they're directly
+      // comparable to drawn points.
+      const sampledPoints: Point[] = []
+      for (let i = 0; i < REFERENCE_SAMPLE_COUNT; i += 1) {
+        const raw = el.getPointAtLength((i / (REFERENCE_SAMPLE_COUNT - 1)) * svgLength)
+        sampledPoints.push({ x: raw.x * REFERENCE_SCALE, y: raw.y * REFERENCE_SCALE })
       }
-      const rawStart = el.getPointAtLength(0)
-      const rawEnd = el.getPointAtLength(length)
-      // Scale from the SVG's 0-109 viewBox into canvas-pixel space so
-      // start/end distances are directly comparable to drawn points.
-      const start = { x: rawStart.x * REFERENCE_SCALE, y: rawStart.y * REFERENCE_SCALE }
-      const end = { x: rawEnd.x * REFERENCE_SCALE, y: rawEnd.y * REFERENCE_SCALE }
-      return { start, end, vector: { x: end.x - start.x, y: end.y - start.y } }
+
+      const start = sampledPoints[0]
+      const end = sampledPoints[sampledPoints.length - 1]
+
+      return {
+        start,
+        end,
+        vector: { x: end.x - start.x, y: end.y - start.y },
+        length: svgLength * REFERENCE_SCALE,
+        boundingBox: boundingBox(sampledPoints),
+      }
     })
   }, [strokePaths])
 
@@ -95,11 +152,19 @@ function WritingPracticePanel({ character }: { character: string }) {
   const currentStrokeRef = useRef<Point[]>([])
   const acceptedStrokesRef = useRef<Point[][]>([])
   const currentStrokeIndexRef = useRef(0)
-  const accuracySumRef = useRef(0)
+  // Rejections per stroke slot before it was finally accepted - the signal
+  // behind the Stroke Order component of the final score (a stroke nailed
+  // on the first try scores higher than one that took several retries).
+  const retryCountsRef = useRef<number[]>([])
+  // Per-stroke direction/position/shape sub-scores, one entry per accepted
+  // stroke, in acceptance order (== reference order, since order is strict).
+  const strokeScoresRef = useRef<StrokeScore[]>([])
 
   const [currentStrokeIndex, setCurrentStrokeIndex] = useState(0)
   const [feedback, setFeedback] = useState<string | null>(null)
   const [finalScore, setFinalScore] = useState<number | null>(null)
+  const [strokeAccuracy, setStrokeAccuracy] = useState<number | null>(null)
+  const [scoreBreakdown, setScoreBreakdown] = useState<ScoreBreakdown | null>(null)
 
   const recordAttempt = usePracticeHistoryStore((state) => state.recordAttempt)
   const history = usePracticeHistoryStore(
@@ -111,10 +176,13 @@ function WritingPracticePanel({ character }: { character: string }) {
     currentStrokeRef.current = []
     acceptedStrokesRef.current = []
     currentStrokeIndexRef.current = 0
-    accuracySumRef.current = 0
+    retryCountsRef.current = []
+    strokeScoresRef.current = []
     setCurrentStrokeIndex(0)
     setFeedback(null)
     setFinalScore(null)
+    setStrokeAccuracy(null)
+    setScoreBreakdown(null)
     const canvas = canvasRef.current
     const ctx = canvas?.getContext('2d')
     if (ctx && canvas) ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -192,34 +260,38 @@ function WritingPracticePanel({ character }: { character: string }) {
     const index = currentStrokeIndexRef.current
     if (index >= total) return // already finished, ignore stray input
 
-    const expected = referenceStrokesRef.current[index] ?? {
-      start: { x: 0, y: 0 },
-      end: { x: 0, y: 0 },
-      vector: { x: 0, y: 0 },
-    }
+    const expected = referenceStrokesRef.current[index] ?? DEFAULT_REFERENCE_STROKE
     const drawnStart = strokePoints[0]
     const drawnEnd = strokePoints[strokePoints.length - 1]
 
-    const angleDiff = angleBetweenDegrees(directionVector(strokePoints), expected.vector)
-    const startDistance = distance(drawnStart, expected.start)
-    const endDistance = distance(drawnEnd, expected.end)
+    const metrics = {
+      angleDiffDegrees: angleBetweenDegrees(directionVector(strokePoints), expected.vector),
+      startDistance: distance(drawnStart, expected.start),
+      endDistance: distance(drawnEnd, expected.end),
+      lengthRatio: ratioScore(pathLength(strokePoints), expected.length),
+      bboxOverlap: boundingBoxIoU(boundingBox(strokePoints), expected.boundingBox),
+    }
 
-    const isCorrect =
-      angleDiff <= CORRECT_ANGLE_THRESHOLD_DEGREES &&
-      startDistance <= MAX_POINT_DISTANCE &&
-      endDistance <= MAX_POINT_DISTANCE
+    if (passesStrokeGate(metrics, GATE)) {
+      const strokeScore = scoreAcceptedStroke(metrics, GATE)
+      strokeScoresRef.current = [...strokeScoresRef.current, strokeScore]
+      setStrokeAccuracy(strokeAccuracyPercent(strokeScore))
 
-    if (isCorrect) {
       acceptedStrokesRef.current = [...acceptedStrokesRef.current, strokePoints]
-      accuracySumRef.current += Math.max(0, 1 - angleDiff / 180)
       currentStrokeIndexRef.current = index + 1
       setCurrentStrokeIndex(currentStrokeIndexRef.current)
       setFeedback(null)
       redrawAcceptedStrokes()
 
       if (currentStrokeIndexRef.current >= total) {
-        const score = Math.round((accuracySumRef.current / total) * 100)
+        const { score, breakdown } = computeOverallScore({
+          acceptedStrokeCount: acceptedStrokesRef.current.length,
+          referenceStrokeCount: total,
+          retryCounts: retryCountsRef.current,
+          strokeScores: strokeScoresRef.current,
+        })
         setFinalScore(score)
+        setScoreBreakdown(breakdown)
         recordAttempt(character, {
           score,
           timestamp: new Date().toISOString(),
@@ -230,6 +302,7 @@ function WritingPracticePanel({ character }: { character: string }) {
     } else {
       // Wrong stroke (or the right shape drawn in the wrong order) -
       // reject it, erase its ink, and keep expecting the same stroke.
+      retryCountsRef.current[index] = (retryCountsRef.current[index] ?? 0) + 1
       setFeedback('Incorrect stroke order')
       redrawAcceptedStrokes()
     }
@@ -308,11 +381,26 @@ function WritingPracticePanel({ character }: { character: string }) {
             <p className="text-xs font-medium text-rose-400">❌ {feedback}</p>
           )}
 
+          {strokeAccuracy !== null && finalScore === null && (
+            <p className="text-xs font-medium text-slate-300">
+              Stroke Accuracy: {strokeAccuracy}%
+            </p>
+          )}
+
           {finalScore !== null && (
             <div className="rounded-md border border-emerald-700 bg-emerald-600/10 p-2">
               <p className="text-sm font-semibold text-emerald-300">
                 ✅ Complete! Score: {finalScore} / 100
               </p>
+              {scoreBreakdown && (
+                <ul className="mt-1.5 flex flex-col gap-0.5 text-xs text-emerald-200/80">
+                  <li>Stroke Count: {scoreBreakdown.strokeCount}%</li>
+                  <li>Stroke Order: {scoreBreakdown.strokeOrder}%</li>
+                  <li>Direction: {scoreBreakdown.direction}%</li>
+                  <li>Position: {scoreBreakdown.position}%</li>
+                  <li>Shape: {scoreBreakdown.shape}%</li>
+                </ul>
+              )}
             </div>
           )}
 

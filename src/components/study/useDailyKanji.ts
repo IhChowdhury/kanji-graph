@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 
-import { allKanji } from '../../data/kanjiCatalog'
 import { useJlptFilterStore } from '../../store/useJlptFilterStore'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useMasteryStore } from '../../store/useMasteryStore'
 import { useStudyModeStore } from '../../store/useStudyModeStore'
 import type { KanjiInfo } from '../../types/kanji'
@@ -22,6 +22,7 @@ export function useDailyKanji(): DailyKanjiResult {
   const isActive = useStudyModeStore((state) => state.isActive)
   const enabledLevels = useJlptFilterStore((state) => state.enabledLevels)
   const masteredIds = useMasteryStore((state) => state.masteredIds)
+  const allKanji = useKanjiDatasetStore((state) => state.allKanji)
   const today = getTodayKey()
 
   const dailyKanji = useMemo(() => {
@@ -30,7 +31,7 @@ export function useDailyKanji(): DailyKanjiResult {
       (kanji) => enabledLevels[kanji.jlptLevel] && !masteredIds[kanji.character],
     )
     return getDailyKanji(pool, today)
-  }, [isActive, enabledLevels, masteredIds, today])
+  }, [isActive, enabledLevels, masteredIds, today, allKanji])
 
   return { isActive, today, dailyKanji }
 }

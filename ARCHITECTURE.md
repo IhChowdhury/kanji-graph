@@ -10,7 +10,7 @@ src/
 │  ├─ layout/       Header, Sidebar, GraphCanvas (page chrome + the React Flow host)
 │  ├─ graph/         KanjiNode, layout algorithm, ancestor-path/learning-path math, JLPT badge styles
 │  ├─ panels/        Everything shown in the right-hand detail panel
-│  ├─ practice/       Writing Practice canvas + stroke geometry math
+│  ├─ practice/       Writing Practice canvas + stroke geometry math + scoring
 │  ├─ study/          Study Mode panel + daily-kanji selection
 │  ├─ search/         Kanji search box
 │  ├─ filters/        JLPT filter checkboxes
@@ -29,16 +29,18 @@ public/
 
 ## Data pipeline
 
-`scripts/import-kanji-data.mjs` is the single source of truth for `src/data/kanji.json`, `src/data/edges.json`, and `public/stroke-order/*.svg`. It is **not** run automatically — regenerate with `npm run import:kanji` after placing `kanjidic2.xml.gz` and `kanjivg.xml.gz` in `scripts/downloads/` (gitignored; the script can also attempt to download them itself, but that path is unverified in restrictive network environments).
+> **Runtime loading has changed as of the Phase 1 performance-preparation pass — see `KANJIGRAPH_PROJECT.md` for the full detail.** Summary: the generator now writes `public/data/manifest.json` + `public/data/<LEVEL>/{kanji,edges}.json` (split by JLPT level) instead of flat `src/data/kanji.json`/`edges.json`, and the app loads that data at runtime via `fetch` rather than a static import.
+
+`scripts/import-kanji-data.mjs` is the single source of truth for `public/data/*` and `public/stroke-order/*.svg`. It is **not** run automatically — regenerate with `npm run import:kanji` after placing `kanjidic2.xml.gz` and `kanjivg.xml.gz` in `scripts/downloads/` (gitignored; the script can also attempt to download them itself, but that path is unverified in restrictive network environments).
 
 Steps, in order:
 1. Parse KANJIDIC2 → meaning, onyomi/kunyomi (with compound-only `-` fragments dropped, okurigana dots joined back into the full reading), legacy JLPT digit, stroke count.
 2. Parse KanjiVG → for each kanji, the *direct* child `kvg:element`/`kvg:original` values of its root stroke group (radical variants like 亻 are normalized back to 人).
 3. Build the target character set: everything at the requested JLPT level(s), plus any component that is itself a real JLPT-classified kanji (unclassified Kangxi radical primitives like 一, 丨, 冖 are explicitly excluded, not defaulted to a level).
-4. Emit `kanji.json` (one entry per kanji: `kanji`, `meaning`, `jlpt`, `onyomi[]`, `kunyomi[]`, `components[]`, `strokes`) and `edges.json` (`{ id, source, target }`, source = component, target = compound).
+4. Build the flat entry/edge lists (entry: `kanji`, `meaning`, `jlpt`, `onyomi[]`, `kunyomi[]`, `components[]`, `strokes`; edge: `{ id, source, target }`, source = component, target = compound), then split them across `public/data/<LEVEL>/` by each entry's own `jlpt` (an edge is grouped under its *target's* level) and write `public/data/manifest.json` recording each level's availability + counts. A level with zero entries (currently N1) is recorded as unavailable rather than given an empty directory.
 5. Re-scan the raw KanjiVG XML text (not the parsed object tree, to preserve exact path data) to extract each kanji's stroke-path markup, wrap it in a standalone SVG (`viewBox 0 0 109 109`, `fill:none; stroke-width:3`), and write `public/stroke-order/<character>.svg`.
 
-`kanjiCatalog.ts` is the runtime-facing wrapper: it imports the generated JSON, maps `KanjiJsonEntry` → `KanjiInfo` (renaming `kanji`→`character`, `jlpt`→`jlptLevel`, joining `onyomi`/`kunyomi` arrays into display strings), and derives `rootKanjiIds` (components.length === 0) and a component→children index from `edges.json`.
+`kanjiCatalog.ts` now holds only pure builder functions (no static import); `useKanjiDatasetStore.ts` loads `public/data/*` at runtime via `datasetLoader.ts`, merges whatever levels are currently loaded, and derives `rootKanjiIds` (components.length === 0) and a component→children index from the merged edge set. See `KANJIGRAPH_PROJECT.md` for the loading/caching/cross-level-edge behavior.
 
 ## State management (Zustand)
 
@@ -61,7 +63,9 @@ Runs on every render, purely as derived state (no imperative "commit layout" ste
 2. `layoutGraph(filteredNodes, filteredEdges)` (`graphLayout.ts`): splits the visible graph into connected components (a plain forest, since edges only ever run component→compound — many nodes have zero edges to each other), runs Dagre per component for real hierarchical placement, then grid-packs the resulting blocks left-to-right with wrapping. This two-level approach exists because a single Dagre pass over many disconnected single-node "components" produces one very wide row, not a readable layout.
 3. `computeAncestorPath(focusNodeId, filteredEdges)` (`graphPath.ts`): BFS backward over incoming edges from the focused node, collecting the **full** ancestor set (all real parents, not one line) — drives the amber ring / animated-edge / opacity-fade highlighting.
 4. Per-node/edge style is computed inline (`opacity`, `selected`, `data.onPath`, `data.isStudyTarget`) — these are transient, render-only overlays, never written back to the store.
-5. Viewport: `fitView` only fires on an explicit focus action (node click, search result, breadcrumb/chip click) via `focusToken`. Expand/collapse and filter changes deliberately do **not** move the camera — this was a specific requirement (preserve zoom/pan across structural changes).
+5. Viewport: the camera only moves on an explicit focus action, via `focusToken` (`useKanjiSelectionStore`). Collapsing and JLPT filter changes deliberately do **not** move the camera at all - zoom/pan are preserved across those structural changes. Two distinct focus behaviors, chosen by `isExpandFocus`:
+   - **Plain focus** (node click, search result, breadcrumb/chip click, `revealKanji`) - unchanged, longstanding behavior: `fitView({ nodes: [{ id: focusNodeId }], duration: 800, maxZoom: 1.5 })`.
+   - **Expand** (`KanjiNode`'s ▶ button) - `focusKanjiForExpand` selects the expanded node (opening its detail panel and highlighting its learning path via the existing `selectedKanji`/`focusNodeId` machinery, for free) and records the newly-added child node ids from `toggleExpand`'s return value. The fit effect then computes a bounding box over the expanded node + its new children (`viewportFit.ts`'s `computeBoundingBox`) and decides how to bring it into view via `planBranchFit`: do nothing if already fully visible, pan only (zoom preserved exactly) if it would fit at the current zoom, or fall back to a zoom-adjusting `fitBounds` only if it genuinely doesn't fit otherwise. Animated over 300-500ms (`EXPAND_FOCUS_DURATION_MS` in `useKanjiSelectionStore.ts`), distinct from plain focus's 800ms.
 
 `graphPath.ts` also exports `computeLearningPath`, a *separate, narrower* traversal used only by the detail panel's breadcrumb: it follows just each kanji's first-listed component, producing one line (e.g. `木 > 休`) instead of the full DAG.
 
@@ -69,15 +73,33 @@ Runs on every render, purely as derived state (no imperative "commit layout" ste
 
 Composes, in order: header (character + mastered check + JLPT badge + stroke-count badge) → mastery toggle → Stroke Order (`StrokeOrderPanel` → `StrokeAnimation`) → Writing Practice (`WritingPracticePanel`) → meaning/onyomi/kunyomi → Learning Family (parents/children, clickable, calls `revealKanji` + `focusKanji`) → Mnemonic → Learning Path breadcrumb.
 
-## Writing Practice validation (`WritingPracticePanel.tsx` + `strokeGeometry.ts`)
+## Writing Practice validation & scoring (`WritingPracticePanel.tsx` + `strokeGeometry.ts` + `scoring.ts`)
 
-Each reference stroke's real geometry comes from the actual rendered `<path>` elements (`getPointAtLength(0)` / `getPointAtLength(totalLength)`), scaled from the SVG's 0–109 viewBox into the practice canvas's pixel space. A drawn stroke is accepted only if, compared against the **current expected stroke specifically** (never matched against the whole set):
-- direction angle (start→end vector) is within `CORRECT_ANGLE_THRESHOLD_DEGREES` (70°), **and**
-- both its start and end points are within `MAX_POINT_DISTANCE` (30% of canvas size) of that stroke's actual start/end.
+Each reference stroke's real geometry comes from the actual rendered `<path>` elements: `getTotalLength()` for the true (curved) path length, and 16 points sampled along the curve via `getPointAtLength()` (not just start/end) for an accurate bounding box, all scaled from the SVG's 0–109 viewBox into the practice canvas's pixel space.
 
-Direction alone was tried first and rejected during development — too many kanji have multiple strokes pointing the same general way, so an out-of-order stroke would pass on direction alone. Position anchoring fixed that.
+**Acceptance gate** (`passesStrokeGate` in `scoring.ts`) - a drawn stroke advances the expected-stroke index only if, compared against the **current expected stroke specifically** (never matched against the whole set), all five hold:
+- direction angle (start→end vector) is within `maxAngleDiffDegrees` (70°),
+- both start and end points are within `maxPointDistance` (30% of canvas size) of the reference's start/end,
+- path length (actual polyline length, not straight-line start-to-end distance) is within `minLengthRatio` (0.35, i.e. 35%–~286% of the reference's length), **and**
+- bounding-box IoU overlap with the reference is at least `minBboxOverlap` (0.15).
 
-On accept: stroke redraws in green, index advances, canvas stays. On reject: canvas is wiped and redrawn from only the previously-accepted (green) strokes, same expected index stays active, red feedback shown. Score = average per-stroke direction accuracy over all strokes, recorded to history on completion.
+The last two were added specifically because the first two alone let a scribbled/wiggly stroke that happens to start, end, and net-point in roughly the right place score very high despite its actual shape being wrong - length and bounding-box overlap catch that a straight/simple check can't.
+
+Direction alone was tried first and rejected during earlier development — too many kanji have multiple strokes pointing the same general way, so an out-of-order stroke would pass on direction alone. Position anchoring fixed that; length/bounding-box anchoring (added later) fixed the scribble case.
+
+On accept: stroke redraws in green, index advances, canvas stays, and a per-stroke **Stroke Accuracy: XX%** is shown (`strokeAccuracyPercent` - the average of that stroke's direction/position/shape sub-scores, see below). On reject: canvas is wiped and redrawn from only the previously-accepted (green) strokes, same expected index stays active, red feedback shown, and the rejection is counted against that stroke slot's retry count (feeds the Stroke Order component below).
+
+**Final score** (`computeOverallScore` in `scoring.ts`), 0–100, weighted:
+
+| Component | Weight | Source |
+|---|---|---|
+| Stroke Count | 10% | accepted-stroke count vs. reference count (always 1.0 in practice under the strict gate, since completion requires exactly the reference count - computed generically, not hardcoded) |
+| Stroke Order | 30% | average of `1/(1+retries)` per stroke slot - 1.0 if every stroke was accepted first-try, lower the more rejections a slot needed |
+| Direction | 20% | average per-stroke angle accuracy |
+| Position | 20% | average per-stroke start+end distance accuracy |
+| Shape | 20% | average per-stroke length-ratio/bounding-box-overlap accuracy |
+
+Each of Direction/Position/Shape's per-stroke sub-scores is 0 at the gate's own boundary (the worst value that still passes) and 1 at a perfect match - not a generous floor like the old direction-only formula (which gave a barely-passing stroke ~61%, not ~0%). Shape specifically combines length and bounding-box match as `(lengthScore * bboxScore) ** 2` - a product (not an average), so a stroke needs both a right length *and* a right extent to score well, squared again to suppress anything short of a good match. This is what keeps Count (10%) + Order (30%) + Direction (20%) + Position (20%) - which together can reach 80/100 "for free" on a clean, well-ordered but badly-shaped attempt - from being pushed over 80 by a merely-passable Shape score; see the regression tests in `scoring.test.ts` for the exact worked cases.
 
 ## Build & deploy
 

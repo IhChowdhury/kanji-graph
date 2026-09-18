@@ -1,4 +1,4 @@
-import { getChildKanji, getKanjiInfo } from '../../data/kanjiCatalog'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
 import type { KanjiInfo } from '../../types/kanji'
@@ -55,13 +55,23 @@ function KanjiChipGroup({
 function LearningFamily({ kanji }: { kanji: KanjiInfo }) {
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
+  const catalog = useKanjiDatasetStore((state) => state.catalog)
+  const childIndex = useKanjiDatasetStore((state) => state.childIndex)
 
+  // Parents are shown from the kanji's own component list even if one
+  // hasn't loaded yet (still a real relationship); clicking one that isn't
+  // loaded is a no-op below rather than a crash.
   const parents = kanji.components
-  const children = getChildKanji(kanji.character).map((child) => child.character)
+  const children = (childIndex[kanji.character] ?? [])
+    .map((id) => catalog[id])
+    .filter((info): info is KanjiInfo => Boolean(info))
+    .map((info) => info.character)
 
   const navigateTo = (character: string) => {
+    const info = catalog[character]
+    if (!info) return
     revealKanji(character)
-    focusKanji(getKanjiInfo(character))
+    focusKanji(info)
   }
 
   return (

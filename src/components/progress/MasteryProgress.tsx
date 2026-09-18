@@ -1,9 +1,10 @@
-import { allKanji } from '../../data/kanjiCatalog'
 import { JLPT_LEVELS } from '../../store/useJlptFilterStore'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useMasteryStore } from '../../store/useMasteryStore'
 
 function MasteryProgress() {
   const masteredIds = useMasteryStore((state) => state.masteredIds)
+  const allKanji = useKanjiDatasetStore((state) => state.allKanji)
 
   return (
     <div>

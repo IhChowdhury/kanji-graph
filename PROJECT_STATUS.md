@@ -30,7 +30,7 @@ A React + TypeScript + React Flow app that visualizes kanji as a graph of compon
 | Kanji detail panel | Done | Meaning/readings, stroke count badge, Learning Family (parents/children, clickable), Mnemonic (template-generated), Learning Path breadcrumb |
 | Stroke order data | Done | Self-hosted per-kanji SVGs in `public/stroke-order/`, generated from KanjiVG at import time (not fetched from an external CDN at runtime) |
 | Stroke order animation | Done | Play/Pause/Reset, 0.5x/1x/2x speed, dasharray/dashoffset draw-on |
-| Writing Practice Mode | Done | Strict sequential validation: direction **and** position must both match the *current* expected stroke; wrong stroke → red rejection + redraw; correct → green + auto-advance; final 0–100 score from accumulated direction accuracy |
+| Writing Practice Mode | Done | Strict sequential validation gate (direction, position, length ratio, and bounding-box overlap must all match the *current* expected stroke); wrong/distorted stroke → red rejection + redraw; correct → green + auto-advance + per-stroke "Stroke Accuracy: XX%"; final 0–100 score is a weighted rubric (Stroke Count 10% / Stroke Order 30% / Direction 20% / Position 20% / Shape 20%, see `ARCHITECTURE.md`) so a clearly distorted kanji can't score above 80 |
 | Practice history | Done | Persisted per character (`kanjigraph-practice-history`), last 20 attempts kept |
 | Data import pipeline | Done | `scripts/import-kanji-data.mjs`: KANJIDIC2 + KanjiVG → `kanji.json` + `edges.json` + stroke SVGs |
 | GitHub Pages deploy | Configured, unused | `.github/workflows/deploy.yml` exists; **repo is not yet under git**, so it has never actually run |
@@ -38,15 +38,17 @@ A React + TypeScript + React Flow app that visualizes kanji as a graph of compon
 
 ## Dataset snapshot
 
-- 135 kanji total, 107 component-relationship edges
-- By JLPT level: N5 = 103, N4 = 8, N3 = 13, N2 = 11, **N1 = 0**
-- The non-N5 entries aren't a separate import — they're real components that N5 kanji depend on (e.g. 何's component 可 is N3) and were pulled in automatically so every edge has both endpoints present
-- 56 of the 135 kanji have no components of their own (graph roots); source data lives in `scripts/downloads/` (gitignored, must be downloaded manually — see Architecture)
+_Updated after the full-dataset import (see `KANJIGRAPH_PROJECT.md`) — the importer now generates every JLPT level plus the full Jōyō set, split across `public/data/<bucket>/`, not a single flat file._
+
+- 2,387 unique kanji generated on disk across all buckets, 3,032 total edges. Per bucket: N5 = 103 kanji/83 edges, N4 = 181/218, N3 = 739/938, N2 = 1207/1587, **N1 = 0** (unavailable, not fabricated), `joyo` = 2,136/2,693 (the full Jōyō set; not yet loaded by the running app — see below)
+- The app's runtime default is unchanged: only the N5 bucket loads at startup (103 kanji, 42 of them roots); other levels load lazily when their filter is enabled, and `joyo` isn't wired into the UI yet at all — it's generated and ready on disk for a future "browse the full Jōyō set" feature
+- Stroke counts now come from KanjiVG's actual stroke-path count (primary source), not KANJIDIC2's `stroke_count` field (fallback, unused in practice — 2,387/2,387 resolved from KanjiVG); source data lives in `scripts/downloads/` (gitignored, must be downloaded manually — see Architecture)
+- `public/data/quality-report.json` (regenerated on every import run) has the full breakdown: Jōyō/JLPT overlap, dropped unclassified components, missing meanings/readings, duplicate-kanji validation results
 
 ## Known limitations (by design, not oversights)
 
 - **JLPT levels are an approximation.** KANJIDIC2 only has the legacy 1–4 scale; the importer maps old 4→N5, 3→N4, 2→N3, 1→N2. Old level 1 spanned what's now split across N2/N1, so **no kanji can ever be tagged N1** from this data source alone.
 - **Mnemonics are template-generated, not authored.** `MnemonicPanel` builds a sentence purely from component meanings + the kanji's own meaning (e.g. "A person and a tree come together to mean rest"). Reads naturally for common noun+noun→verb kanji, can sound stiff for others.
 - **The Learning Path breadcrumb is a single line**, following only each kanji's first-listed component — deliberately narrower than the graph's ancestor highlighting (which shows every real parent).
-- **Writing Practice's correctness thresholds are heuristic constants**, not tuned against real user data: 70° direction tolerance, position tolerance of 30% of the canvas size (`CORRECT_ANGLE_THRESHOLD_DEGREES`, `MAX_POINT_DISTANCE` in `strokeGeometry.ts`/`WritingPracticePanel.tsx`).
+- **Writing Practice's correctness thresholds are heuristic constants**, not tuned against real user data: 70° direction tolerance, 30%-of-canvas position tolerance, 35% length-ratio tolerance, 15% bounding-box-overlap tolerance (the `GATE` constant in `WritingPracticePanel.tsx`, consumed by `scoring.ts`).
 - **No error boundary anywhere in the tree.** An uncaught render error currently takes down the whole app to a blank page (this bit us once already — see Next Session).

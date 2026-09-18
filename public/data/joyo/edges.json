@@ -1,0 +1,13467 @@
+[
+  {
+    "id": "一->丁",
+    "source": "一",
+    "target": "丁"
+  },
+  {
+    "id": "一->七",
+    "source": "一",
+    "target": "七"
+  },
+  {
+    "id": "乙->七",
+    "source": "乙",
+    "target": "七"
+  },
+  {
+    "id": "一->万",
+    "source": "一",
+    "target": "万"
+  },
+  {
+    "id": "一->丈",
+    "source": "一",
+    "target": "丈"
+  },
+  {
+    "id": "一->三",
+    "source": "一",
+    "target": "三"
+  },
+  {
+    "id": "一->上",
+    "source": "一",
+    "target": "上"
+  },
+  {
+    "id": "一->下",
+    "source": "一",
+    "target": "下"
+  },
+  {
+    "id": "一->不",
+    "source": "一",
+    "target": "不"
+  },
+  {
+    "id": "一->与",
+    "source": "一",
+    "target": "与"
+  },
+  {
+    "id": "月->且",
+    "source": "月",
+    "target": "且"
+  },
+  {
+    "id": "一->且",
+    "source": "一",
+    "target": "且"
+  },
+  {
+    "id": "斤->丘",
+    "source": "斤",
+    "target": "丘"
+  },
+  {
+    "id": "一->丘",
+    "source": "一",
+    "target": "丘"
+  },
+  {
+    "id": "一->丙",
+    "source": "一",
+    "target": "丙"
+  },
+  {
+    "id": "内->丙",
+    "source": "内",
+    "target": "丙"
+  },
+  {
+    "id": "一->両",
+    "source": "一",
+    "target": "両"
+  },
+  {
+    "id": "山->両",
+    "source": "山",
+    "target": "両"
+  },
+  {
+    "id": "口->中",
+    "source": "口",
+    "target": "中"
+  },
+  {
+    "id": "口->串",
+    "source": "口",
+    "target": "串"
+  },
+  {
+    "id": "中->串",
+    "source": "中",
+    "target": "串"
+  },
+  {
+    "id": "九->丸",
+    "source": "九",
+    "target": "丸"
+  },
+  {
+    "id": "玉->主",
+    "source": "玉",
+    "target": "主"
+  },
+  {
+    "id": "井->丼",
+    "source": "井",
+    "target": "丼"
+  },
+  {
+    "id": "之->乏",
+    "source": "之",
+    "target": "乏"
+  },
+  {
+    "id": "千->乗",
+    "source": "千",
+    "target": "乗"
+  },
+  {
+    "id": "木->乗",
+    "source": "木",
+    "target": "乗"
+  },
+  {
+    "id": "乙->九",
+    "source": "乙",
+    "target": "九"
+  },
+  {
+    "id": "乙->乞",
+    "source": "乙",
+    "target": "乞"
+  },
+  {
+    "id": "舌->乱",
+    "source": "舌",
+    "target": "乱"
+  },
+  {
+    "id": "乙->乱",
+    "source": "乙",
+    "target": "乱"
+  },
+  {
+    "id": "乙->乳",
+    "source": "乙",
+    "target": "乳"
+  },
+  {
+    "id": "乞->乾",
+    "source": "乞",
+    "target": "乾"
+  },
+  {
+    "id": "了->予",
+    "source": "了",
+    "target": "予"
+  },
+  {
+    "id": "口->事",
+    "source": "口",
+    "target": "事"
+  },
+  {
+    "id": "二->互",
+    "source": "二",
+    "target": "互"
+  },
+  {
+    "id": "二->五",
+    "source": "二",
+    "target": "五"
+  },
+  {
+    "id": "二->井",
+    "source": "二",
+    "target": "井"
+  },
+  {
+    "id": "二->亜",
+    "source": "二",
+    "target": "亜"
+  },
+  {
+    "id": "口->亜",
+    "source": "口",
+    "target": "亜"
+  },
+  {
+    "id": "父->交",
+    "source": "父",
+    "target": "交"
+  },
+  {
+    "id": "丁->亭",
+    "source": "丁",
+    "target": "亭"
+  },
+  {
+    "id": "人->仁",
+    "source": "人",
+    "target": "仁"
+  },
+  {
+    "id": "二->仁",
+    "source": "二",
+    "target": "仁"
+  },
+  {
+    "id": "人->今",
+    "source": "人",
+    "target": "今"
+  },
+  {
+    "id": "人->介",
+    "source": "人",
+    "target": "介"
+  },
+  {
+    "id": "人->仏",
+    "source": "人",
+    "target": "仏"
+  },
+  {
+    "id": "人->仕",
+    "source": "人",
+    "target": "仕"
+  },
+  {
+    "id": "士->仕",
+    "source": "士",
+    "target": "仕"
+  },
+  {
+    "id": "人->他",
+    "source": "人",
+    "target": "他"
+  },
+  {
+    "id": "也->他",
+    "source": "也",
+    "target": "他"
+  },
+  {
+    "id": "人->付",
+    "source": "人",
+    "target": "付"
+  },
+  {
+    "id": "寸->付",
+    "source": "寸",
+    "target": "付"
+  },
+  {
+    "id": "人->仙",
+    "source": "人",
+    "target": "仙"
+  },
+  {
+    "id": "山->仙",
+    "source": "山",
+    "target": "仙"
+  },
+  {
+    "id": "人->代",
+    "source": "人",
+    "target": "代"
+  },
+  {
+    "id": "人->令",
+    "source": "人",
+    "target": "令"
+  },
+  {
+    "id": "人->以",
+    "source": "人",
+    "target": "以"
+  },
+  {
+    "id": "人->仮",
+    "source": "人",
+    "target": "仮"
+  },
+  {
+    "id": "反->仮",
+    "source": "反",
+    "target": "仮"
+  },
+  {
+    "id": "人->仰",
+    "source": "人",
+    "target": "仰"
+  },
+  {
+    "id": "人->仲",
+    "source": "人",
+    "target": "仲"
+  },
+  {
+    "id": "中->仲",
+    "source": "中",
+    "target": "仲"
+  },
+  {
+    "id": "人->件",
+    "source": "人",
+    "target": "件"
+  },
+  {
+    "id": "牛->件",
+    "source": "牛",
+    "target": "件"
+  },
+  {
+    "id": "人->任",
+    "source": "人",
+    "target": "任"
+  },
+  {
+    "id": "人->企",
+    "source": "人",
+    "target": "企"
+  },
+  {
+    "id": "止->企",
+    "source": "止",
+    "target": "企"
+  },
+  {
+    "id": "人->伎",
+    "source": "人",
+    "target": "伎"
+  },
+  {
+    "id": "支->伎",
+    "source": "支",
+    "target": "伎"
+  },
+  {
+    "id": "人->伏",
+    "source": "人",
+    "target": "伏"
+  },
+  {
+    "id": "犬->伏",
+    "source": "犬",
+    "target": "伏"
+  },
+  {
+    "id": "人->伐",
+    "source": "人",
+    "target": "伐"
+  },
+  {
+    "id": "人->休",
+    "source": "人",
+    "target": "休"
+  },
+  {
+    "id": "木->休",
+    "source": "木",
+    "target": "休"
+  },
+  {
+    "id": "人->会",
+    "source": "人",
+    "target": "会"
+  },
+  {
+    "id": "人->伝",
+    "source": "人",
+    "target": "伝"
+  },
+  {
+    "id": "人->伯",
+    "source": "人",
+    "target": "伯"
+  },
+  {
+    "id": "白->伯",
+    "source": "白",
+    "target": "伯"
+  },
+  {
+    "id": "人->伴",
+    "source": "人",
+    "target": "伴"
+  },
+  {
+    "id": "半->伴",
+    "source": "半",
+    "target": "伴"
+  },
+  {
+    "id": "人->伸",
+    "source": "人",
+    "target": "伸"
+  },
+  {
+    "id": "申->伸",
+    "source": "申",
+    "target": "伸"
+  },
+  {
+    "id": "人->伺",
+    "source": "人",
+    "target": "伺"
+  },
+  {
+    "id": "司->伺",
+    "source": "司",
+    "target": "伺"
+  },
+  {
+    "id": "人->似",
+    "source": "人",
+    "target": "似"
+  },
+  {
+    "id": "以->似",
+    "source": "以",
+    "target": "似"
+  },
+  {
+    "id": "人->但",
+    "source": "人",
+    "target": "但"
+  },
+  {
+    "id": "旦->但",
+    "source": "旦",
+    "target": "但"
+  },
+  {
+    "id": "人->位",
+    "source": "人",
+    "target": "位"
+  },
+  {
+    "id": "立->位",
+    "source": "立",
+    "target": "位"
+  },
+  {
+    "id": "人->低",
+    "source": "人",
+    "target": "低"
+  },
+  {
+    "id": "人->住",
+    "source": "人",
+    "target": "住"
+  },
+  {
+    "id": "主->住",
+    "source": "主",
+    "target": "住"
+  },
+  {
+    "id": "人->佐",
+    "source": "人",
+    "target": "佐"
+  },
+  {
+    "id": "左->佐",
+    "source": "左",
+    "target": "佐"
+  },
+  {
+    "id": "人->体",
+    "source": "人",
+    "target": "体"
+  },
+  {
+    "id": "本->体",
+    "source": "本",
+    "target": "体"
+  },
+  {
+    "id": "人->何",
+    "source": "人",
+    "target": "何"
+  },
+  {
+    "id": "可->何",
+    "source": "可",
+    "target": "何"
+  },
+  {
+    "id": "人->余",
+    "source": "人",
+    "target": "余"
+  },
+  {
+    "id": "人->作",
+    "source": "人",
+    "target": "作"
+  },
+  {
+    "id": "人->佳",
+    "source": "人",
+    "target": "佳"
+  },
+  {
+    "id": "圭->佳",
+    "source": "圭",
+    "target": "佳"
+  },
+  {
+    "id": "人->併",
+    "source": "人",
+    "target": "併"
+  },
+  {
+    "id": "人->使",
+    "source": "人",
+    "target": "使"
+  },
+  {
+    "id": "吏->使",
+    "source": "吏",
+    "target": "使"
+  },
+  {
+    "id": "人->例",
+    "source": "人",
+    "target": "例"
+  },
+  {
+    "id": "列->例",
+    "source": "列",
+    "target": "例"
+  },
+  {
+    "id": "人->侍",
+    "source": "人",
+    "target": "侍"
+  },
+  {
+    "id": "寺->侍",
+    "source": "寺",
+    "target": "侍"
+  },
+  {
+    "id": "人->供",
+    "source": "人",
+    "target": "供"
+  },
+  {
+    "id": "共->供",
+    "source": "共",
+    "target": "供"
+  },
+  {
+    "id": "人->依",
+    "source": "人",
+    "target": "依"
+  },
+  {
+    "id": "衣->依",
+    "source": "衣",
+    "target": "依"
+  },
+  {
+    "id": "人->価",
+    "source": "人",
+    "target": "価"
+  },
+  {
+    "id": "人->侮",
+    "source": "人",
+    "target": "侮"
+  },
+  {
+    "id": "毎->侮",
+    "source": "毎",
+    "target": "侮"
+  },
+  {
+    "id": "人->侯",
+    "source": "人",
+    "target": "侯"
+  },
+  {
+    "id": "人->侵",
+    "source": "人",
+    "target": "侵"
+  },
+  {
+    "id": "人->侶",
+    "source": "人",
+    "target": "侶"
+  },
+  {
+    "id": "呂->侶",
+    "source": "呂",
+    "target": "侶"
+  },
+  {
+    "id": "人->便",
+    "source": "人",
+    "target": "便"
+  },
+  {
+    "id": "更->便",
+    "source": "更",
+    "target": "便"
+  },
+  {
+    "id": "人->係",
+    "source": "人",
+    "target": "係"
+  },
+  {
+    "id": "系->係",
+    "source": "系",
+    "target": "係"
+  },
+  {
+    "id": "人->促",
+    "source": "人",
+    "target": "促"
+  },
+  {
+    "id": "足->促",
+    "source": "足",
+    "target": "促"
+  },
+  {
+    "id": "人->俊",
+    "source": "人",
+    "target": "俊"
+  },
+  {
+    "id": "人->俗",
+    "source": "人",
+    "target": "俗"
+  },
+  {
+    "id": "谷->俗",
+    "source": "谷",
+    "target": "俗"
+  },
+  {
+    "id": "人->保",
+    "source": "人",
+    "target": "保"
+  },
+  {
+    "id": "人->信",
+    "source": "人",
+    "target": "信"
+  },
+  {
+    "id": "言->信",
+    "source": "言",
+    "target": "信"
+  },
+  {
+    "id": "人->俳",
+    "source": "人",
+    "target": "俳"
+  },
+  {
+    "id": "非->俳",
+    "source": "非",
+    "target": "俳"
+  },
+  {
+    "id": "人->俵",
+    "source": "人",
+    "target": "俵"
+  },
+  {
+    "id": "表->俵",
+    "source": "表",
+    "target": "俵"
+  },
+  {
+    "id": "人->俸",
+    "source": "人",
+    "target": "俸"
+  },
+  {
+    "id": "奉->俸",
+    "source": "奉",
+    "target": "俸"
+  },
+  {
+    "id": "人->俺",
+    "source": "人",
+    "target": "俺"
+  },
+  {
+    "id": "人->倉",
+    "source": "人",
+    "target": "倉"
+  },
+  {
+    "id": "人->個",
+    "source": "人",
+    "target": "個"
+  },
+  {
+    "id": "固->個",
+    "source": "固",
+    "target": "個"
+  },
+  {
+    "id": "人->倍",
+    "source": "人",
+    "target": "倍"
+  },
+  {
+    "id": "人->倒",
+    "source": "人",
+    "target": "倒"
+  },
+  {
+    "id": "到->倒",
+    "source": "到",
+    "target": "倒"
+  },
+  {
+    "id": "人->候",
+    "source": "人",
+    "target": "候"
+  },
+  {
+    "id": "人->借",
+    "source": "人",
+    "target": "借"
+  },
+  {
+    "id": "昔->借",
+    "source": "昔",
+    "target": "借"
+  },
+  {
+    "id": "人->倣",
+    "source": "人",
+    "target": "倣"
+  },
+  {
+    "id": "放->倣",
+    "source": "放",
+    "target": "倣"
+  },
+  {
+    "id": "人->値",
+    "source": "人",
+    "target": "値"
+  },
+  {
+    "id": "直->値",
+    "source": "直",
+    "target": "値"
+  },
+  {
+    "id": "人->倫",
+    "source": "人",
+    "target": "倫"
+  },
+  {
+    "id": "人->倹",
+    "source": "人",
+    "target": "倹"
+  },
+  {
+    "id": "人->偉",
+    "source": "人",
+    "target": "偉"
+  },
+  {
+    "id": "人->偏",
+    "source": "人",
+    "target": "偏"
+  },
+  {
+    "id": "人->停",
+    "source": "人",
+    "target": "停"
+  },
+  {
+    "id": "亭->停",
+    "source": "亭",
+    "target": "停"
+  },
+  {
+    "id": "人->健",
+    "source": "人",
+    "target": "健"
+  },
+  {
+    "id": "建->健",
+    "source": "建",
+    "target": "健"
+  },
+  {
+    "id": "人->側",
+    "source": "人",
+    "target": "側"
+  },
+  {
+    "id": "則->側",
+    "source": "則",
+    "target": "側"
+  },
+  {
+    "id": "人->偵",
+    "source": "人",
+    "target": "偵"
+  },
+  {
+    "id": "貞->偵",
+    "source": "貞",
+    "target": "偵"
+  },
+  {
+    "id": "人->偶",
+    "source": "人",
+    "target": "偶"
+  },
+  {
+    "id": "人->偽",
+    "source": "人",
+    "target": "偽"
+  },
+  {
+    "id": "為->偽",
+    "source": "為",
+    "target": "偽"
+  },
+  {
+    "id": "人->傍",
+    "source": "人",
+    "target": "傍"
+  },
+  {
+    "id": "人->傑",
+    "source": "人",
+    "target": "傑"
+  },
+  {
+    "id": "人->傘",
+    "source": "人",
+    "target": "傘"
+  },
+  {
+    "id": "人->備",
+    "source": "人",
+    "target": "備"
+  },
+  {
+    "id": "人->催",
+    "source": "人",
+    "target": "催"
+  },
+  {
+    "id": "人->傲",
+    "source": "人",
+    "target": "傲"
+  },
+  {
+    "id": "人->債",
+    "source": "人",
+    "target": "債"
+  },
+  {
+    "id": "責->債",
+    "source": "責",
+    "target": "債"
+  },
+  {
+    "id": "人->傷",
+    "source": "人",
+    "target": "傷"
+  },
+  {
+    "id": "人->傾",
+    "source": "人",
+    "target": "傾"
+  },
+  {
+    "id": "頃->傾",
+    "source": "頃",
+    "target": "傾"
+  },
+  {
+    "id": "人->僅",
+    "source": "人",
+    "target": "僅"
+  },
+  {
+    "id": "人->働",
+    "source": "人",
+    "target": "働"
+  },
+  {
+    "id": "動->働",
+    "source": "動",
+    "target": "働"
+  },
+  {
+    "id": "人->像",
+    "source": "人",
+    "target": "像"
+  },
+  {
+    "id": "象->像",
+    "source": "象",
+    "target": "像"
+  },
+  {
+    "id": "人->僕",
+    "source": "人",
+    "target": "僕"
+  },
+  {
+    "id": "人->僚",
+    "source": "人",
+    "target": "僚"
+  },
+  {
+    "id": "人->僧",
+    "source": "人",
+    "target": "僧"
+  },
+  {
+    "id": "曽->僧",
+    "source": "曽",
+    "target": "僧"
+  },
+  {
+    "id": "人->儀",
+    "source": "人",
+    "target": "儀"
+  },
+  {
+    "id": "義->儀",
+    "source": "義",
+    "target": "儀"
+  },
+  {
+    "id": "人->億",
+    "source": "人",
+    "target": "億"
+  },
+  {
+    "id": "意->億",
+    "source": "意",
+    "target": "億"
+  },
+  {
+    "id": "人->儒",
+    "source": "人",
+    "target": "儒"
+  },
+  {
+    "id": "需->儒",
+    "source": "需",
+    "target": "儒"
+  },
+  {
+    "id": "人->償",
+    "source": "人",
+    "target": "償"
+  },
+  {
+    "id": "賞->償",
+    "source": "賞",
+    "target": "償"
+  },
+  {
+    "id": "人->優",
+    "source": "人",
+    "target": "優"
+  },
+  {
+    "id": "憂->優",
+    "source": "憂",
+    "target": "優"
+  },
+  {
+    "id": "二->元",
+    "source": "二",
+    "target": "元"
+  },
+  {
+    "id": "八->元",
+    "source": "八",
+    "target": "元"
+  },
+  {
+    "id": "口->兄",
+    "source": "口",
+    "target": "兄"
+  },
+  {
+    "id": "八->兄",
+    "source": "八",
+    "target": "兄"
+  },
+  {
+    "id": "允->充",
+    "source": "允",
+    "target": "充"
+  },
+  {
+    "id": "八->兆",
+    "source": "八",
+    "target": "兆"
+  },
+  {
+    "id": "八->先",
+    "source": "八",
+    "target": "先"
+  },
+  {
+    "id": "小->光",
+    "source": "小",
+    "target": "光"
+  },
+  {
+    "id": "古->克",
+    "source": "古",
+    "target": "克"
+  },
+  {
+    "id": "兄->克",
+    "source": "兄",
+    "target": "克"
+  },
+  {
+    "id": "八->免",
+    "source": "八",
+    "target": "免"
+  },
+  {
+    "id": "旧->児",
+    "source": "旧",
+    "target": "児"
+  },
+  {
+    "id": "八->児",
+    "source": "八",
+    "target": "児"
+  },
+  {
+    "id": "尚->党",
+    "source": "尚",
+    "target": "党"
+  },
+  {
+    "id": "兄->党",
+    "source": "兄",
+    "target": "党"
+  },
+  {
+    "id": "人->全",
+    "source": "人",
+    "target": "全"
+  },
+  {
+    "id": "玉->全",
+    "source": "玉",
+    "target": "全"
+  },
+  {
+    "id": "八->公",
+    "source": "八",
+    "target": "公"
+  },
+  {
+    "id": "八->六",
+    "source": "八",
+    "target": "六"
+  },
+  {
+    "id": "八->共",
+    "source": "八",
+    "target": "共"
+  },
+  {
+    "id": "丘->兵",
+    "source": "丘",
+    "target": "兵"
+  },
+  {
+    "id": "八->兵",
+    "source": "八",
+    "target": "兵"
+  },
+  {
+    "id": "目->具",
+    "source": "目",
+    "target": "具"
+  },
+  {
+    "id": "曲->典",
+    "source": "曲",
+    "target": "典"
+  },
+  {
+    "id": "八->典",
+    "source": "八",
+    "target": "典"
+  },
+  {
+    "id": "八->兼",
+    "source": "八",
+    "target": "兼"
+  },
+  {
+    "id": "人->内",
+    "source": "人",
+    "target": "内"
+  },
+  {
+    "id": "一->再",
+    "source": "一",
+    "target": "再"
+  },
+  {
+    "id": "日->冒",
+    "source": "日",
+    "target": "冒"
+  },
+  {
+    "id": "目->冒",
+    "source": "目",
+    "target": "冒"
+  },
+  {
+    "id": "与->写",
+    "source": "与",
+    "target": "写"
+  },
+  {
+    "id": "氷->冬",
+    "source": "氷",
+    "target": "冬"
+  },
+  {
+    "id": "氷->冶",
+    "source": "氷",
+    "target": "冶"
+  },
+  {
+    "id": "台->冶",
+    "source": "台",
+    "target": "冶"
+  },
+  {
+    "id": "氷->冷",
+    "source": "氷",
+    "target": "冷"
+  },
+  {
+    "id": "令->冷",
+    "source": "令",
+    "target": "冷"
+  },
+  {
+    "id": "氷->凄",
+    "source": "氷",
+    "target": "凄"
+  },
+  {
+    "id": "妻->凄",
+    "source": "妻",
+    "target": "凄"
+  },
+  {
+    "id": "水->准",
+    "source": "水",
+    "target": "准"
+  },
+  {
+    "id": "氷->凍",
+    "source": "氷",
+    "target": "凍"
+  },
+  {
+    "id": "東->凍",
+    "source": "東",
+    "target": "凍"
+  },
+  {
+    "id": "氷->凝",
+    "source": "氷",
+    "target": "凝"
+  },
+  {
+    "id": "疑->凝",
+    "source": "疑",
+    "target": "凝"
+  },
+  {
+    "id": "一->凸",
+    "source": "一",
+    "target": "凸"
+  },
+  {
+    "id": "山->出",
+    "source": "山",
+    "target": "出"
+  },
+  {
+    "id": "刀->刃",
+    "source": "刀",
+    "target": "刃"
+  },
+  {
+    "id": "八->分",
+    "source": "八",
+    "target": "分"
+  },
+  {
+    "id": "刀->分",
+    "source": "刀",
+    "target": "分"
+  },
+  {
+    "id": "七->切",
+    "source": "七",
+    "target": "切"
+  },
+  {
+    "id": "刀->切",
+    "source": "刀",
+    "target": "切"
+  },
+  {
+    "id": "刀->刈",
+    "source": "刀",
+    "target": "刈"
+  },
+  {
+    "id": "干->刊",
+    "source": "干",
+    "target": "刊"
+  },
+  {
+    "id": "刀->刊",
+    "source": "刀",
+    "target": "刊"
+  },
+  {
+    "id": "刀->刑",
+    "source": "刀",
+    "target": "刑"
+  },
+  {
+    "id": "刀->列",
+    "source": "刀",
+    "target": "列"
+  },
+  {
+    "id": "衣->初",
+    "source": "衣",
+    "target": "初"
+  },
+  {
+    "id": "刀->初",
+    "source": "刀",
+    "target": "初"
+  },
+  {
+    "id": "半->判",
+    "source": "半",
+    "target": "判"
+  },
+  {
+    "id": "刀->判",
+    "source": "刀",
+    "target": "判"
+  },
+  {
+    "id": "刀->別",
+    "source": "刀",
+    "target": "別"
+  },
+  {
+    "id": "刀->利",
+    "source": "刀",
+    "target": "利"
+  },
+  {
+    "id": "至->到",
+    "source": "至",
+    "target": "到"
+  },
+  {
+    "id": "刀->到",
+    "source": "刀",
+    "target": "到"
+  },
+  {
+    "id": "刀->制",
+    "source": "刀",
+    "target": "制"
+  },
+  {
+    "id": "刀->刷",
+    "source": "刀",
+    "target": "刷"
+  },
+  {
+    "id": "刀->券",
+    "source": "刀",
+    "target": "券"
+  },
+  {
+    "id": "刀->刹",
+    "source": "刀",
+    "target": "刹"
+  },
+  {
+    "id": "刀->刺",
+    "source": "刀",
+    "target": "刺"
+  },
+  {
+    "id": "亥->刻",
+    "source": "亥",
+    "target": "刻"
+  },
+  {
+    "id": "刀->刻",
+    "source": "刀",
+    "target": "刻"
+  },
+  {
+    "id": "貝->則",
+    "source": "貝",
+    "target": "則"
+  },
+  {
+    "id": "刀->則",
+    "source": "刀",
+    "target": "則"
+  },
+  {
+    "id": "肖->削",
+    "source": "肖",
+    "target": "削"
+  },
+  {
+    "id": "刀->削",
+    "source": "刀",
+    "target": "削"
+  },
+  {
+    "id": "刀->剖",
+    "source": "刀",
+    "target": "剖"
+  },
+  {
+    "id": "岡->剛",
+    "source": "岡",
+    "target": "剛"
+  },
+  {
+    "id": "刀->剛",
+    "source": "刀",
+    "target": "剛"
+  },
+  {
+    "id": "刀->剝",
+    "source": "刀",
+    "target": "剝"
+  },
+  {
+    "id": "刀->剣",
+    "source": "刀",
+    "target": "剣"
+  },
+  {
+    "id": "刀->剤",
+    "source": "刀",
+    "target": "剤"
+  },
+  {
+    "id": "刀->副",
+    "source": "刀",
+    "target": "副"
+  },
+  {
+    "id": "乗->剰",
+    "source": "乗",
+    "target": "剰"
+  },
+  {
+    "id": "刀->剰",
+    "source": "刀",
+    "target": "剰"
+  },
+  {
+    "id": "害->割",
+    "source": "害",
+    "target": "割"
+  },
+  {
+    "id": "刀->割",
+    "source": "刀",
+    "target": "割"
+  },
+  {
+    "id": "倉->創",
+    "source": "倉",
+    "target": "創"
+  },
+  {
+    "id": "刀->創",
+    "source": "刀",
+    "target": "創"
+  },
+  {
+    "id": "刀->劇",
+    "source": "刀",
+    "target": "劇"
+  },
+  {
+    "id": "工->功",
+    "source": "工",
+    "target": "功"
+  },
+  {
+    "id": "力->功",
+    "source": "力",
+    "target": "功"
+  },
+  {
+    "id": "力->加",
+    "source": "力",
+    "target": "加"
+  },
+  {
+    "id": "口->加",
+    "source": "口",
+    "target": "加"
+  },
+  {
+    "id": "少->劣",
+    "source": "少",
+    "target": "劣"
+  },
+  {
+    "id": "力->劣",
+    "source": "力",
+    "target": "劣"
+  },
+  {
+    "id": "且->助",
+    "source": "且",
+    "target": "助"
+  },
+  {
+    "id": "力->助",
+    "source": "力",
+    "target": "助"
+  },
+  {
+    "id": "奴->努",
+    "source": "奴",
+    "target": "努"
+  },
+  {
+    "id": "力->努",
+    "source": "力",
+    "target": "努"
+  },
+  {
+    "id": "力->励",
+    "source": "力",
+    "target": "励"
+  },
+  {
+    "id": "力->労",
+    "source": "力",
+    "target": "労"
+  },
+  {
+    "id": "交->効",
+    "source": "交",
+    "target": "効"
+  },
+  {
+    "id": "力->効",
+    "source": "力",
+    "target": "効"
+  },
+  {
+    "id": "亥->劾",
+    "source": "亥",
+    "target": "劾"
+  },
+  {
+    "id": "力->劾",
+    "source": "力",
+    "target": "劾"
+  },
+  {
+    "id": "力->勃",
+    "source": "力",
+    "target": "勃"
+  },
+  {
+    "id": "束->勅",
+    "source": "束",
+    "target": "勅"
+  },
+  {
+    "id": "力->勅",
+    "source": "力",
+    "target": "勅"
+  },
+  {
+    "id": "男->勇",
+    "source": "男",
+    "target": "勇"
+  },
+  {
+    "id": "免->勉",
+    "source": "免",
+    "target": "勉"
+  },
+  {
+    "id": "力->勉",
+    "source": "力",
+    "target": "勉"
+  },
+  {
+    "id": "重->動",
+    "source": "重",
+    "target": "動"
+  },
+  {
+    "id": "力->動",
+    "source": "力",
+    "target": "動"
+  },
+  {
+    "id": "甚->勘",
+    "source": "甚",
+    "target": "勘"
+  },
+  {
+    "id": "力->勘",
+    "source": "力",
+    "target": "勘"
+  },
+  {
+    "id": "矛->務",
+    "source": "矛",
+    "target": "務"
+  },
+  {
+    "id": "肉->勝",
+    "source": "肉",
+    "target": "勝"
+  },
+  {
+    "id": "力->募",
+    "source": "力",
+    "target": "募"
+  },
+  {
+    "id": "力->勢",
+    "source": "力",
+    "target": "勢"
+  },
+  {
+    "id": "菫->勤",
+    "source": "菫",
+    "target": "勤"
+  },
+  {
+    "id": "力->勤",
+    "source": "力",
+    "target": "勤"
+  },
+  {
+    "id": "力->勧",
+    "source": "力",
+    "target": "勧"
+  },
+  {
+    "id": "動->勲",
+    "source": "動",
+    "target": "勲"
+  },
+  {
+    "id": "火->勲",
+    "source": "火",
+    "target": "勲"
+  },
+  {
+    "id": "己->包",
+    "source": "己",
+    "target": "包"
+  },
+  {
+    "id": "人->化",
+    "source": "人",
+    "target": "化"
+  },
+  {
+    "id": "斤->匠",
+    "source": "斤",
+    "target": "匠"
+  },
+  {
+    "id": "矢->医",
+    "source": "矢",
+    "target": "医"
+  },
+  {
+    "id": "若->匿",
+    "source": "若",
+    "target": "匿"
+  },
+  {
+    "id": "十->千",
+    "source": "十",
+    "target": "千"
+  },
+  {
+    "id": "干->午",
+    "source": "干",
+    "target": "午"
+  },
+  {
+    "id": "二->半",
+    "source": "二",
+    "target": "半"
+  },
+  {
+    "id": "十->半",
+    "source": "十",
+    "target": "半"
+  },
+  {
+    "id": "十->卒",
+    "source": "十",
+    "target": "卒"
+  },
+  {
+    "id": "早->卓",
+    "source": "早",
+    "target": "卓"
+  },
+  {
+    "id": "十->協",
+    "source": "十",
+    "target": "協"
+  },
+  {
+    "id": "十->南",
+    "source": "十",
+    "target": "南"
+  },
+  {
+    "id": "甲->単",
+    "source": "甲",
+    "target": "単"
+  },
+  {
+    "id": "十->博",
+    "source": "十",
+    "target": "博"
+  },
+  {
+    "id": "口->占",
+    "source": "口",
+    "target": "占"
+  },
+  {
+    "id": "厄->危",
+    "source": "厄",
+    "target": "危"
+  },
+  {
+    "id": "去->却",
+    "source": "去",
+    "target": "却"
+  },
+  {
+    "id": "卯->卵",
+    "source": "卯",
+    "target": "卵"
+  },
+  {
+    "id": "里->厘",
+    "source": "里",
+    "target": "厘"
+  },
+  {
+    "id": "土->去",
+    "source": "土",
+    "target": "去"
+  },
+  {
+    "id": "又->及",
+    "source": "又",
+    "target": "及"
+  },
+  {
+    "id": "又->友",
+    "source": "又",
+    "target": "友"
+  },
+  {
+    "id": "又->双",
+    "source": "又",
+    "target": "双"
+  },
+  {
+    "id": "又->反",
+    "source": "又",
+    "target": "反"
+  },
+  {
+    "id": "又->収",
+    "source": "又",
+    "target": "収"
+  },
+  {
+    "id": "又->叔",
+    "source": "又",
+    "target": "叔"
+  },
+  {
+    "id": "耳->取",
+    "source": "耳",
+    "target": "取"
+  },
+  {
+    "id": "又->取",
+    "source": "又",
+    "target": "取"
+  },
+  {
+    "id": "又->受",
+    "source": "又",
+    "target": "受"
+  },
+  {
+    "id": "余->叙",
+    "source": "余",
+    "target": "叙"
+  },
+  {
+    "id": "又->叙",
+    "source": "又",
+    "target": "叙"
+  },
+  {
+    "id": "十->古",
+    "source": "十",
+    "target": "古"
+  },
+  {
+    "id": "口->古",
+    "source": "口",
+    "target": "古"
+  },
+  {
+    "id": "口->句",
+    "source": "口",
+    "target": "句"
+  },
+  {
+    "id": "口->叫",
+    "source": "口",
+    "target": "叫"
+  },
+  {
+    "id": "刀->召",
+    "source": "刀",
+    "target": "召"
+  },
+  {
+    "id": "口->召",
+    "source": "口",
+    "target": "召"
+  },
+  {
+    "id": "丁->可",
+    "source": "丁",
+    "target": "可"
+  },
+  {
+    "id": "口->可",
+    "source": "口",
+    "target": "可"
+  },
+  {
+    "id": "口->台",
+    "source": "口",
+    "target": "台"
+  },
+  {
+    "id": "口->史",
+    "source": "口",
+    "target": "史"
+  },
+  {
+    "id": "口->右",
+    "source": "口",
+    "target": "右"
+  },
+  {
+    "id": "口->号",
+    "source": "口",
+    "target": "号"
+  },
+  {
+    "id": "一->司",
+    "source": "一",
+    "target": "司"
+  },
+  {
+    "id": "口->司",
+    "source": "口",
+    "target": "司"
+  },
+  {
+    "id": "口->各",
+    "source": "口",
+    "target": "各"
+  },
+  {
+    "id": "口->合",
+    "source": "口",
+    "target": "合"
+  },
+  {
+    "id": "土->吉",
+    "source": "土",
+    "target": "吉"
+  },
+  {
+    "id": "口->吉",
+    "source": "口",
+    "target": "吉"
+  },
+  {
+    "id": "一->同",
+    "source": "一",
+    "target": "同"
+  },
+  {
+    "id": "口->同",
+    "source": "口",
+    "target": "同"
+  },
+  {
+    "id": "夕->名",
+    "source": "夕",
+    "target": "名"
+  },
+  {
+    "id": "口->名",
+    "source": "口",
+    "target": "名"
+  },
+  {
+    "id": "口->后",
+    "source": "口",
+    "target": "后"
+  },
+  {
+    "id": "丈->吏",
+    "source": "丈",
+    "target": "吏"
+  },
+  {
+    "id": "口->吏",
+    "source": "口",
+    "target": "吏"
+  },
+  {
+    "id": "口->吐",
+    "source": "口",
+    "target": "吐"
+  },
+  {
+    "id": "土->吐",
+    "source": "土",
+    "target": "吐"
+  },
+  {
+    "id": "口->向",
+    "source": "口",
+    "target": "向"
+  },
+  {
+    "id": "口->君",
+    "source": "口",
+    "target": "君"
+  },
+  {
+    "id": "口->吟",
+    "source": "口",
+    "target": "吟"
+  },
+  {
+    "id": "今->吟",
+    "source": "今",
+    "target": "吟"
+  },
+  {
+    "id": "不->否",
+    "source": "不",
+    "target": "否"
+  },
+  {
+    "id": "口->否",
+    "source": "口",
+    "target": "否"
+  },
+  {
+    "id": "今->含",
+    "source": "今",
+    "target": "含"
+  },
+  {
+    "id": "口->含",
+    "source": "口",
+    "target": "含"
+  },
+  {
+    "id": "口->吸",
+    "source": "口",
+    "target": "吸"
+  },
+  {
+    "id": "及->吸",
+    "source": "及",
+    "target": "吸"
+  },
+  {
+    "id": "口->吹",
+    "source": "口",
+    "target": "吹"
+  },
+  {
+    "id": "欠->吹",
+    "source": "欠",
+    "target": "吹"
+  },
+  {
+    "id": "口->呂",
+    "source": "口",
+    "target": "呂"
+  },
+  {
+    "id": "口->呈",
+    "source": "口",
+    "target": "呈"
+  },
+  {
+    "id": "玉->呈",
+    "source": "玉",
+    "target": "呈"
+  },
+  {
+    "id": "牛->告",
+    "source": "牛",
+    "target": "告"
+  },
+  {
+    "id": "口->告",
+    "source": "口",
+    "target": "告"
+  },
+  {
+    "id": "吉->周",
+    "source": "吉",
+    "target": "周"
+  },
+  {
+    "id": "口->呪",
+    "source": "口",
+    "target": "呪"
+  },
+  {
+    "id": "兄->呪",
+    "source": "兄",
+    "target": "呪"
+  },
+  {
+    "id": "口->味",
+    "source": "口",
+    "target": "味"
+  },
+  {
+    "id": "未->味",
+    "source": "未",
+    "target": "味"
+  },
+  {
+    "id": "口->呼",
+    "source": "口",
+    "target": "呼"
+  },
+  {
+    "id": "口->和",
+    "source": "口",
+    "target": "和"
+  },
+  {
+    "id": "口->咲",
+    "source": "口",
+    "target": "咲"
+  },
+  {
+    "id": "口->咽",
+    "source": "口",
+    "target": "咽"
+  },
+  {
+    "id": "因->咽",
+    "source": "因",
+    "target": "咽"
+  },
+  {
+    "id": "衣->哀",
+    "source": "衣",
+    "target": "哀"
+  },
+  {
+    "id": "口->品",
+    "source": "口",
+    "target": "品"
+  },
+  {
+    "id": "口->員",
+    "source": "口",
+    "target": "員"
+  },
+  {
+    "id": "貝->員",
+    "source": "貝",
+    "target": "員"
+  },
+  {
+    "id": "折->哲",
+    "source": "折",
+    "target": "哲"
+  },
+  {
+    "id": "口->哲",
+    "source": "口",
+    "target": "哲"
+  },
+  {
+    "id": "口->哺",
+    "source": "口",
+    "target": "哺"
+  },
+  {
+    "id": "甫->哺",
+    "source": "甫",
+    "target": "哺"
+  },
+  {
+    "id": "口->唄",
+    "source": "口",
+    "target": "唄"
+  },
+  {
+    "id": "貝->唄",
+    "source": "貝",
+    "target": "唄"
+  },
+  {
+    "id": "口->唆",
+    "source": "口",
+    "target": "唆"
+  },
+  {
+    "id": "辰->唇",
+    "source": "辰",
+    "target": "唇"
+  },
+  {
+    "id": "口->唇",
+    "source": "口",
+    "target": "唇"
+  },
+  {
+    "id": "口->唯",
+    "source": "口",
+    "target": "唯"
+  },
+  {
+    "id": "口->唱",
+    "source": "口",
+    "target": "唱"
+  },
+  {
+    "id": "昌->唱",
+    "source": "昌",
+    "target": "唱"
+  },
+  {
+    "id": "口->唾",
+    "source": "口",
+    "target": "唾"
+  },
+  {
+    "id": "垂->唾",
+    "source": "垂",
+    "target": "唾"
+  },
+  {
+    "id": "立->商",
+    "source": "立",
+    "target": "商"
+  },
+  {
+    "id": "門->問",
+    "source": "門",
+    "target": "問"
+  },
+  {
+    "id": "口->問",
+    "source": "口",
+    "target": "問"
+  },
+  {
+    "id": "口->啓",
+    "source": "口",
+    "target": "啓"
+  },
+  {
+    "id": "口->善",
+    "source": "口",
+    "target": "善"
+  },
+  {
+    "id": "口->喉",
+    "source": "口",
+    "target": "喉"
+  },
+  {
+    "id": "侯->喉",
+    "source": "侯",
+    "target": "喉"
+  },
+  {
+    "id": "口->喚",
+    "source": "口",
+    "target": "喚"
+  },
+  {
+    "id": "吉->喜",
+    "source": "吉",
+    "target": "喜"
+  },
+  {
+    "id": "口->喝",
+    "source": "口",
+    "target": "喝"
+  },
+  {
+    "id": "口->喩",
+    "source": "口",
+    "target": "喩"
+  },
+  {
+    "id": "衣->喪",
+    "source": "衣",
+    "target": "喪"
+  },
+  {
+    "id": "口->喫",
+    "source": "口",
+    "target": "喫"
+  },
+  {
+    "id": "契->喫",
+    "source": "契",
+    "target": "喫"
+  },
+  {
+    "id": "呂->営",
+    "source": "呂",
+    "target": "営"
+  },
+  {
+    "id": "口->嗅",
+    "source": "口",
+    "target": "嗅"
+  },
+  {
+    "id": "臭->嗅",
+    "source": "臭",
+    "target": "嗅"
+  },
+  {
+    "id": "犬->嗅",
+    "source": "犬",
+    "target": "嗅"
+  },
+  {
+    "id": "司->嗣",
+    "source": "司",
+    "target": "嗣"
+  },
+  {
+    "id": "口->嘆",
+    "source": "口",
+    "target": "嘆"
+  },
+  {
+    "id": "口->嘱",
+    "source": "口",
+    "target": "嘱"
+  },
+  {
+    "id": "属->嘱",
+    "source": "属",
+    "target": "嘱"
+  },
+  {
+    "id": "口->嘲",
+    "source": "口",
+    "target": "嘲"
+  },
+  {
+    "id": "朝->嘲",
+    "source": "朝",
+    "target": "嘲"
+  },
+  {
+    "id": "口->噴",
+    "source": "口",
+    "target": "噴"
+  },
+  {
+    "id": "口->嚇",
+    "source": "口",
+    "target": "嚇"
+  },
+  {
+    "id": "人->囚",
+    "source": "人",
+    "target": "囚"
+  },
+  {
+    "id": "八->四",
+    "source": "八",
+    "target": "四"
+  },
+  {
+    "id": "口->回",
+    "source": "口",
+    "target": "回"
+  },
+  {
+    "id": "大->因",
+    "source": "大",
+    "target": "因"
+  },
+  {
+    "id": "寸->団",
+    "source": "寸",
+    "target": "団"
+  },
+  {
+    "id": "木->困",
+    "source": "木",
+    "target": "困"
+  },
+  {
+    "id": "井->囲",
+    "source": "井",
+    "target": "囲"
+  },
+  {
+    "id": "古->固",
+    "source": "古",
+    "target": "固"
+  },
+  {
+    "id": "玉->国",
+    "source": "玉",
+    "target": "国"
+  },
+  {
+    "id": "巻->圏",
+    "source": "巻",
+    "target": "圏"
+  },
+  {
+    "id": "土->圧",
+    "source": "土",
+    "target": "圧"
+  },
+  {
+    "id": "土->在",
+    "source": "土",
+    "target": "在"
+  },
+  {
+    "id": "土->地",
+    "source": "土",
+    "target": "地"
+  },
+  {
+    "id": "也->地",
+    "source": "也",
+    "target": "地"
+  },
+  {
+    "id": "土->坂",
+    "source": "土",
+    "target": "坂"
+  },
+  {
+    "id": "反->坂",
+    "source": "反",
+    "target": "坂"
+  },
+  {
+    "id": "土->均",
+    "source": "土",
+    "target": "均"
+  },
+  {
+    "id": "土->坊",
+    "source": "土",
+    "target": "坊"
+  },
+  {
+    "id": "方->坊",
+    "source": "方",
+    "target": "坊"
+  },
+  {
+    "id": "土->坑",
+    "source": "土",
+    "target": "坑"
+  },
+  {
+    "id": "土->坪",
+    "source": "土",
+    "target": "坪"
+  },
+  {
+    "id": "平->坪",
+    "source": "平",
+    "target": "坪"
+  },
+  {
+    "id": "千->垂",
+    "source": "千",
+    "target": "垂"
+  },
+  {
+    "id": "土->垂",
+    "source": "土",
+    "target": "垂"
+  },
+  {
+    "id": "刑->型",
+    "source": "刑",
+    "target": "型"
+  },
+  {
+    "id": "土->型",
+    "source": "土",
+    "target": "型"
+  },
+  {
+    "id": "土->垣",
+    "source": "土",
+    "target": "垣"
+  },
+  {
+    "id": "亘->垣",
+    "source": "亘",
+    "target": "垣"
+  },
+  {
+    "id": "土->埋",
+    "source": "土",
+    "target": "埋"
+  },
+  {
+    "id": "里->埋",
+    "source": "里",
+    "target": "埋"
+  },
+  {
+    "id": "土->城",
+    "source": "土",
+    "target": "城"
+  },
+  {
+    "id": "成->城",
+    "source": "成",
+    "target": "城"
+  },
+  {
+    "id": "土->域",
+    "source": "土",
+    "target": "域"
+  },
+  {
+    "id": "幸->執",
+    "source": "幸",
+    "target": "執"
+  },
+  {
+    "id": "丸->執",
+    "source": "丸",
+    "target": "執"
+  },
+  {
+    "id": "土->培",
+    "source": "土",
+    "target": "培"
+  },
+  {
+    "id": "土->基",
+    "source": "土",
+    "target": "基"
+  },
+  {
+    "id": "土->埼",
+    "source": "土",
+    "target": "埼"
+  },
+  {
+    "id": "奇->埼",
+    "source": "奇",
+    "target": "埼"
+  },
+  {
+    "id": "土->堀",
+    "source": "土",
+    "target": "堀"
+  },
+  {
+    "id": "屈->堀",
+    "source": "屈",
+    "target": "堀"
+  },
+  {
+    "id": "尚->堂",
+    "source": "尚",
+    "target": "堂"
+  },
+  {
+    "id": "土->堂",
+    "source": "土",
+    "target": "堂"
+  },
+  {
+    "id": "土->堅",
+    "source": "土",
+    "target": "堅"
+  },
+  {
+    "id": "土->堆",
+    "source": "土",
+    "target": "堆"
+  },
+  {
+    "id": "土->堕",
+    "source": "土",
+    "target": "堕"
+  },
+  {
+    "id": "土->堤",
+    "source": "土",
+    "target": "堤"
+  },
+  {
+    "id": "是->堤",
+    "source": "是",
+    "target": "堤"
+  },
+  {
+    "id": "土->堪",
+    "source": "土",
+    "target": "堪"
+  },
+  {
+    "id": "甚->堪",
+    "source": "甚",
+    "target": "堪"
+  },
+  {
+    "id": "幸->報",
+    "source": "幸",
+    "target": "報"
+  },
+  {
+    "id": "土->場",
+    "source": "土",
+    "target": "場"
+  },
+  {
+    "id": "土->塀",
+    "source": "土",
+    "target": "塀"
+  },
+  {
+    "id": "土->塁",
+    "source": "土",
+    "target": "塁"
+  },
+  {
+    "id": "土->塊",
+    "source": "土",
+    "target": "塊"
+  },
+  {
+    "id": "鬼->塊",
+    "source": "鬼",
+    "target": "塊"
+  },
+  {
+    "id": "朔->塑",
+    "source": "朔",
+    "target": "塑"
+  },
+  {
+    "id": "土->塑",
+    "source": "土",
+    "target": "塑"
+  },
+  {
+    "id": "土->塔",
+    "source": "土",
+    "target": "塔"
+  },
+  {
+    "id": "土->塗",
+    "source": "土",
+    "target": "塗"
+  },
+  {
+    "id": "土->塚",
+    "source": "土",
+    "target": "塚"
+  },
+  {
+    "id": "土->塞",
+    "source": "土",
+    "target": "塞"
+  },
+  {
+    "id": "土->塡",
+    "source": "土",
+    "target": "塡"
+  },
+  {
+    "id": "真->塡",
+    "source": "真",
+    "target": "塡"
+  },
+  {
+    "id": "土->塩",
+    "source": "土",
+    "target": "塩"
+  },
+  {
+    "id": "土->塾",
+    "source": "土",
+    "target": "塾"
+  },
+  {
+    "id": "土->境",
+    "source": "土",
+    "target": "境"
+  },
+  {
+    "id": "土->墓",
+    "source": "土",
+    "target": "墓"
+  },
+  {
+    "id": "土->増",
+    "source": "土",
+    "target": "増"
+  },
+  {
+    "id": "曽->増",
+    "source": "曽",
+    "target": "増"
+  },
+  {
+    "id": "隊->墜",
+    "source": "隊",
+    "target": "墜"
+  },
+  {
+    "id": "土->墜",
+    "source": "土",
+    "target": "墜"
+  },
+  {
+    "id": "土->墨",
+    "source": "土",
+    "target": "墨"
+  },
+  {
+    "id": "土->墳",
+    "source": "土",
+    "target": "墳"
+  },
+  {
+    "id": "土->墾",
+    "source": "土",
+    "target": "墾"
+  },
+  {
+    "id": "土->壁",
+    "source": "土",
+    "target": "壁"
+  },
+  {
+    "id": "土->壇",
+    "source": "土",
+    "target": "壇"
+  },
+  {
+    "id": "土->壊",
+    "source": "土",
+    "target": "壊"
+  },
+  {
+    "id": "土->壌",
+    "source": "土",
+    "target": "壌"
+  },
+  {
+    "id": "士->壮",
+    "source": "士",
+    "target": "壮"
+  },
+  {
+    "id": "土->声",
+    "source": "土",
+    "target": "声"
+  },
+  {
+    "id": "土->壱",
+    "source": "土",
+    "target": "壱"
+  },
+  {
+    "id": "土->売",
+    "source": "土",
+    "target": "売"
+  },
+  {
+    "id": "亦->変",
+    "source": "亦",
+    "target": "変"
+  },
+  {
+    "id": "夕->外",
+    "source": "夕",
+    "target": "外"
+  },
+  {
+    "id": "夕->多",
+    "source": "夕",
+    "target": "多"
+  },
+  {
+    "id": "夕->夢",
+    "source": "夕",
+    "target": "夢"
+  },
+  {
+    "id": "一->天",
+    "source": "一",
+    "target": "天"
+  },
+  {
+    "id": "大->天",
+    "source": "大",
+    "target": "天"
+  },
+  {
+    "id": "大->太",
+    "source": "大",
+    "target": "太"
+  },
+  {
+    "id": "大->夫",
+    "source": "大",
+    "target": "夫"
+  },
+  {
+    "id": "大->央",
+    "source": "大",
+    "target": "央"
+  },
+  {
+    "id": "夫->失",
+    "source": "夫",
+    "target": "失"
+  },
+  {
+    "id": "大->奇",
+    "source": "大",
+    "target": "奇"
+  },
+  {
+    "id": "可->奇",
+    "source": "可",
+    "target": "奇"
+  },
+  {
+    "id": "大->奈",
+    "source": "大",
+    "target": "奈"
+  },
+  {
+    "id": "示->奈",
+    "source": "示",
+    "target": "奈"
+  },
+  {
+    "id": "天->奏",
+    "source": "天",
+    "target": "奏"
+  },
+  {
+    "id": "大->契",
+    "source": "大",
+    "target": "契"
+  },
+  {
+    "id": "大->奔",
+    "source": "大",
+    "target": "奔"
+  },
+  {
+    "id": "大->奥",
+    "source": "大",
+    "target": "奥"
+  },
+  {
+    "id": "将->奨",
+    "source": "将",
+    "target": "奨"
+  },
+  {
+    "id": "大->奨",
+    "source": "大",
+    "target": "奨"
+  },
+  {
+    "id": "寸->奪",
+    "source": "寸",
+    "target": "奪"
+  },
+  {
+    "id": "田->奮",
+    "source": "田",
+    "target": "奮"
+  },
+  {
+    "id": "女->奴",
+    "source": "女",
+    "target": "奴"
+  },
+  {
+    "id": "又->奴",
+    "source": "又",
+    "target": "奴"
+  },
+  {
+    "id": "女->好",
+    "source": "女",
+    "target": "好"
+  },
+  {
+    "id": "子->好",
+    "source": "子",
+    "target": "好"
+  },
+  {
+    "id": "女->如",
+    "source": "女",
+    "target": "如"
+  },
+  {
+    "id": "口->如",
+    "source": "口",
+    "target": "如"
+  },
+  {
+    "id": "女->妃",
+    "source": "女",
+    "target": "妃"
+  },
+  {
+    "id": "己->妃",
+    "source": "己",
+    "target": "妃"
+  },
+  {
+    "id": "亡->妄",
+    "source": "亡",
+    "target": "妄"
+  },
+  {
+    "id": "女->妄",
+    "source": "女",
+    "target": "妄"
+  },
+  {
+    "id": "女->妊",
+    "source": "女",
+    "target": "妊"
+  },
+  {
+    "id": "女->妖",
+    "source": "女",
+    "target": "妖"
+  },
+  {
+    "id": "女->妙",
+    "source": "女",
+    "target": "妙"
+  },
+  {
+    "id": "少->妙",
+    "source": "少",
+    "target": "妙"
+  },
+  {
+    "id": "爪->妥",
+    "source": "爪",
+    "target": "妥"
+  },
+  {
+    "id": "女->妥",
+    "source": "女",
+    "target": "妥"
+  },
+  {
+    "id": "女->妨",
+    "source": "女",
+    "target": "妨"
+  },
+  {
+    "id": "方->妨",
+    "source": "方",
+    "target": "妨"
+  },
+  {
+    "id": "女->妬",
+    "source": "女",
+    "target": "妬"
+  },
+  {
+    "id": "石->妬",
+    "source": "石",
+    "target": "妬"
+  },
+  {
+    "id": "女->妹",
+    "source": "女",
+    "target": "妹"
+  },
+  {
+    "id": "未->妹",
+    "source": "未",
+    "target": "妹"
+  },
+  {
+    "id": "女->妻",
+    "source": "女",
+    "target": "妻"
+  },
+  {
+    "id": "女->姉",
+    "source": "女",
+    "target": "姉"
+  },
+  {
+    "id": "市->姉",
+    "source": "市",
+    "target": "姉"
+  },
+  {
+    "id": "女->始",
+    "source": "女",
+    "target": "始"
+  },
+  {
+    "id": "台->始",
+    "source": "台",
+    "target": "始"
+  },
+  {
+    "id": "女->姓",
+    "source": "女",
+    "target": "姓"
+  },
+  {
+    "id": "生->姓",
+    "source": "生",
+    "target": "姓"
+  },
+  {
+    "id": "女->委",
+    "source": "女",
+    "target": "委"
+  },
+  {
+    "id": "女->姫",
+    "source": "女",
+    "target": "姫"
+  },
+  {
+    "id": "臣->姫",
+    "source": "臣",
+    "target": "姫"
+  },
+  {
+    "id": "女->姻",
+    "source": "女",
+    "target": "姻"
+  },
+  {
+    "id": "因->姻",
+    "source": "因",
+    "target": "姻"
+  },
+  {
+    "id": "次->姿",
+    "source": "次",
+    "target": "姿"
+  },
+  {
+    "id": "女->姿",
+    "source": "女",
+    "target": "姿"
+  },
+  {
+    "id": "女->威",
+    "source": "女",
+    "target": "威"
+  },
+  {
+    "id": "女->娘",
+    "source": "女",
+    "target": "娘"
+  },
+  {
+    "id": "良->娘",
+    "source": "良",
+    "target": "娘"
+  },
+  {
+    "id": "女->娠",
+    "source": "女",
+    "target": "娠"
+  },
+  {
+    "id": "辰->娠",
+    "source": "辰",
+    "target": "娠"
+  },
+  {
+    "id": "女->娯",
+    "source": "女",
+    "target": "娯"
+  },
+  {
+    "id": "呉->娯",
+    "source": "呉",
+    "target": "娯"
+  },
+  {
+    "id": "波->婆",
+    "source": "波",
+    "target": "婆"
+  },
+  {
+    "id": "女->婆",
+    "source": "女",
+    "target": "婆"
+  },
+  {
+    "id": "女->婚",
+    "source": "女",
+    "target": "婚"
+  },
+  {
+    "id": "女->婦",
+    "source": "女",
+    "target": "婦"
+  },
+  {
+    "id": "女->婿",
+    "source": "女",
+    "target": "婿"
+  },
+  {
+    "id": "女->媒",
+    "source": "女",
+    "target": "媒"
+  },
+  {
+    "id": "某->媒",
+    "source": "某",
+    "target": "媒"
+  },
+  {
+    "id": "女->媛",
+    "source": "女",
+    "target": "媛"
+  },
+  {
+    "id": "女->嫁",
+    "source": "女",
+    "target": "嫁"
+  },
+  {
+    "id": "家->嫁",
+    "source": "家",
+    "target": "嫁"
+  },
+  {
+    "id": "女->嫉",
+    "source": "女",
+    "target": "嫉"
+  },
+  {
+    "id": "疾->嫉",
+    "source": "疾",
+    "target": "嫉"
+  },
+  {
+    "id": "女->嫌",
+    "source": "女",
+    "target": "嫌"
+  },
+  {
+    "id": "兼->嫌",
+    "source": "兼",
+    "target": "嫌"
+  },
+  {
+    "id": "女->嫡",
+    "source": "女",
+    "target": "嫡"
+  },
+  {
+    "id": "女->嬢",
+    "source": "女",
+    "target": "嬢"
+  },
+  {
+    "id": "子->孔",
+    "source": "子",
+    "target": "孔"
+  },
+  {
+    "id": "乙->孔",
+    "source": "乙",
+    "target": "孔"
+  },
+  {
+    "id": "子->字",
+    "source": "子",
+    "target": "字"
+  },
+  {
+    "id": "子->存",
+    "source": "子",
+    "target": "存"
+  },
+  {
+    "id": "老->孝",
+    "source": "老",
+    "target": "孝"
+  },
+  {
+    "id": "子->孝",
+    "source": "子",
+    "target": "孝"
+  },
+  {
+    "id": "子->季",
+    "source": "子",
+    "target": "季"
+  },
+  {
+    "id": "子->孤",
+    "source": "子",
+    "target": "孤"
+  },
+  {
+    "id": "子->学",
+    "source": "子",
+    "target": "学"
+  },
+  {
+    "id": "子->孫",
+    "source": "子",
+    "target": "孫"
+  },
+  {
+    "id": "系->孫",
+    "source": "系",
+    "target": "孫"
+  },
+  {
+    "id": "寸->守",
+    "source": "寸",
+    "target": "守"
+  },
+  {
+    "id": "女->安",
+    "source": "女",
+    "target": "安"
+  },
+  {
+    "id": "元->完",
+    "source": "元",
+    "target": "完"
+  },
+  {
+    "id": "示->宗",
+    "source": "示",
+    "target": "宗"
+  },
+  {
+    "id": "由->宙",
+    "source": "由",
+    "target": "宙"
+  },
+  {
+    "id": "且->宜",
+    "source": "且",
+    "target": "宜"
+  },
+  {
+    "id": "玉->宝",
+    "source": "玉",
+    "target": "宝"
+  },
+  {
+    "id": "各->客",
+    "source": "各",
+    "target": "客"
+  },
+  {
+    "id": "亘->宣",
+    "source": "亘",
+    "target": "宣"
+  },
+  {
+    "id": "至->室",
+    "source": "至",
+    "target": "室"
+  },
+  {
+    "id": "呂->宮",
+    "source": "呂",
+    "target": "宮"
+  },
+  {
+    "id": "辛->宰",
+    "source": "辛",
+    "target": "宰"
+  },
+  {
+    "id": "肖->宵",
+    "source": "肖",
+    "target": "宵"
+  },
+  {
+    "id": "谷->容",
+    "source": "谷",
+    "target": "容"
+  },
+  {
+    "id": "叔->寂",
+    "source": "叔",
+    "target": "寂"
+  },
+  {
+    "id": "奇->寄",
+    "source": "奇",
+    "target": "寄"
+  },
+  {
+    "id": "山->密",
+    "source": "山",
+    "target": "密"
+  },
+  {
+    "id": "祭->察",
+    "source": "祭",
+    "target": "察"
+  },
+  {
+    "id": "丁->寧",
+    "source": "丁",
+    "target": "寧"
+  },
+  {
+    "id": "番->審",
+    "source": "番",
+    "target": "審"
+  },
+  {
+    "id": "土->寺",
+    "source": "土",
+    "target": "寺"
+  },
+  {
+    "id": "寸->寺",
+    "source": "寸",
+    "target": "寺"
+  },
+  {
+    "id": "文->対",
+    "source": "文",
+    "target": "対"
+  },
+  {
+    "id": "寸->対",
+    "source": "寸",
+    "target": "対"
+  },
+  {
+    "id": "三->寿",
+    "source": "三",
+    "target": "寿"
+  },
+  {
+    "id": "寸->寿",
+    "source": "寸",
+    "target": "寿"
+  },
+  {
+    "id": "圭->封",
+    "source": "圭",
+    "target": "封"
+  },
+  {
+    "id": "寸->封",
+    "source": "寸",
+    "target": "封"
+  },
+  {
+    "id": "寸->専",
+    "source": "寸",
+    "target": "専"
+  },
+  {
+    "id": "身->射",
+    "source": "身",
+    "target": "射"
+  },
+  {
+    "id": "寸->射",
+    "source": "寸",
+    "target": "射"
+  },
+  {
+    "id": "寸->尉",
+    "source": "寸",
+    "target": "尉"
+  },
+  {
+    "id": "寸->尊",
+    "source": "寸",
+    "target": "尊"
+  },
+  {
+    "id": "寸->尋",
+    "source": "寸",
+    "target": "尋"
+  },
+  {
+    "id": "道->導",
+    "source": "道",
+    "target": "導"
+  },
+  {
+    "id": "寸->導",
+    "source": "寸",
+    "target": "導"
+  },
+  {
+    "id": "小->少",
+    "source": "小",
+    "target": "少"
+  },
+  {
+    "id": "小->尚",
+    "source": "小",
+    "target": "尚"
+  },
+  {
+    "id": "京->就",
+    "source": "京",
+    "target": "就"
+  },
+  {
+    "id": "八->尺",
+    "source": "八",
+    "target": "尺"
+  },
+  {
+    "id": "九->尻",
+    "source": "九",
+    "target": "尻"
+  },
+  {
+    "id": "尺->尽",
+    "source": "尺",
+    "target": "尽"
+  },
+  {
+    "id": "毛->尾",
+    "source": "毛",
+    "target": "尾"
+  },
+  {
+    "id": "水->尿",
+    "source": "水",
+    "target": "尿"
+  },
+  {
+    "id": "句->局",
+    "source": "句",
+    "target": "局"
+  },
+  {
+    "id": "古->居",
+    "source": "古",
+    "target": "居"
+  },
+  {
+    "id": "出->屈",
+    "source": "出",
+    "target": "屈"
+  },
+  {
+    "id": "由->届",
+    "source": "由",
+    "target": "届"
+  },
+  {
+    "id": "至->屋",
+    "source": "至",
+    "target": "屋"
+  },
+  {
+    "id": "曽->層",
+    "source": "曽",
+    "target": "層"
+  },
+  {
+    "id": "復->履",
+    "source": "復",
+    "target": "履"
+  },
+  {
+    "id": "山->岐",
+    "source": "山",
+    "target": "岐"
+  },
+  {
+    "id": "支->岐",
+    "source": "支",
+    "target": "岐"
+  },
+  {
+    "id": "山->岡",
+    "source": "山",
+    "target": "岡"
+  },
+  {
+    "id": "山->岩",
+    "source": "山",
+    "target": "岩"
+  },
+  {
+    "id": "石->岩",
+    "source": "石",
+    "target": "岩"
+  },
+  {
+    "id": "山->岬",
+    "source": "山",
+    "target": "岬"
+  },
+  {
+    "id": "甲->岬",
+    "source": "甲",
+    "target": "岬"
+  },
+  {
+    "id": "丘->岳",
+    "source": "丘",
+    "target": "岳"
+  },
+  {
+    "id": "山->岳",
+    "source": "山",
+    "target": "岳"
+  },
+  {
+    "id": "山->岸",
+    "source": "山",
+    "target": "岸"
+  },
+  {
+    "id": "山->峠",
+    "source": "山",
+    "target": "峠"
+  },
+  {
+    "id": "山->峡",
+    "source": "山",
+    "target": "峡"
+  },
+  {
+    "id": "山->峰",
+    "source": "山",
+    "target": "峰"
+  },
+  {
+    "id": "鳥->島",
+    "source": "鳥",
+    "target": "島"
+  },
+  {
+    "id": "山->島",
+    "source": "山",
+    "target": "島"
+  },
+  {
+    "id": "山->崇",
+    "source": "山",
+    "target": "崇"
+  },
+  {
+    "id": "宗->崇",
+    "source": "宗",
+    "target": "崇"
+  },
+  {
+    "id": "山->崎",
+    "source": "山",
+    "target": "崎"
+  },
+  {
+    "id": "奇->崎",
+    "source": "奇",
+    "target": "崎"
+  },
+  {
+    "id": "山->崖",
+    "source": "山",
+    "target": "崖"
+  },
+  {
+    "id": "山->崩",
+    "source": "山",
+    "target": "崩"
+  },
+  {
+    "id": "朋->崩",
+    "source": "朋",
+    "target": "崩"
+  },
+  {
+    "id": "山->嵐",
+    "source": "山",
+    "target": "嵐"
+  },
+  {
+    "id": "風->嵐",
+    "source": "風",
+    "target": "嵐"
+  },
+  {
+    "id": "果->巣",
+    "source": "果",
+    "target": "巣"
+  },
+  {
+    "id": "工->左",
+    "source": "工",
+    "target": "左"
+  },
+  {
+    "id": "工->巧",
+    "source": "工",
+    "target": "巧"
+  },
+  {
+    "id": "羊->差",
+    "source": "羊",
+    "target": "差"
+  },
+  {
+    "id": "己->巻",
+    "source": "己",
+    "target": "巻"
+  },
+  {
+    "id": "巾->市",
+    "source": "巾",
+    "target": "市"
+  },
+  {
+    "id": "巾->布",
+    "source": "巾",
+    "target": "布"
+  },
+  {
+    "id": "巾->帆",
+    "source": "巾",
+    "target": "帆"
+  },
+  {
+    "id": "凡->帆",
+    "source": "凡",
+    "target": "帆"
+  },
+  {
+    "id": "布->希",
+    "source": "布",
+    "target": "希"
+  },
+  {
+    "id": "巾->帝",
+    "source": "巾",
+    "target": "帝"
+  },
+  {
+    "id": "巾->帥",
+    "source": "巾",
+    "target": "帥"
+  },
+  {
+    "id": "刀->帰",
+    "source": "刀",
+    "target": "帰"
+  },
+  {
+    "id": "巾->帳",
+    "source": "巾",
+    "target": "帳"
+  },
+  {
+    "id": "長->帳",
+    "source": "長",
+    "target": "帳"
+  },
+  {
+    "id": "尚->常",
+    "source": "尚",
+    "target": "常"
+  },
+  {
+    "id": "巾->帽",
+    "source": "巾",
+    "target": "帽"
+  },
+  {
+    "id": "冒->帽",
+    "source": "冒",
+    "target": "帽"
+  },
+  {
+    "id": "巾->幅",
+    "source": "巾",
+    "target": "幅"
+  },
+  {
+    "id": "巾->幕",
+    "source": "巾",
+    "target": "幕"
+  },
+  {
+    "id": "巾->幣",
+    "source": "巾",
+    "target": "幣"
+  },
+  {
+    "id": "十->干",
+    "source": "十",
+    "target": "干"
+  },
+  {
+    "id": "干->平",
+    "source": "干",
+    "target": "平"
+  },
+  {
+    "id": "干->年",
+    "source": "干",
+    "target": "年"
+  },
+  {
+    "id": "土->幸",
+    "source": "土",
+    "target": "幸"
+  },
+  {
+    "id": "力->幼",
+    "source": "力",
+    "target": "幼"
+  },
+  {
+    "id": "山->幽",
+    "source": "山",
+    "target": "幽"
+  },
+  {
+    "id": "丁->庁",
+    "source": "丁",
+    "target": "庁"
+  },
+  {
+    "id": "木->床",
+    "source": "木",
+    "target": "床"
+  },
+  {
+    "id": "予->序",
+    "source": "予",
+    "target": "序"
+  },
+  {
+    "id": "占->店",
+    "source": "占",
+    "target": "店"
+  },
+  {
+    "id": "付->府",
+    "source": "付",
+    "target": "府"
+  },
+  {
+    "id": "車->庫",
+    "source": "車",
+    "target": "庫"
+  },
+  {
+    "id": "廷->庭",
+    "source": "廷",
+    "target": "庭"
+  },
+  {
+    "id": "発->廃",
+    "source": "発",
+    "target": "廃"
+  },
+  {
+    "id": "兼->廉",
+    "source": "兼",
+    "target": "廉"
+  },
+  {
+    "id": "郎->廊",
+    "source": "郎",
+    "target": "廊"
+  },
+  {
+    "id": "正->延",
+    "source": "正",
+    "target": "延"
+  },
+  {
+    "id": "玉->弄",
+    "source": "玉",
+    "target": "弄"
+  },
+  {
+    "id": "工->式",
+    "source": "工",
+    "target": "式"
+  },
+  {
+    "id": "一->弐",
+    "source": "一",
+    "target": "弐"
+  },
+  {
+    "id": "二->弐",
+    "source": "二",
+    "target": "弐"
+  },
+  {
+    "id": "弓->弔",
+    "source": "弓",
+    "target": "弔"
+  },
+  {
+    "id": "弓->引",
+    "source": "弓",
+    "target": "引"
+  },
+  {
+    "id": "八->弟",
+    "source": "八",
+    "target": "弟"
+  },
+  {
+    "id": "弓->弥",
+    "source": "弓",
+    "target": "弥"
+  },
+  {
+    "id": "弓->弦",
+    "source": "弓",
+    "target": "弦"
+  },
+  {
+    "id": "玄->弦",
+    "source": "玄",
+    "target": "弦"
+  },
+  {
+    "id": "弓->弧",
+    "source": "弓",
+    "target": "弧"
+  },
+  {
+    "id": "弓->弱",
+    "source": "弓",
+    "target": "弱"
+  },
+  {
+    "id": "弓->張",
+    "source": "弓",
+    "target": "張"
+  },
+  {
+    "id": "長->張",
+    "source": "長",
+    "target": "張"
+  },
+  {
+    "id": "弓->強",
+    "source": "弓",
+    "target": "強"
+  },
+  {
+    "id": "弓->弾",
+    "source": "弓",
+    "target": "弾"
+  },
+  {
+    "id": "単->弾",
+    "source": "単",
+    "target": "弾"
+  },
+  {
+    "id": "小->当",
+    "source": "小",
+    "target": "当"
+  },
+  {
+    "id": "采->彩",
+    "source": "采",
+    "target": "彩"
+  },
+  {
+    "id": "周->彫",
+    "source": "周",
+    "target": "彫"
+  },
+  {
+    "id": "章->彰",
+    "source": "章",
+    "target": "彰"
+  },
+  {
+    "id": "景->影",
+    "source": "景",
+    "target": "影"
+  },
+  {
+    "id": "皮->彼",
+    "source": "皮",
+    "target": "彼"
+  },
+  {
+    "id": "主->往",
+    "source": "主",
+    "target": "往"
+  },
+  {
+    "id": "正->征",
+    "source": "正",
+    "target": "征"
+  },
+  {
+    "id": "寺->待",
+    "source": "寺",
+    "target": "待"
+  },
+  {
+    "id": "余->徐",
+    "source": "余",
+    "target": "徐"
+  },
+  {
+    "id": "走->徒",
+    "source": "走",
+    "target": "徒"
+  },
+  {
+    "id": "卸->御",
+    "source": "卸",
+    "target": "御"
+  },
+  {
+    "id": "盾->循",
+    "source": "盾",
+    "target": "循"
+  },
+  {
+    "id": "心->必",
+    "source": "心",
+    "target": "必"
+  },
+  {
+    "id": "己->忌",
+    "source": "己",
+    "target": "忌"
+  },
+  {
+    "id": "心->忌",
+    "source": "心",
+    "target": "忌"
+  },
+  {
+    "id": "刃->忍",
+    "source": "刃",
+    "target": "忍"
+  },
+  {
+    "id": "心->忍",
+    "source": "心",
+    "target": "忍"
+  },
+  {
+    "id": "土->志",
+    "source": "土",
+    "target": "志"
+  },
+  {
+    "id": "心->志",
+    "source": "心",
+    "target": "志"
+  },
+  {
+    "id": "亡->忘",
+    "source": "亡",
+    "target": "忘"
+  },
+  {
+    "id": "心->忘",
+    "source": "心",
+    "target": "忘"
+  },
+  {
+    "id": "心->忙",
+    "source": "心",
+    "target": "忙"
+  },
+  {
+    "id": "亡->忙",
+    "source": "亡",
+    "target": "忙"
+  },
+  {
+    "id": "心->応",
+    "source": "心",
+    "target": "応"
+  },
+  {
+    "id": "中->忠",
+    "source": "中",
+    "target": "忠"
+  },
+  {
+    "id": "心->忠",
+    "source": "心",
+    "target": "忠"
+  },
+  {
+    "id": "心->快",
+    "source": "心",
+    "target": "快"
+  },
+  {
+    "id": "今->念",
+    "source": "今",
+    "target": "念"
+  },
+  {
+    "id": "心->念",
+    "source": "心",
+    "target": "念"
+  },
+  {
+    "id": "奴->怒",
+    "source": "奴",
+    "target": "怒"
+  },
+  {
+    "id": "心->怒",
+    "source": "心",
+    "target": "怒"
+  },
+  {
+    "id": "心->怖",
+    "source": "心",
+    "target": "怖"
+  },
+  {
+    "id": "布->怖",
+    "source": "布",
+    "target": "怖"
+  },
+  {
+    "id": "田->思",
+    "source": "田",
+    "target": "思"
+  },
+  {
+    "id": "心->思",
+    "source": "心",
+    "target": "思"
+  },
+  {
+    "id": "台->怠",
+    "source": "台",
+    "target": "怠"
+  },
+  {
+    "id": "心->怠",
+    "source": "心",
+    "target": "怠"
+  },
+  {
+    "id": "心->急",
+    "source": "心",
+    "target": "急"
+  },
+  {
+    "id": "心->性",
+    "source": "心",
+    "target": "性"
+  },
+  {
+    "id": "生->性",
+    "source": "生",
+    "target": "性"
+  },
+  {
+    "id": "心->怨",
+    "source": "心",
+    "target": "怨"
+  },
+  {
+    "id": "心->怪",
+    "source": "心",
+    "target": "怪"
+  },
+  {
+    "id": "亦->恋",
+    "source": "亦",
+    "target": "恋"
+  },
+  {
+    "id": "心->恋",
+    "source": "心",
+    "target": "恋"
+  },
+  {
+    "id": "心->恐",
+    "source": "心",
+    "target": "恐"
+  },
+  {
+    "id": "心->恒",
+    "source": "心",
+    "target": "恒"
+  },
+  {
+    "id": "亘->恒",
+    "source": "亘",
+    "target": "恒"
+  },
+  {
+    "id": "次->恣",
+    "source": "次",
+    "target": "恣"
+  },
+  {
+    "id": "心->恣",
+    "source": "心",
+    "target": "恣"
+  },
+  {
+    "id": "耳->恥",
+    "source": "耳",
+    "target": "恥"
+  },
+  {
+    "id": "心->恥",
+    "source": "心",
+    "target": "恥"
+  },
+  {
+    "id": "心->恨",
+    "source": "心",
+    "target": "恨"
+  },
+  {
+    "id": "因->恩",
+    "source": "因",
+    "target": "恩"
+  },
+  {
+    "id": "心->恩",
+    "source": "心",
+    "target": "恩"
+  },
+  {
+    "id": "共->恭",
+    "source": "共",
+    "target": "恭"
+  },
+  {
+    "id": "心->恭",
+    "source": "心",
+    "target": "恭"
+  },
+  {
+    "id": "自->息",
+    "source": "自",
+    "target": "息"
+  },
+  {
+    "id": "心->息",
+    "source": "心",
+    "target": "息"
+  },
+  {
+    "id": "心->恵",
+    "source": "心",
+    "target": "恵"
+  },
+  {
+    "id": "心->悔",
+    "source": "心",
+    "target": "悔"
+  },
+  {
+    "id": "毎->悔",
+    "source": "毎",
+    "target": "悔"
+  },
+  {
+    "id": "心->悟",
+    "source": "心",
+    "target": "悟"
+  },
+  {
+    "id": "吾->悟",
+    "source": "吾",
+    "target": "悟"
+  },
+  {
+    "id": "心->悠",
+    "source": "心",
+    "target": "悠"
+  },
+  {
+    "id": "串->患",
+    "source": "串",
+    "target": "患"
+  },
+  {
+    "id": "心->患",
+    "source": "心",
+    "target": "患"
+  },
+  {
+    "id": "心->悦",
+    "source": "心",
+    "target": "悦"
+  },
+  {
+    "id": "心->悩",
+    "source": "心",
+    "target": "悩"
+  },
+  {
+    "id": "亜->悪",
+    "source": "亜",
+    "target": "悪"
+  },
+  {
+    "id": "心->悪",
+    "source": "心",
+    "target": "悪"
+  },
+  {
+    "id": "非->悲",
+    "source": "非",
+    "target": "悲"
+  },
+  {
+    "id": "心->悲",
+    "source": "心",
+    "target": "悲"
+  },
+  {
+    "id": "心->悼",
+    "source": "心",
+    "target": "悼"
+  },
+  {
+    "id": "卓->悼",
+    "source": "卓",
+    "target": "悼"
+  },
+  {
+    "id": "心->情",
+    "source": "心",
+    "target": "情"
+  },
+  {
+    "id": "青->情",
+    "source": "青",
+    "target": "情"
+  },
+  {
+    "id": "心->惑",
+    "source": "心",
+    "target": "惑"
+  },
+  {
+    "id": "心->惜",
+    "source": "心",
+    "target": "惜"
+  },
+  {
+    "id": "昔->惜",
+    "source": "昔",
+    "target": "惜"
+  },
+  {
+    "id": "心->惧",
+    "source": "心",
+    "target": "惧"
+  },
+  {
+    "id": "具->惧",
+    "source": "具",
+    "target": "惧"
+  },
+  {
+    "id": "心->惨",
+    "source": "心",
+    "target": "惨"
+  },
+  {
+    "id": "参->惨",
+    "source": "参",
+    "target": "惨"
+  },
+  {
+    "id": "心->惰",
+    "source": "心",
+    "target": "惰"
+  },
+  {
+    "id": "相->想",
+    "source": "相",
+    "target": "想"
+  },
+  {
+    "id": "心->想",
+    "source": "心",
+    "target": "想"
+  },
+  {
+    "id": "秋->愁",
+    "source": "秋",
+    "target": "愁"
+  },
+  {
+    "id": "心->愁",
+    "source": "心",
+    "target": "愁"
+  },
+  {
+    "id": "心->愉",
+    "source": "心",
+    "target": "愉"
+  },
+  {
+    "id": "音->意",
+    "source": "音",
+    "target": "意"
+  },
+  {
+    "id": "心->意",
+    "source": "心",
+    "target": "意"
+  },
+  {
+    "id": "心->愚",
+    "source": "心",
+    "target": "愚"
+  },
+  {
+    "id": "爪->愛",
+    "source": "爪",
+    "target": "愛"
+  },
+  {
+    "id": "心->感",
+    "source": "心",
+    "target": "感"
+  },
+  {
+    "id": "心->慄",
+    "source": "心",
+    "target": "慄"
+  },
+  {
+    "id": "栗->慄",
+    "source": "栗",
+    "target": "慄"
+  },
+  {
+    "id": "心->慈",
+    "source": "心",
+    "target": "慈"
+  },
+  {
+    "id": "能->態",
+    "source": "能",
+    "target": "態"
+  },
+  {
+    "id": "心->態",
+    "source": "心",
+    "target": "態"
+  },
+  {
+    "id": "心->慌",
+    "source": "心",
+    "target": "慌"
+  },
+  {
+    "id": "荒->慌",
+    "source": "荒",
+    "target": "慌"
+  },
+  {
+    "id": "心->慎",
+    "source": "心",
+    "target": "慎"
+  },
+  {
+    "id": "真->慎",
+    "source": "真",
+    "target": "慎"
+  },
+  {
+    "id": "心->慕",
+    "source": "心",
+    "target": "慕"
+  },
+  {
+    "id": "心->慢",
+    "source": "心",
+    "target": "慢"
+  },
+  {
+    "id": "心->慣",
+    "source": "心",
+    "target": "慣"
+  },
+  {
+    "id": "貫->慣",
+    "source": "貫",
+    "target": "慣"
+  },
+  {
+    "id": "心->慨",
+    "source": "心",
+    "target": "慨"
+  },
+  {
+    "id": "既->慨",
+    "source": "既",
+    "target": "慨"
+  },
+  {
+    "id": "思->慮",
+    "source": "思",
+    "target": "慮"
+  },
+  {
+    "id": "尉->慰",
+    "source": "尉",
+    "target": "慰"
+  },
+  {
+    "id": "心->慰",
+    "source": "心",
+    "target": "慰"
+  },
+  {
+    "id": "心->憎",
+    "source": "心",
+    "target": "憎"
+  },
+  {
+    "id": "曽->憎",
+    "source": "曽",
+    "target": "憎"
+  },
+  {
+    "id": "心->憤",
+    "source": "心",
+    "target": "憤"
+  },
+  {
+    "id": "心->憧",
+    "source": "心",
+    "target": "憧"
+  },
+  {
+    "id": "童->憧",
+    "source": "童",
+    "target": "憧"
+  },
+  {
+    "id": "息->憩",
+    "source": "息",
+    "target": "憩"
+  },
+  {
+    "id": "心->憬",
+    "source": "心",
+    "target": "憬"
+  },
+  {
+    "id": "景->憬",
+    "source": "景",
+    "target": "憬"
+  },
+  {
+    "id": "心->憲",
+    "source": "心",
+    "target": "憲"
+  },
+  {
+    "id": "心->憶",
+    "source": "心",
+    "target": "憶"
+  },
+  {
+    "id": "意->憶",
+    "source": "意",
+    "target": "憶"
+  },
+  {
+    "id": "心->憾",
+    "source": "心",
+    "target": "憾"
+  },
+  {
+    "id": "感->憾",
+    "source": "感",
+    "target": "憾"
+  },
+  {
+    "id": "心->懇",
+    "source": "心",
+    "target": "懇"
+  },
+  {
+    "id": "心->懐",
+    "source": "心",
+    "target": "懐"
+  },
+  {
+    "id": "徴->懲",
+    "source": "徴",
+    "target": "懲"
+  },
+  {
+    "id": "心->懲",
+    "source": "心",
+    "target": "懲"
+  },
+  {
+    "id": "心->懸",
+    "source": "心",
+    "target": "懸"
+  },
+  {
+    "id": "単->戦",
+    "source": "単",
+    "target": "戦"
+  },
+  {
+    "id": "虚->戯",
+    "source": "虚",
+    "target": "戯"
+  },
+  {
+    "id": "異->戴",
+    "source": "異",
+    "target": "戴"
+  },
+  {
+    "id": "戸->戻",
+    "source": "戸",
+    "target": "戻"
+  },
+  {
+    "id": "大->戻",
+    "source": "大",
+    "target": "戻"
+  },
+  {
+    "id": "戸->房",
+    "source": "戸",
+    "target": "房"
+  },
+  {
+    "id": "方->房",
+    "source": "方",
+    "target": "房"
+  },
+  {
+    "id": "戸->所",
+    "source": "戸",
+    "target": "所"
+  },
+  {
+    "id": "斤->所",
+    "source": "斤",
+    "target": "所"
+  },
+  {
+    "id": "戸->扇",
+    "source": "戸",
+    "target": "扇"
+  },
+  {
+    "id": "羽->扇",
+    "source": "羽",
+    "target": "扇"
+  },
+  {
+    "id": "戸->扉",
+    "source": "戸",
+    "target": "扉"
+  },
+  {
+    "id": "非->扉",
+    "source": "非",
+    "target": "扉"
+  },
+  {
+    "id": "手->才",
+    "source": "手",
+    "target": "才"
+  },
+  {
+    "id": "手->打",
+    "source": "手",
+    "target": "打"
+  },
+  {
+    "id": "丁->打",
+    "source": "丁",
+    "target": "打"
+  },
+  {
+    "id": "手->払",
+    "source": "手",
+    "target": "払"
+  },
+  {
+    "id": "手->扱",
+    "source": "手",
+    "target": "扱"
+  },
+  {
+    "id": "及->扱",
+    "source": "及",
+    "target": "扱"
+  },
+  {
+    "id": "手->扶",
+    "source": "手",
+    "target": "扶"
+  },
+  {
+    "id": "夫->扶",
+    "source": "夫",
+    "target": "扶"
+  },
+  {
+    "id": "手->批",
+    "source": "手",
+    "target": "批"
+  },
+  {
+    "id": "比->批",
+    "source": "比",
+    "target": "批"
+  },
+  {
+    "id": "了->承",
+    "source": "了",
+    "target": "承"
+  },
+  {
+    "id": "三->承",
+    "source": "三",
+    "target": "承"
+  },
+  {
+    "id": "水->承",
+    "source": "水",
+    "target": "承"
+  },
+  {
+    "id": "手->技",
+    "source": "手",
+    "target": "技"
+  },
+  {
+    "id": "支->技",
+    "source": "支",
+    "target": "技"
+  },
+  {
+    "id": "手->抄",
+    "source": "手",
+    "target": "抄"
+  },
+  {
+    "id": "少->抄",
+    "source": "少",
+    "target": "抄"
+  },
+  {
+    "id": "手->把",
+    "source": "手",
+    "target": "把"
+  },
+  {
+    "id": "巴->把",
+    "source": "巴",
+    "target": "把"
+  },
+  {
+    "id": "手->抑",
+    "source": "手",
+    "target": "抑"
+  },
+  {
+    "id": "手->投",
+    "source": "手",
+    "target": "投"
+  },
+  {
+    "id": "手->抗",
+    "source": "手",
+    "target": "抗"
+  },
+  {
+    "id": "手->折",
+    "source": "手",
+    "target": "折"
+  },
+  {
+    "id": "斤->折",
+    "source": "斤",
+    "target": "折"
+  },
+  {
+    "id": "手->抜",
+    "source": "手",
+    "target": "抜"
+  },
+  {
+    "id": "友->抜",
+    "source": "友",
+    "target": "抜"
+  },
+  {
+    "id": "手->択",
+    "source": "手",
+    "target": "択"
+  },
+  {
+    "id": "尺->択",
+    "source": "尺",
+    "target": "択"
+  },
+  {
+    "id": "手->披",
+    "source": "手",
+    "target": "披"
+  },
+  {
+    "id": "皮->披",
+    "source": "皮",
+    "target": "披"
+  },
+  {
+    "id": "手->抱",
+    "source": "手",
+    "target": "抱"
+  },
+  {
+    "id": "包->抱",
+    "source": "包",
+    "target": "抱"
+  },
+  {
+    "id": "手->抵",
+    "source": "手",
+    "target": "抵"
+  },
+  {
+    "id": "手->抹",
+    "source": "手",
+    "target": "抹"
+  },
+  {
+    "id": "末->抹",
+    "source": "末",
+    "target": "抹"
+  },
+  {
+    "id": "手->押",
+    "source": "手",
+    "target": "押"
+  },
+  {
+    "id": "甲->押",
+    "source": "甲",
+    "target": "押"
+  },
+  {
+    "id": "手->抽",
+    "source": "手",
+    "target": "抽"
+  },
+  {
+    "id": "由->抽",
+    "source": "由",
+    "target": "抽"
+  },
+  {
+    "id": "手->担",
+    "source": "手",
+    "target": "担"
+  },
+  {
+    "id": "旦->担",
+    "source": "旦",
+    "target": "担"
+  },
+  {
+    "id": "手->拉",
+    "source": "手",
+    "target": "拉"
+  },
+  {
+    "id": "立->拉",
+    "source": "立",
+    "target": "拉"
+  },
+  {
+    "id": "手->拍",
+    "source": "手",
+    "target": "拍"
+  },
+  {
+    "id": "白->拍",
+    "source": "白",
+    "target": "拍"
+  },
+  {
+    "id": "手->拐",
+    "source": "手",
+    "target": "拐"
+  },
+  {
+    "id": "手->拒",
+    "source": "手",
+    "target": "拒"
+  },
+  {
+    "id": "巨->拒",
+    "source": "巨",
+    "target": "拒"
+  },
+  {
+    "id": "手->拓",
+    "source": "手",
+    "target": "拓"
+  },
+  {
+    "id": "石->拓",
+    "source": "石",
+    "target": "拓"
+  },
+  {
+    "id": "手->拘",
+    "source": "手",
+    "target": "拘"
+  },
+  {
+    "id": "句->拘",
+    "source": "句",
+    "target": "拘"
+  },
+  {
+    "id": "手->拙",
+    "source": "手",
+    "target": "拙"
+  },
+  {
+    "id": "出->拙",
+    "source": "出",
+    "target": "拙"
+  },
+  {
+    "id": "手->招",
+    "source": "手",
+    "target": "招"
+  },
+  {
+    "id": "召->招",
+    "source": "召",
+    "target": "招"
+  },
+  {
+    "id": "手->拝",
+    "source": "手",
+    "target": "拝"
+  },
+  {
+    "id": "手->拠",
+    "source": "手",
+    "target": "拠"
+  },
+  {
+    "id": "処->拠",
+    "source": "処",
+    "target": "拠"
+  },
+  {
+    "id": "手->拡",
+    "source": "手",
+    "target": "拡"
+  },
+  {
+    "id": "広->拡",
+    "source": "広",
+    "target": "拡"
+  },
+  {
+    "id": "手->括",
+    "source": "手",
+    "target": "括"
+  },
+  {
+    "id": "舌->括",
+    "source": "舌",
+    "target": "括"
+  },
+  {
+    "id": "手->拭",
+    "source": "手",
+    "target": "拭"
+  },
+  {
+    "id": "式->拭",
+    "source": "式",
+    "target": "拭"
+  },
+  {
+    "id": "手->拳",
+    "source": "手",
+    "target": "拳"
+  },
+  {
+    "id": "手->拶",
+    "source": "手",
+    "target": "拶"
+  },
+  {
+    "id": "手->拷",
+    "source": "手",
+    "target": "拷"
+  },
+  {
+    "id": "考->拷",
+    "source": "考",
+    "target": "拷"
+  },
+  {
+    "id": "手->拾",
+    "source": "手",
+    "target": "拾"
+  },
+  {
+    "id": "合->拾",
+    "source": "合",
+    "target": "拾"
+  },
+  {
+    "id": "手->持",
+    "source": "手",
+    "target": "持"
+  },
+  {
+    "id": "寺->持",
+    "source": "寺",
+    "target": "持"
+  },
+  {
+    "id": "手->指",
+    "source": "手",
+    "target": "指"
+  },
+  {
+    "id": "旨->指",
+    "source": "旨",
+    "target": "指"
+  },
+  {
+    "id": "手->挑",
+    "source": "手",
+    "target": "挑"
+  },
+  {
+    "id": "兆->挑",
+    "source": "兆",
+    "target": "挑"
+  },
+  {
+    "id": "手->挙",
+    "source": "手",
+    "target": "挙"
+  },
+  {
+    "id": "手->挟",
+    "source": "手",
+    "target": "挟"
+  },
+  {
+    "id": "手->挨",
+    "source": "手",
+    "target": "挨"
+  },
+  {
+    "id": "手->挫",
+    "source": "手",
+    "target": "挫"
+  },
+  {
+    "id": "手->振",
+    "source": "手",
+    "target": "振"
+  },
+  {
+    "id": "辰->振",
+    "source": "辰",
+    "target": "振"
+  },
+  {
+    "id": "手->挿",
+    "source": "手",
+    "target": "挿"
+  },
+  {
+    "id": "手->捉",
+    "source": "手",
+    "target": "捉"
+  },
+  {
+    "id": "足->捉",
+    "source": "足",
+    "target": "捉"
+  },
+  {
+    "id": "手->捕",
+    "source": "手",
+    "target": "捕"
+  },
+  {
+    "id": "甫->捕",
+    "source": "甫",
+    "target": "捕"
+  },
+  {
+    "id": "手->捗",
+    "source": "手",
+    "target": "捗"
+  },
+  {
+    "id": "歩->捗",
+    "source": "歩",
+    "target": "捗"
+  },
+  {
+    "id": "手->捜",
+    "source": "手",
+    "target": "捜"
+  },
+  {
+    "id": "手->捨",
+    "source": "手",
+    "target": "捨"
+  },
+  {
+    "id": "舎->捨",
+    "source": "舎",
+    "target": "捨"
+  },
+  {
+    "id": "手->据",
+    "source": "手",
+    "target": "据"
+  },
+  {
+    "id": "居->据",
+    "source": "居",
+    "target": "据"
+  },
+  {
+    "id": "手->捻",
+    "source": "手",
+    "target": "捻"
+  },
+  {
+    "id": "念->捻",
+    "source": "念",
+    "target": "捻"
+  },
+  {
+    "id": "手->掃",
+    "source": "手",
+    "target": "掃"
+  },
+  {
+    "id": "手->授",
+    "source": "手",
+    "target": "授"
+  },
+  {
+    "id": "受->授",
+    "source": "受",
+    "target": "授"
+  },
+  {
+    "id": "尚->掌",
+    "source": "尚",
+    "target": "掌"
+  },
+  {
+    "id": "手->掌",
+    "source": "手",
+    "target": "掌"
+  },
+  {
+    "id": "手->排",
+    "source": "手",
+    "target": "排"
+  },
+  {
+    "id": "非->排",
+    "source": "非",
+    "target": "排"
+  },
+  {
+    "id": "手->掘",
+    "source": "手",
+    "target": "掘"
+  },
+  {
+    "id": "屈->掘",
+    "source": "屈",
+    "target": "掘"
+  },
+  {
+    "id": "手->掛",
+    "source": "手",
+    "target": "掛"
+  },
+  {
+    "id": "手->採",
+    "source": "手",
+    "target": "採"
+  },
+  {
+    "id": "采->採",
+    "source": "采",
+    "target": "採"
+  },
+  {
+    "id": "手->探",
+    "source": "手",
+    "target": "探"
+  },
+  {
+    "id": "手->接",
+    "source": "手",
+    "target": "接"
+  },
+  {
+    "id": "手->控",
+    "source": "手",
+    "target": "控"
+  },
+  {
+    "id": "空->控",
+    "source": "空",
+    "target": "控"
+  },
+  {
+    "id": "手->推",
+    "source": "手",
+    "target": "推"
+  },
+  {
+    "id": "手->措",
+    "source": "手",
+    "target": "措"
+  },
+  {
+    "id": "昔->措",
+    "source": "昔",
+    "target": "措"
+  },
+  {
+    "id": "手->掲",
+    "source": "手",
+    "target": "掲"
+  },
+  {
+    "id": "手->描",
+    "source": "手",
+    "target": "描"
+  },
+  {
+    "id": "苗->描",
+    "source": "苗",
+    "target": "描"
+  },
+  {
+    "id": "手->提",
+    "source": "手",
+    "target": "提"
+  },
+  {
+    "id": "是->提",
+    "source": "是",
+    "target": "提"
+  },
+  {
+    "id": "手->揚",
+    "source": "手",
+    "target": "揚"
+  },
+  {
+    "id": "手->換",
+    "source": "手",
+    "target": "換"
+  },
+  {
+    "id": "手->握",
+    "source": "手",
+    "target": "握"
+  },
+  {
+    "id": "屋->握",
+    "source": "屋",
+    "target": "握"
+  },
+  {
+    "id": "手->揮",
+    "source": "手",
+    "target": "揮"
+  },
+  {
+    "id": "軍->揮",
+    "source": "軍",
+    "target": "揮"
+  },
+  {
+    "id": "手->援",
+    "source": "手",
+    "target": "援"
+  },
+  {
+    "id": "手->揺",
+    "source": "手",
+    "target": "揺"
+  },
+  {
+    "id": "手->損",
+    "source": "手",
+    "target": "損"
+  },
+  {
+    "id": "員->損",
+    "source": "員",
+    "target": "損"
+  },
+  {
+    "id": "手->搬",
+    "source": "手",
+    "target": "搬"
+  },
+  {
+    "id": "般->搬",
+    "source": "般",
+    "target": "搬"
+  },
+  {
+    "id": "手->搭",
+    "source": "手",
+    "target": "搭"
+  },
+  {
+    "id": "手->携",
+    "source": "手",
+    "target": "携"
+  },
+  {
+    "id": "手->搾",
+    "source": "手",
+    "target": "搾"
+  },
+  {
+    "id": "手->摂",
+    "source": "手",
+    "target": "摂"
+  },
+  {
+    "id": "手->摘",
+    "source": "手",
+    "target": "摘"
+  },
+  {
+    "id": "麻->摩",
+    "source": "麻",
+    "target": "摩"
+  },
+  {
+    "id": "手->摩",
+    "source": "手",
+    "target": "摩"
+  },
+  {
+    "id": "執->摯",
+    "source": "執",
+    "target": "摯"
+  },
+  {
+    "id": "手->摯",
+    "source": "手",
+    "target": "摯"
+  },
+  {
+    "id": "手->撃",
+    "source": "手",
+    "target": "撃"
+  },
+  {
+    "id": "手->撤",
+    "source": "手",
+    "target": "撤"
+  },
+  {
+    "id": "手->撮",
+    "source": "手",
+    "target": "撮"
+  },
+  {
+    "id": "最->撮",
+    "source": "最",
+    "target": "撮"
+  },
+  {
+    "id": "手->撲",
+    "source": "手",
+    "target": "撲"
+  },
+  {
+    "id": "手->擁",
+    "source": "手",
+    "target": "擁"
+  },
+  {
+    "id": "手->操",
+    "source": "手",
+    "target": "操"
+  },
+  {
+    "id": "手->擦",
+    "source": "手",
+    "target": "擦"
+  },
+  {
+    "id": "察->擦",
+    "source": "察",
+    "target": "擦"
+  },
+  {
+    "id": "手->擬",
+    "source": "手",
+    "target": "擬"
+  },
+  {
+    "id": "疑->擬",
+    "source": "疑",
+    "target": "擬"
+  },
+  {
+    "id": "十->支",
+    "source": "十",
+    "target": "支"
+  },
+  {
+    "id": "又->支",
+    "source": "又",
+    "target": "支"
+  },
+  {
+    "id": "己->改",
+    "source": "己",
+    "target": "改"
+  },
+  {
+    "id": "工->攻",
+    "source": "工",
+    "target": "攻"
+  },
+  {
+    "id": "方->放",
+    "source": "方",
+    "target": "放"
+  },
+  {
+    "id": "正->政",
+    "source": "正",
+    "target": "政"
+  },
+  {
+    "id": "古->故",
+    "source": "古",
+    "target": "故"
+  },
+  {
+    "id": "毎->敏",
+    "source": "毎",
+    "target": "敏"
+  },
+  {
+    "id": "求->救",
+    "source": "求",
+    "target": "救"
+  },
+  {
+    "id": "貝->敗",
+    "source": "貝",
+    "target": "敗"
+  },
+  {
+    "id": "孝->教",
+    "source": "孝",
+    "target": "教"
+  },
+  {
+    "id": "正->整",
+    "source": "正",
+    "target": "整"
+  },
+  {
+    "id": "文->斉",
+    "source": "文",
+    "target": "斉"
+  },
+  {
+    "id": "玉->斑",
+    "source": "玉",
+    "target": "斑"
+  },
+  {
+    "id": "米->料",
+    "source": "米",
+    "target": "料"
+  },
+  {
+    "id": "斗->料",
+    "source": "斗",
+    "target": "料"
+  },
+  {
+    "id": "余->斜",
+    "source": "余",
+    "target": "斜"
+  },
+  {
+    "id": "斗->斜",
+    "source": "斗",
+    "target": "斜"
+  },
+  {
+    "id": "斤->斥",
+    "source": "斤",
+    "target": "斥"
+  },
+  {
+    "id": "車->斬",
+    "source": "車",
+    "target": "斬"
+  },
+  {
+    "id": "斤->斬",
+    "source": "斤",
+    "target": "斬"
+  },
+  {
+    "id": "斤->断",
+    "source": "斤",
+    "target": "断"
+  },
+  {
+    "id": "斤->新",
+    "source": "斤",
+    "target": "新"
+  },
+  {
+    "id": "方->施",
+    "source": "方",
+    "target": "施"
+  },
+  {
+    "id": "方->旅",
+    "source": "方",
+    "target": "旅"
+  },
+  {
+    "id": "方->旋",
+    "source": "方",
+    "target": "旋"
+  },
+  {
+    "id": "方->族",
+    "source": "方",
+    "target": "族"
+  },
+  {
+    "id": "方->旗",
+    "source": "方",
+    "target": "旗"
+  },
+  {
+    "id": "日->旦",
+    "source": "日",
+    "target": "旦"
+  },
+  {
+    "id": "一->旦",
+    "source": "一",
+    "target": "旦"
+  },
+  {
+    "id": "日->旧",
+    "source": "日",
+    "target": "旧"
+  },
+  {
+    "id": "日->旨",
+    "source": "日",
+    "target": "旨"
+  },
+  {
+    "id": "日->早",
+    "source": "日",
+    "target": "早"
+  },
+  {
+    "id": "十->早",
+    "source": "十",
+    "target": "早"
+  },
+  {
+    "id": "日->旬",
+    "source": "日",
+    "target": "旬"
+  },
+  {
+    "id": "日->旺",
+    "source": "日",
+    "target": "旺"
+  },
+  {
+    "id": "玉->旺",
+    "source": "玉",
+    "target": "旺"
+  },
+  {
+    "id": "日->昆",
+    "source": "日",
+    "target": "昆"
+  },
+  {
+    "id": "比->昆",
+    "source": "比",
+    "target": "昆"
+  },
+  {
+    "id": "日->昇",
+    "source": "日",
+    "target": "昇"
+  },
+  {
+    "id": "升->昇",
+    "source": "升",
+    "target": "昇"
+  },
+  {
+    "id": "日->明",
+    "source": "日",
+    "target": "明"
+  },
+  {
+    "id": "月->明",
+    "source": "月",
+    "target": "明"
+  },
+  {
+    "id": "日->易",
+    "source": "日",
+    "target": "易"
+  },
+  {
+    "id": "日->昔",
+    "source": "日",
+    "target": "昔"
+  },
+  {
+    "id": "日->星",
+    "source": "日",
+    "target": "星"
+  },
+  {
+    "id": "生->星",
+    "source": "生",
+    "target": "星"
+  },
+  {
+    "id": "日->映",
+    "source": "日",
+    "target": "映"
+  },
+  {
+    "id": "央->映",
+    "source": "央",
+    "target": "映"
+  },
+  {
+    "id": "日->春",
+    "source": "日",
+    "target": "春"
+  },
+  {
+    "id": "日->昧",
+    "source": "日",
+    "target": "昧"
+  },
+  {
+    "id": "未->昧",
+    "source": "未",
+    "target": "昧"
+  },
+  {
+    "id": "日->昨",
+    "source": "日",
+    "target": "昨"
+  },
+  {
+    "id": "日->昭",
+    "source": "日",
+    "target": "昭"
+  },
+  {
+    "id": "召->昭",
+    "source": "召",
+    "target": "昭"
+  },
+  {
+    "id": "日->是",
+    "source": "日",
+    "target": "是"
+  },
+  {
+    "id": "尺->昼",
+    "source": "尺",
+    "target": "昼"
+  },
+  {
+    "id": "旦->昼",
+    "source": "旦",
+    "target": "昼"
+  },
+  {
+    "id": "日->時",
+    "source": "日",
+    "target": "時"
+  },
+  {
+    "id": "寺->時",
+    "source": "寺",
+    "target": "時"
+  },
+  {
+    "id": "日->晩",
+    "source": "日",
+    "target": "晩"
+  },
+  {
+    "id": "免->晩",
+    "source": "免",
+    "target": "晩"
+  },
+  {
+    "id": "並->普",
+    "source": "並",
+    "target": "普"
+  },
+  {
+    "id": "日->普",
+    "source": "日",
+    "target": "普"
+  },
+  {
+    "id": "日->景",
+    "source": "日",
+    "target": "景"
+  },
+  {
+    "id": "京->景",
+    "source": "京",
+    "target": "景"
+  },
+  {
+    "id": "日->晴",
+    "source": "日",
+    "target": "晴"
+  },
+  {
+    "id": "青->晴",
+    "source": "青",
+    "target": "晴"
+  },
+  {
+    "id": "日->晶",
+    "source": "日",
+    "target": "晶"
+  },
+  {
+    "id": "日->暁",
+    "source": "日",
+    "target": "暁"
+  },
+  {
+    "id": "尭->暁",
+    "source": "尭",
+    "target": "暁"
+  },
+  {
+    "id": "日->暇",
+    "source": "日",
+    "target": "暇"
+  },
+  {
+    "id": "日->暑",
+    "source": "日",
+    "target": "暑"
+  },
+  {
+    "id": "者->暑",
+    "source": "者",
+    "target": "暑"
+  },
+  {
+    "id": "日->暖",
+    "source": "日",
+    "target": "暖"
+  },
+  {
+    "id": "日->暗",
+    "source": "日",
+    "target": "暗"
+  },
+  {
+    "id": "音->暗",
+    "source": "音",
+    "target": "暗"
+  },
+  {
+    "id": "斬->暫",
+    "source": "斬",
+    "target": "暫"
+  },
+  {
+    "id": "日->暫",
+    "source": "日",
+    "target": "暫"
+  },
+  {
+    "id": "日->暮",
+    "source": "日",
+    "target": "暮"
+  },
+  {
+    "id": "日->暴",
+    "source": "日",
+    "target": "暴"
+  },
+  {
+    "id": "日->曇",
+    "source": "日",
+    "target": "曇"
+  },
+  {
+    "id": "雲->曇",
+    "source": "雲",
+    "target": "曇"
+  },
+  {
+    "id": "日->曖",
+    "source": "日",
+    "target": "曖"
+  },
+  {
+    "id": "愛->曖",
+    "source": "愛",
+    "target": "曖"
+  },
+  {
+    "id": "日->曜",
+    "source": "日",
+    "target": "曜"
+  },
+  {
+    "id": "一->更",
+    "source": "一",
+    "target": "更"
+  },
+  {
+    "id": "日->曽",
+    "source": "日",
+    "target": "曽"
+  },
+  {
+    "id": "取->最",
+    "source": "取",
+    "target": "最"
+  },
+  {
+    "id": "肉->有",
+    "source": "肉",
+    "target": "有"
+  },
+  {
+    "id": "肉->服",
+    "source": "肉",
+    "target": "服"
+  },
+  {
+    "id": "肉->朕",
+    "source": "肉",
+    "target": "朕"
+  },
+  {
+    "id": "良->朗",
+    "source": "良",
+    "target": "朗"
+  },
+  {
+    "id": "肉->朗",
+    "source": "肉",
+    "target": "朗"
+  },
+  {
+    "id": "玉->望",
+    "source": "玉",
+    "target": "望"
+  },
+  {
+    "id": "肉->朝",
+    "source": "肉",
+    "target": "朝"
+  },
+  {
+    "id": "月->期",
+    "source": "月",
+    "target": "期"
+  },
+  {
+    "id": "木->未",
+    "source": "木",
+    "target": "未"
+  },
+  {
+    "id": "木->末",
+    "source": "木",
+    "target": "末"
+  },
+  {
+    "id": "木->本",
+    "source": "木",
+    "target": "本"
+  },
+  {
+    "id": "木->札",
+    "source": "木",
+    "target": "札"
+  },
+  {
+    "id": "乙->札",
+    "source": "乙",
+    "target": "札"
+  },
+  {
+    "id": "未->朱",
+    "source": "未",
+    "target": "朱"
+  },
+  {
+    "id": "木->朴",
+    "source": "木",
+    "target": "朴"
+  },
+  {
+    "id": "木->机",
+    "source": "木",
+    "target": "机"
+  },
+  {
+    "id": "木->朽",
+    "source": "木",
+    "target": "朽"
+  },
+  {
+    "id": "木->杉",
+    "source": "木",
+    "target": "杉"
+  },
+  {
+    "id": "木->材",
+    "source": "木",
+    "target": "材"
+  },
+  {
+    "id": "才->材",
+    "source": "才",
+    "target": "材"
+  },
+  {
+    "id": "木->村",
+    "source": "木",
+    "target": "村"
+  },
+  {
+    "id": "寸->村",
+    "source": "寸",
+    "target": "村"
+  },
+  {
+    "id": "木->束",
+    "source": "木",
+    "target": "束"
+  },
+  {
+    "id": "口->束",
+    "source": "口",
+    "target": "束"
+  },
+  {
+    "id": "木->条",
+    "source": "木",
+    "target": "条"
+  },
+  {
+    "id": "米->来",
+    "source": "米",
+    "target": "来"
+  },
+  {
+    "id": "木->杯",
+    "source": "木",
+    "target": "杯"
+  },
+  {
+    "id": "不->杯",
+    "source": "不",
+    "target": "杯"
+  },
+  {
+    "id": "木->東",
+    "source": "木",
+    "target": "東"
+  },
+  {
+    "id": "日->東",
+    "source": "日",
+    "target": "東"
+  },
+  {
+    "id": "木->松",
+    "source": "木",
+    "target": "松"
+  },
+  {
+    "id": "公->松",
+    "source": "公",
+    "target": "松"
+  },
+  {
+    "id": "木->板",
+    "source": "木",
+    "target": "板"
+  },
+  {
+    "id": "反->板",
+    "source": "反",
+    "target": "板"
+  },
+  {
+    "id": "木->析",
+    "source": "木",
+    "target": "析"
+  },
+  {
+    "id": "斤->析",
+    "source": "斤",
+    "target": "析"
+  },
+  {
+    "id": "木->枕",
+    "source": "木",
+    "target": "枕"
+  },
+  {
+    "id": "木->林",
+    "source": "木",
+    "target": "林"
+  },
+  {
+    "id": "木->枚",
+    "source": "木",
+    "target": "枚"
+  },
+  {
+    "id": "田->果",
+    "source": "田",
+    "target": "果"
+  },
+  {
+    "id": "木->果",
+    "source": "木",
+    "target": "果"
+  },
+  {
+    "id": "木->枝",
+    "source": "木",
+    "target": "枝"
+  },
+  {
+    "id": "支->枝",
+    "source": "支",
+    "target": "枝"
+  },
+  {
+    "id": "木->枠",
+    "source": "木",
+    "target": "枠"
+  },
+  {
+    "id": "木->枢",
+    "source": "木",
+    "target": "枢"
+  },
+  {
+    "id": "区->枢",
+    "source": "区",
+    "target": "枢"
+  },
+  {
+    "id": "木->枯",
+    "source": "木",
+    "target": "枯"
+  },
+  {
+    "id": "古->枯",
+    "source": "古",
+    "target": "枯"
+  },
+  {
+    "id": "加->架",
+    "source": "加",
+    "target": "架"
+  },
+  {
+    "id": "木->架",
+    "source": "木",
+    "target": "架"
+  },
+  {
+    "id": "木->柄",
+    "source": "木",
+    "target": "柄"
+  },
+  {
+    "id": "丙->柄",
+    "source": "丙",
+    "target": "柄"
+  },
+  {
+    "id": "甘->某",
+    "source": "甘",
+    "target": "某"
+  },
+  {
+    "id": "木->某",
+    "source": "木",
+    "target": "某"
+  },
+  {
+    "id": "木->染",
+    "source": "木",
+    "target": "染"
+  },
+  {
+    "id": "矛->柔",
+    "source": "矛",
+    "target": "柔"
+  },
+  {
+    "id": "木->柔",
+    "source": "木",
+    "target": "柔"
+  },
+  {
+    "id": "木->柱",
+    "source": "木",
+    "target": "柱"
+  },
+  {
+    "id": "主->柱",
+    "source": "主",
+    "target": "柱"
+  },
+  {
+    "id": "木->柳",
+    "source": "木",
+    "target": "柳"
+  },
+  {
+    "id": "卯->柳",
+    "source": "卯",
+    "target": "柳"
+  },
+  {
+    "id": "木->柵",
+    "source": "木",
+    "target": "柵"
+  },
+  {
+    "id": "冊->柵",
+    "source": "冊",
+    "target": "柵"
+  },
+  {
+    "id": "木->査",
+    "source": "木",
+    "target": "査"
+  },
+  {
+    "id": "且->査",
+    "source": "且",
+    "target": "査"
+  },
+  {
+    "id": "木->柿",
+    "source": "木",
+    "target": "柿"
+  },
+  {
+    "id": "市->柿",
+    "source": "市",
+    "target": "柿"
+  },
+  {
+    "id": "木->栃",
+    "source": "木",
+    "target": "栃"
+  },
+  {
+    "id": "木->栄",
+    "source": "木",
+    "target": "栄"
+  },
+  {
+    "id": "木->栓",
+    "source": "木",
+    "target": "栓"
+  },
+  {
+    "id": "全->栓",
+    "source": "全",
+    "target": "栓"
+  },
+  {
+    "id": "木->校",
+    "source": "木",
+    "target": "校"
+  },
+  {
+    "id": "交->校",
+    "source": "交",
+    "target": "校"
+  },
+  {
+    "id": "木->株",
+    "source": "木",
+    "target": "株"
+  },
+  {
+    "id": "朱->株",
+    "source": "朱",
+    "target": "株"
+  },
+  {
+    "id": "木->核",
+    "source": "木",
+    "target": "核"
+  },
+  {
+    "id": "亥->核",
+    "source": "亥",
+    "target": "核"
+  },
+  {
+    "id": "木->根",
+    "source": "木",
+    "target": "根"
+  },
+  {
+    "id": "木->格",
+    "source": "木",
+    "target": "格"
+  },
+  {
+    "id": "各->格",
+    "source": "各",
+    "target": "格"
+  },
+  {
+    "id": "木->栽",
+    "source": "木",
+    "target": "栽"
+  },
+  {
+    "id": "木->桁",
+    "source": "木",
+    "target": "桁"
+  },
+  {
+    "id": "行->桁",
+    "source": "行",
+    "target": "桁"
+  },
+  {
+    "id": "木->桃",
+    "source": "木",
+    "target": "桃"
+  },
+  {
+    "id": "兆->桃",
+    "source": "兆",
+    "target": "桃"
+  },
+  {
+    "id": "安->案",
+    "source": "安",
+    "target": "案"
+  },
+  {
+    "id": "木->案",
+    "source": "木",
+    "target": "案"
+  },
+  {
+    "id": "木->桑",
+    "source": "木",
+    "target": "桑"
+  },
+  {
+    "id": "木->桜",
+    "source": "木",
+    "target": "桜"
+  },
+  {
+    "id": "木->桟",
+    "source": "木",
+    "target": "桟"
+  },
+  {
+    "id": "木->梅",
+    "source": "木",
+    "target": "梅"
+  },
+  {
+    "id": "毎->梅",
+    "source": "毎",
+    "target": "梅"
+  },
+  {
+    "id": "木->梗",
+    "source": "木",
+    "target": "梗"
+  },
+  {
+    "id": "更->梗",
+    "source": "更",
+    "target": "梗"
+  },
+  {
+    "id": "利->梨",
+    "source": "利",
+    "target": "梨"
+  },
+  {
+    "id": "木->梨",
+    "source": "木",
+    "target": "梨"
+  },
+  {
+    "id": "木->械",
+    "source": "木",
+    "target": "械"
+  },
+  {
+    "id": "戒->械",
+    "source": "戒",
+    "target": "械"
+  },
+  {
+    "id": "木->棄",
+    "source": "木",
+    "target": "棄"
+  },
+  {
+    "id": "木->棋",
+    "source": "木",
+    "target": "棋"
+  },
+  {
+    "id": "木->棒",
+    "source": "木",
+    "target": "棒"
+  },
+  {
+    "id": "奉->棒",
+    "source": "奉",
+    "target": "棒"
+  },
+  {
+    "id": "木->棚",
+    "source": "木",
+    "target": "棚"
+  },
+  {
+    "id": "朋->棚",
+    "source": "朋",
+    "target": "棚"
+  },
+  {
+    "id": "木->棟",
+    "source": "木",
+    "target": "棟"
+  },
+  {
+    "id": "東->棟",
+    "source": "東",
+    "target": "棟"
+  },
+  {
+    "id": "木->森",
+    "source": "木",
+    "target": "森"
+  },
+  {
+    "id": "林->森",
+    "source": "林",
+    "target": "森"
+  },
+  {
+    "id": "木->棺",
+    "source": "木",
+    "target": "棺"
+  },
+  {
+    "id": "官->棺",
+    "source": "官",
+    "target": "棺"
+  },
+  {
+    "id": "木->椅",
+    "source": "木",
+    "target": "椅"
+  },
+  {
+    "id": "奇->椅",
+    "source": "奇",
+    "target": "椅"
+  },
+  {
+    "id": "木->植",
+    "source": "木",
+    "target": "植"
+  },
+  {
+    "id": "直->植",
+    "source": "直",
+    "target": "植"
+  },
+  {
+    "id": "木->椎",
+    "source": "木",
+    "target": "椎"
+  },
+  {
+    "id": "木->検",
+    "source": "木",
+    "target": "検"
+  },
+  {
+    "id": "木->極",
+    "source": "木",
+    "target": "極"
+  },
+  {
+    "id": "木->楷",
+    "source": "木",
+    "target": "楷"
+  },
+  {
+    "id": "皆->楷",
+    "source": "皆",
+    "target": "楷"
+  },
+  {
+    "id": "木->楼",
+    "source": "木",
+    "target": "楼"
+  },
+  {
+    "id": "木->楽",
+    "source": "木",
+    "target": "楽"
+  },
+  {
+    "id": "木->概",
+    "source": "木",
+    "target": "概"
+  },
+  {
+    "id": "既->概",
+    "source": "既",
+    "target": "概"
+  },
+  {
+    "id": "木->構",
+    "source": "木",
+    "target": "構"
+  },
+  {
+    "id": "木->様",
+    "source": "木",
+    "target": "様"
+  },
+  {
+    "id": "木->槽",
+    "source": "木",
+    "target": "槽"
+  },
+  {
+    "id": "曹->槽",
+    "source": "曹",
+    "target": "槽"
+  },
+  {
+    "id": "木->標",
+    "source": "木",
+    "target": "標"
+  },
+  {
+    "id": "票->標",
+    "source": "票",
+    "target": "標"
+  },
+  {
+    "id": "木->模",
+    "source": "木",
+    "target": "模"
+  },
+  {
+    "id": "木->権",
+    "source": "木",
+    "target": "権"
+  },
+  {
+    "id": "木->横",
+    "source": "木",
+    "target": "横"
+  },
+  {
+    "id": "黄->横",
+    "source": "黄",
+    "target": "横"
+  },
+  {
+    "id": "木->樹",
+    "source": "木",
+    "target": "樹"
+  },
+  {
+    "id": "木->橋",
+    "source": "木",
+    "target": "橋"
+  },
+  {
+    "id": "喬->橋",
+    "source": "喬",
+    "target": "橋"
+  },
+  {
+    "id": "木->機",
+    "source": "木",
+    "target": "機"
+  },
+  {
+    "id": "幾->機",
+    "source": "幾",
+    "target": "機"
+  },
+  {
+    "id": "木->欄",
+    "source": "木",
+    "target": "欄"
+  },
+  {
+    "id": "二->次",
+    "source": "二",
+    "target": "次"
+  },
+  {
+    "id": "欠->次",
+    "source": "欠",
+    "target": "次"
+  },
+  {
+    "id": "区->欧",
+    "source": "区",
+    "target": "欧"
+  },
+  {
+    "id": "欠->欧",
+    "source": "欠",
+    "target": "欧"
+  },
+  {
+    "id": "谷->欲",
+    "source": "谷",
+    "target": "欲"
+  },
+  {
+    "id": "欠->欲",
+    "source": "欠",
+    "target": "欲"
+  },
+  {
+    "id": "欠->欺",
+    "source": "欠",
+    "target": "欺"
+  },
+  {
+    "id": "欠->款",
+    "source": "欠",
+    "target": "款"
+  },
+  {
+    "id": "欠->歌",
+    "source": "欠",
+    "target": "歌"
+  },
+  {
+    "id": "欠->歓",
+    "source": "欠",
+    "target": "歓"
+  },
+  {
+    "id": "一->正",
+    "source": "一",
+    "target": "正"
+  },
+  {
+    "id": "止->正",
+    "source": "止",
+    "target": "正"
+  },
+  {
+    "id": "止->武",
+    "source": "止",
+    "target": "武"
+  },
+  {
+    "id": "止->歩",
+    "source": "止",
+    "target": "歩"
+  },
+  {
+    "id": "少->歩",
+    "source": "少",
+    "target": "歩"
+  },
+  {
+    "id": "止->歯",
+    "source": "止",
+    "target": "歯"
+  },
+  {
+    "id": "止->歳",
+    "source": "止",
+    "target": "歳"
+  },
+  {
+    "id": "小->歳",
+    "source": "小",
+    "target": "歳"
+  },
+  {
+    "id": "止->歴",
+    "source": "止",
+    "target": "歴"
+  },
+  {
+    "id": "旬->殉",
+    "source": "旬",
+    "target": "殉"
+  },
+  {
+    "id": "朱->殊",
+    "source": "朱",
+    "target": "殊"
+  },
+  {
+    "id": "直->殖",
+    "source": "直",
+    "target": "殖"
+  },
+  {
+    "id": "区->殴",
+    "source": "区",
+    "target": "殴"
+  },
+  {
+    "id": "母->毒",
+    "source": "母",
+    "target": "毒"
+  },
+  {
+    "id": "氏->民",
+    "source": "氏",
+    "target": "民"
+  },
+  {
+    "id": "水->氷",
+    "source": "水",
+    "target": "氷"
+  },
+  {
+    "id": "水->永",
+    "source": "水",
+    "target": "永"
+  },
+  {
+    "id": "水->氾",
+    "source": "水",
+    "target": "氾"
+  },
+  {
+    "id": "水->汁",
+    "source": "水",
+    "target": "汁"
+  },
+  {
+    "id": "十->汁",
+    "source": "十",
+    "target": "汁"
+  },
+  {
+    "id": "水->求",
+    "source": "水",
+    "target": "求"
+  },
+  {
+    "id": "水->汎",
+    "source": "水",
+    "target": "汎"
+  },
+  {
+    "id": "凡->汎",
+    "source": "凡",
+    "target": "汎"
+  },
+  {
+    "id": "水->汗",
+    "source": "水",
+    "target": "汗"
+  },
+  {
+    "id": "干->汗",
+    "source": "干",
+    "target": "汗"
+  },
+  {
+    "id": "水->汚",
+    "source": "水",
+    "target": "汚"
+  },
+  {
+    "id": "水->江",
+    "source": "水",
+    "target": "江"
+  },
+  {
+    "id": "工->江",
+    "source": "工",
+    "target": "江"
+  },
+  {
+    "id": "水->池",
+    "source": "水",
+    "target": "池"
+  },
+  {
+    "id": "也->池",
+    "source": "也",
+    "target": "池"
+  },
+  {
+    "id": "水->汰",
+    "source": "水",
+    "target": "汰"
+  },
+  {
+    "id": "太->汰",
+    "source": "太",
+    "target": "汰"
+  },
+  {
+    "id": "水->決",
+    "source": "水",
+    "target": "決"
+  },
+  {
+    "id": "水->汽",
+    "source": "水",
+    "target": "汽"
+  },
+  {
+    "id": "水->沃",
+    "source": "水",
+    "target": "沃"
+  },
+  {
+    "id": "水->沈",
+    "source": "水",
+    "target": "沈"
+  },
+  {
+    "id": "水->沖",
+    "source": "水",
+    "target": "沖"
+  },
+  {
+    "id": "中->沖",
+    "source": "中",
+    "target": "沖"
+  },
+  {
+    "id": "水->沙",
+    "source": "水",
+    "target": "沙"
+  },
+  {
+    "id": "少->沙",
+    "source": "少",
+    "target": "沙"
+  },
+  {
+    "id": "水->没",
+    "source": "水",
+    "target": "没"
+  },
+  {
+    "id": "水->沢",
+    "source": "水",
+    "target": "沢"
+  },
+  {
+    "id": "尺->沢",
+    "source": "尺",
+    "target": "沢"
+  },
+  {
+    "id": "水->河",
+    "source": "水",
+    "target": "河"
+  },
+  {
+    "id": "可->河",
+    "source": "可",
+    "target": "河"
+  },
+  {
+    "id": "水->沸",
+    "source": "水",
+    "target": "沸"
+  },
+  {
+    "id": "水->油",
+    "source": "水",
+    "target": "油"
+  },
+  {
+    "id": "由->油",
+    "source": "由",
+    "target": "油"
+  },
+  {
+    "id": "水->治",
+    "source": "水",
+    "target": "治"
+  },
+  {
+    "id": "台->治",
+    "source": "台",
+    "target": "治"
+  },
+  {
+    "id": "水->沼",
+    "source": "水",
+    "target": "沼"
+  },
+  {
+    "id": "召->沼",
+    "source": "召",
+    "target": "沼"
+  },
+  {
+    "id": "水->沿",
+    "source": "水",
+    "target": "沿"
+  },
+  {
+    "id": "水->況",
+    "source": "水",
+    "target": "況"
+  },
+  {
+    "id": "兄->況",
+    "source": "兄",
+    "target": "況"
+  },
+  {
+    "id": "水->泉",
+    "source": "水",
+    "target": "泉"
+  },
+  {
+    "id": "水->泊",
+    "source": "水",
+    "target": "泊"
+  },
+  {
+    "id": "白->泊",
+    "source": "白",
+    "target": "泊"
+  },
+  {
+    "id": "水->泌",
+    "source": "水",
+    "target": "泌"
+  },
+  {
+    "id": "必->泌",
+    "source": "必",
+    "target": "泌"
+  },
+  {
+    "id": "水->法",
+    "source": "水",
+    "target": "法"
+  },
+  {
+    "id": "去->法",
+    "source": "去",
+    "target": "法"
+  },
+  {
+    "id": "水->泡",
+    "source": "水",
+    "target": "泡"
+  },
+  {
+    "id": "包->泡",
+    "source": "包",
+    "target": "泡"
+  },
+  {
+    "id": "水->波",
+    "source": "水",
+    "target": "波"
+  },
+  {
+    "id": "皮->波",
+    "source": "皮",
+    "target": "波"
+  },
+  {
+    "id": "水->泣",
+    "source": "水",
+    "target": "泣"
+  },
+  {
+    "id": "立->泣",
+    "source": "立",
+    "target": "泣"
+  },
+  {
+    "id": "水->泥",
+    "source": "水",
+    "target": "泥"
+  },
+  {
+    "id": "尼->泥",
+    "source": "尼",
+    "target": "泥"
+  },
+  {
+    "id": "水->注",
+    "source": "水",
+    "target": "注"
+  },
+  {
+    "id": "主->注",
+    "source": "主",
+    "target": "注"
+  },
+  {
+    "id": "水->泰",
+    "source": "水",
+    "target": "泰"
+  },
+  {
+    "id": "水->泳",
+    "source": "水",
+    "target": "泳"
+  },
+  {
+    "id": "永->泳",
+    "source": "永",
+    "target": "泳"
+  },
+  {
+    "id": "水->洋",
+    "source": "水",
+    "target": "洋"
+  },
+  {
+    "id": "羊->洋",
+    "source": "羊",
+    "target": "洋"
+  },
+  {
+    "id": "水->洗",
+    "source": "水",
+    "target": "洗"
+  },
+  {
+    "id": "先->洗",
+    "source": "先",
+    "target": "洗"
+  },
+  {
+    "id": "水->洞",
+    "source": "水",
+    "target": "洞"
+  },
+  {
+    "id": "同->洞",
+    "source": "同",
+    "target": "洞"
+  },
+  {
+    "id": "水->津",
+    "source": "水",
+    "target": "津"
+  },
+  {
+    "id": "水->洪",
+    "source": "水",
+    "target": "洪"
+  },
+  {
+    "id": "共->洪",
+    "source": "共",
+    "target": "洪"
+  },
+  {
+    "id": "水->活",
+    "source": "水",
+    "target": "活"
+  },
+  {
+    "id": "舌->活",
+    "source": "舌",
+    "target": "活"
+  },
+  {
+    "id": "水->派",
+    "source": "水",
+    "target": "派"
+  },
+  {
+    "id": "水->流",
+    "source": "水",
+    "target": "流"
+  },
+  {
+    "id": "水->浄",
+    "source": "水",
+    "target": "浄"
+  },
+  {
+    "id": "争->浄",
+    "source": "争",
+    "target": "浄"
+  },
+  {
+    "id": "水->浅",
+    "source": "水",
+    "target": "浅"
+  },
+  {
+    "id": "水->浜",
+    "source": "水",
+    "target": "浜"
+  },
+  {
+    "id": "兵->浜",
+    "source": "兵",
+    "target": "浜"
+  },
+  {
+    "id": "水->浦",
+    "source": "水",
+    "target": "浦"
+  },
+  {
+    "id": "甫->浦",
+    "source": "甫",
+    "target": "浦"
+  },
+  {
+    "id": "水->浪",
+    "source": "水",
+    "target": "浪"
+  },
+  {
+    "id": "良->浪",
+    "source": "良",
+    "target": "浪"
+  },
+  {
+    "id": "水->浮",
+    "source": "水",
+    "target": "浮"
+  },
+  {
+    "id": "水->浴",
+    "source": "水",
+    "target": "浴"
+  },
+  {
+    "id": "谷->浴",
+    "source": "谷",
+    "target": "浴"
+  },
+  {
+    "id": "水->海",
+    "source": "水",
+    "target": "海"
+  },
+  {
+    "id": "毎->海",
+    "source": "毎",
+    "target": "海"
+  },
+  {
+    "id": "水->浸",
+    "source": "水",
+    "target": "浸"
+  },
+  {
+    "id": "水->消",
+    "source": "水",
+    "target": "消"
+  },
+  {
+    "id": "肖->消",
+    "source": "肖",
+    "target": "消"
+  },
+  {
+    "id": "水->涙",
+    "source": "水",
+    "target": "涙"
+  },
+  {
+    "id": "戻->涙",
+    "source": "戻",
+    "target": "涙"
+  },
+  {
+    "id": "水->涯",
+    "source": "水",
+    "target": "涯"
+  },
+  {
+    "id": "水->液",
+    "source": "水",
+    "target": "液"
+  },
+  {
+    "id": "夜->液",
+    "source": "夜",
+    "target": "液"
+  },
+  {
+    "id": "水->涼",
+    "source": "水",
+    "target": "涼"
+  },
+  {
+    "id": "京->涼",
+    "source": "京",
+    "target": "涼"
+  },
+  {
+    "id": "水->淑",
+    "source": "水",
+    "target": "淑"
+  },
+  {
+    "id": "叔->淑",
+    "source": "叔",
+    "target": "淑"
+  },
+  {
+    "id": "水->淡",
+    "source": "水",
+    "target": "淡"
+  },
+  {
+    "id": "炎->淡",
+    "source": "炎",
+    "target": "淡"
+  },
+  {
+    "id": "水->淫",
+    "source": "水",
+    "target": "淫"
+  },
+  {
+    "id": "水->深",
+    "source": "水",
+    "target": "深"
+  },
+  {
+    "id": "水->混",
+    "source": "水",
+    "target": "混"
+  },
+  {
+    "id": "昆->混",
+    "source": "昆",
+    "target": "混"
+  },
+  {
+    "id": "水->添",
+    "source": "水",
+    "target": "添"
+  },
+  {
+    "id": "水->清",
+    "source": "水",
+    "target": "清"
+  },
+  {
+    "id": "青->清",
+    "source": "青",
+    "target": "清"
+  },
+  {
+    "id": "水->渇",
+    "source": "水",
+    "target": "渇"
+  },
+  {
+    "id": "水->済",
+    "source": "水",
+    "target": "済"
+  },
+  {
+    "id": "水->渉",
+    "source": "水",
+    "target": "渉"
+  },
+  {
+    "id": "歩->渉",
+    "source": "歩",
+    "target": "渉"
+  },
+  {
+    "id": "水->渋",
+    "source": "水",
+    "target": "渋"
+  },
+  {
+    "id": "水->渓",
+    "source": "水",
+    "target": "渓"
+  },
+  {
+    "id": "水->減",
+    "source": "水",
+    "target": "減"
+  },
+  {
+    "id": "水->渡",
+    "source": "水",
+    "target": "渡"
+  },
+  {
+    "id": "度->渡",
+    "source": "度",
+    "target": "渡"
+  },
+  {
+    "id": "水->渦",
+    "source": "水",
+    "target": "渦"
+  },
+  {
+    "id": "水->温",
+    "source": "水",
+    "target": "温"
+  },
+  {
+    "id": "水->測",
+    "source": "水",
+    "target": "測"
+  },
+  {
+    "id": "則->測",
+    "source": "則",
+    "target": "測"
+  },
+  {
+    "id": "水->港",
+    "source": "水",
+    "target": "港"
+  },
+  {
+    "id": "水->湖",
+    "source": "水",
+    "target": "湖"
+  },
+  {
+    "id": "胡->湖",
+    "source": "胡",
+    "target": "湖"
+  },
+  {
+    "id": "水->湧",
+    "source": "水",
+    "target": "湧"
+  },
+  {
+    "id": "勇->湧",
+    "source": "勇",
+    "target": "湧"
+  },
+  {
+    "id": "水->湯",
+    "source": "水",
+    "target": "湯"
+  },
+  {
+    "id": "水->湾",
+    "source": "水",
+    "target": "湾"
+  },
+  {
+    "id": "水->湿",
+    "source": "水",
+    "target": "湿"
+  },
+  {
+    "id": "水->満",
+    "source": "水",
+    "target": "満"
+  },
+  {
+    "id": "水->源",
+    "source": "水",
+    "target": "源"
+  },
+  {
+    "id": "原->源",
+    "source": "原",
+    "target": "源"
+  },
+  {
+    "id": "隼->準",
+    "source": "隼",
+    "target": "準"
+  },
+  {
+    "id": "水->溝",
+    "source": "水",
+    "target": "溝"
+  },
+  {
+    "id": "水->溶",
+    "source": "水",
+    "target": "溶"
+  },
+  {
+    "id": "容->溶",
+    "source": "容",
+    "target": "溶"
+  },
+  {
+    "id": "水->溺",
+    "source": "水",
+    "target": "溺"
+  },
+  {
+    "id": "弱->溺",
+    "source": "弱",
+    "target": "溺"
+  },
+  {
+    "id": "水->滅",
+    "source": "水",
+    "target": "滅"
+  },
+  {
+    "id": "水->滋",
+    "source": "水",
+    "target": "滋"
+  },
+  {
+    "id": "水->滑",
+    "source": "水",
+    "target": "滑"
+  },
+  {
+    "id": "骨->滑",
+    "source": "骨",
+    "target": "滑"
+  },
+  {
+    "id": "水->滝",
+    "source": "水",
+    "target": "滝"
+  },
+  {
+    "id": "水->滞",
+    "source": "水",
+    "target": "滞"
+  },
+  {
+    "id": "帯->滞",
+    "source": "帯",
+    "target": "滞"
+  },
+  {
+    "id": "水->滴",
+    "source": "水",
+    "target": "滴"
+  },
+  {
+    "id": "水->漁",
+    "source": "水",
+    "target": "漁"
+  },
+  {
+    "id": "魚->漁",
+    "source": "魚",
+    "target": "漁"
+  },
+  {
+    "id": "水->漂",
+    "source": "水",
+    "target": "漂"
+  },
+  {
+    "id": "票->漂",
+    "source": "票",
+    "target": "漂"
+  },
+  {
+    "id": "水->漆",
+    "source": "水",
+    "target": "漆"
+  },
+  {
+    "id": "水->漏",
+    "source": "水",
+    "target": "漏"
+  },
+  {
+    "id": "水->演",
+    "source": "水",
+    "target": "演"
+  },
+  {
+    "id": "寅->演",
+    "source": "寅",
+    "target": "演"
+  },
+  {
+    "id": "水->漠",
+    "source": "水",
+    "target": "漠"
+  },
+  {
+    "id": "水->漢",
+    "source": "水",
+    "target": "漢"
+  },
+  {
+    "id": "水->漫",
+    "source": "水",
+    "target": "漫"
+  },
+  {
+    "id": "水->漬",
+    "source": "水",
+    "target": "漬"
+  },
+  {
+    "id": "責->漬",
+    "source": "責",
+    "target": "漬"
+  },
+  {
+    "id": "水->漸",
+    "source": "水",
+    "target": "漸"
+  },
+  {
+    "id": "斬->漸",
+    "source": "斬",
+    "target": "漸"
+  },
+  {
+    "id": "水->潔",
+    "source": "水",
+    "target": "潔"
+  },
+  {
+    "id": "水->潜",
+    "source": "水",
+    "target": "潜"
+  },
+  {
+    "id": "替->潜",
+    "source": "替",
+    "target": "潜"
+  },
+  {
+    "id": "水->潟",
+    "source": "水",
+    "target": "潟"
+  },
+  {
+    "id": "水->潤",
+    "source": "水",
+    "target": "潤"
+  },
+  {
+    "id": "水->潮",
+    "source": "水",
+    "target": "潮"
+  },
+  {
+    "id": "朝->潮",
+    "source": "朝",
+    "target": "潮"
+  },
+  {
+    "id": "水->潰",
+    "source": "水",
+    "target": "潰"
+  },
+  {
+    "id": "貴->潰",
+    "source": "貴",
+    "target": "潰"
+  },
+  {
+    "id": "水->澄",
+    "source": "水",
+    "target": "澄"
+  },
+  {
+    "id": "登->澄",
+    "source": "登",
+    "target": "澄"
+  },
+  {
+    "id": "水->激",
+    "source": "水",
+    "target": "激"
+  },
+  {
+    "id": "水->濁",
+    "source": "水",
+    "target": "濁"
+  },
+  {
+    "id": "水->濃",
+    "source": "水",
+    "target": "濃"
+  },
+  {
+    "id": "農->濃",
+    "source": "農",
+    "target": "濃"
+  },
+  {
+    "id": "水->濫",
+    "source": "水",
+    "target": "濫"
+  },
+  {
+    "id": "監->濫",
+    "source": "監",
+    "target": "濫"
+  },
+  {
+    "id": "水->濯",
+    "source": "水",
+    "target": "濯"
+  },
+  {
+    "id": "水->瀬",
+    "source": "水",
+    "target": "瀬"
+  },
+  {
+    "id": "頼->瀬",
+    "source": "頼",
+    "target": "瀬"
+  },
+  {
+    "id": "火->灯",
+    "source": "火",
+    "target": "灯"
+  },
+  {
+    "id": "丁->灯",
+    "source": "丁",
+    "target": "灯"
+  },
+  {
+    "id": "火->灰",
+    "source": "火",
+    "target": "灰"
+  },
+  {
+    "id": "火->災",
+    "source": "火",
+    "target": "災"
+  },
+  {
+    "id": "火->炉",
+    "source": "火",
+    "target": "炉"
+  },
+  {
+    "id": "戸->炉",
+    "source": "戸",
+    "target": "炉"
+  },
+  {
+    "id": "火->炊",
+    "source": "火",
+    "target": "炊"
+  },
+  {
+    "id": "欠->炊",
+    "source": "欠",
+    "target": "炊"
+  },
+  {
+    "id": "火->炎",
+    "source": "火",
+    "target": "炎"
+  },
+  {
+    "id": "山->炭",
+    "source": "山",
+    "target": "炭"
+  },
+  {
+    "id": "灰->炭",
+    "source": "灰",
+    "target": "炭"
+  },
+  {
+    "id": "占->点",
+    "source": "占",
+    "target": "点"
+  },
+  {
+    "id": "火->点",
+    "source": "火",
+    "target": "点"
+  },
+  {
+    "id": "火->為",
+    "source": "火",
+    "target": "為"
+  },
+  {
+    "id": "列->烈",
+    "source": "列",
+    "target": "烈"
+  },
+  {
+    "id": "火->烈",
+    "source": "火",
+    "target": "烈"
+  },
+  {
+    "id": "火->無",
+    "source": "火",
+    "target": "無"
+  },
+  {
+    "id": "火->焦",
+    "source": "火",
+    "target": "焦"
+  },
+  {
+    "id": "火->然",
+    "source": "火",
+    "target": "然"
+  },
+  {
+    "id": "火->焼",
+    "source": "火",
+    "target": "焼"
+  },
+  {
+    "id": "尭->焼",
+    "source": "尭",
+    "target": "焼"
+  },
+  {
+    "id": "前->煎",
+    "source": "前",
+    "target": "煎"
+  },
+  {
+    "id": "火->煎",
+    "source": "火",
+    "target": "煎"
+  },
+  {
+    "id": "火->煙",
+    "source": "火",
+    "target": "煙"
+  },
+  {
+    "id": "昭->照",
+    "source": "昭",
+    "target": "照"
+  },
+  {
+    "id": "火->照",
+    "source": "火",
+    "target": "照"
+  },
+  {
+    "id": "火->煩",
+    "source": "火",
+    "target": "煩"
+  },
+  {
+    "id": "者->煮",
+    "source": "者",
+    "target": "煮"
+  },
+  {
+    "id": "火->煮",
+    "source": "火",
+    "target": "煮"
+  },
+  {
+    "id": "能->熊",
+    "source": "能",
+    "target": "熊"
+  },
+  {
+    "id": "火->熊",
+    "source": "火",
+    "target": "熊"
+  },
+  {
+    "id": "火->熟",
+    "source": "火",
+    "target": "熟"
+  },
+  {
+    "id": "火->熱",
+    "source": "火",
+    "target": "熱"
+  },
+  {
+    "id": "火->燃",
+    "source": "火",
+    "target": "燃"
+  },
+  {
+    "id": "然->燃",
+    "source": "然",
+    "target": "燃"
+  },
+  {
+    "id": "火->燥",
+    "source": "火",
+    "target": "燥"
+  },
+  {
+    "id": "火->爆",
+    "source": "火",
+    "target": "爆"
+  },
+  {
+    "id": "暴->爆",
+    "source": "暴",
+    "target": "爆"
+  },
+  {
+    "id": "爪->爵",
+    "source": "爪",
+    "target": "爵"
+  },
+  {
+    "id": "大->爽",
+    "source": "大",
+    "target": "爽"
+  },
+  {
+    "id": "片->版",
+    "source": "片",
+    "target": "版"
+  },
+  {
+    "id": "反->版",
+    "source": "反",
+    "target": "版"
+  },
+  {
+    "id": "牛->牧",
+    "source": "牛",
+    "target": "牧"
+  },
+  {
+    "id": "牛->物",
+    "source": "牛",
+    "target": "物"
+  },
+  {
+    "id": "牛->牲",
+    "source": "牛",
+    "target": "牲"
+  },
+  {
+    "id": "生->牲",
+    "source": "生",
+    "target": "牲"
+  },
+  {
+    "id": "牛->特",
+    "source": "牛",
+    "target": "特"
+  },
+  {
+    "id": "寺->特",
+    "source": "寺",
+    "target": "特"
+  },
+  {
+    "id": "牛->犠",
+    "source": "牛",
+    "target": "犠"
+  },
+  {
+    "id": "義->犠",
+    "source": "義",
+    "target": "犠"
+  },
+  {
+    "id": "大->犬",
+    "source": "大",
+    "target": "犬"
+  },
+  {
+    "id": "犬->犯",
+    "source": "犬",
+    "target": "犯"
+  },
+  {
+    "id": "犬->状",
+    "source": "犬",
+    "target": "状"
+  },
+  {
+    "id": "犬->狂",
+    "source": "犬",
+    "target": "狂"
+  },
+  {
+    "id": "玉->狂",
+    "source": "玉",
+    "target": "狂"
+  },
+  {
+    "id": "犬->狙",
+    "source": "犬",
+    "target": "狙"
+  },
+  {
+    "id": "且->狙",
+    "source": "且",
+    "target": "狙"
+  },
+  {
+    "id": "犬->狩",
+    "source": "犬",
+    "target": "狩"
+  },
+  {
+    "id": "守->狩",
+    "source": "守",
+    "target": "狩"
+  },
+  {
+    "id": "犬->独",
+    "source": "犬",
+    "target": "独"
+  },
+  {
+    "id": "虫->独",
+    "source": "虫",
+    "target": "独"
+  },
+  {
+    "id": "犬->狭",
+    "source": "犬",
+    "target": "狭"
+  },
+  {
+    "id": "犬->猛",
+    "source": "犬",
+    "target": "猛"
+  },
+  {
+    "id": "孟->猛",
+    "source": "孟",
+    "target": "猛"
+  },
+  {
+    "id": "犬->猟",
+    "source": "犬",
+    "target": "猟"
+  },
+  {
+    "id": "犬->猫",
+    "source": "犬",
+    "target": "猫"
+  },
+  {
+    "id": "苗->猫",
+    "source": "苗",
+    "target": "猫"
+  },
+  {
+    "id": "南->献",
+    "source": "南",
+    "target": "献"
+  },
+  {
+    "id": "犬->献",
+    "source": "犬",
+    "target": "献"
+  },
+  {
+    "id": "犬->猶",
+    "source": "犬",
+    "target": "猶"
+  },
+  {
+    "id": "犬->猿",
+    "source": "犬",
+    "target": "猿"
+  },
+  {
+    "id": "犬->獄",
+    "source": "犬",
+    "target": "獄"
+  },
+  {
+    "id": "犬->獣",
+    "source": "犬",
+    "target": "獣"
+  },
+  {
+    "id": "犬->獲",
+    "source": "犬",
+    "target": "獲"
+  },
+  {
+    "id": "玄->率",
+    "source": "玄",
+    "target": "率"
+  },
+  {
+    "id": "十->率",
+    "source": "十",
+    "target": "率"
+  },
+  {
+    "id": "玉->王",
+    "source": "玉",
+    "target": "王"
+  },
+  {
+    "id": "玉->玩",
+    "source": "玉",
+    "target": "玩"
+  },
+  {
+    "id": "元->玩",
+    "source": "元",
+    "target": "玩"
+  },
+  {
+    "id": "玉->珍",
+    "source": "玉",
+    "target": "珍"
+  },
+  {
+    "id": "玉->珠",
+    "source": "玉",
+    "target": "珠"
+  },
+  {
+    "id": "朱->珠",
+    "source": "朱",
+    "target": "珠"
+  },
+  {
+    "id": "玉->班",
+    "source": "玉",
+    "target": "班"
+  },
+  {
+    "id": "玉->現",
+    "source": "玉",
+    "target": "現"
+  },
+  {
+    "id": "見->現",
+    "source": "見",
+    "target": "現"
+  },
+  {
+    "id": "玉->球",
+    "source": "玉",
+    "target": "球"
+  },
+  {
+    "id": "求->球",
+    "source": "求",
+    "target": "球"
+  },
+  {
+    "id": "玉->理",
+    "source": "玉",
+    "target": "理"
+  },
+  {
+    "id": "里->理",
+    "source": "里",
+    "target": "理"
+  },
+  {
+    "id": "今->琴",
+    "source": "今",
+    "target": "琴"
+  },
+  {
+    "id": "玉->瑠",
+    "source": "玉",
+    "target": "瑠"
+  },
+  {
+    "id": "留->瑠",
+    "source": "留",
+    "target": "瑠"
+  },
+  {
+    "id": "玉->璃",
+    "source": "玉",
+    "target": "璃"
+  },
+  {
+    "id": "玉->璧",
+    "source": "玉",
+    "target": "璧"
+  },
+  {
+    "id": "玉->環",
+    "source": "玉",
+    "target": "環"
+  },
+  {
+    "id": "爾->璽",
+    "source": "爾",
+    "target": "璽"
+  },
+  {
+    "id": "玉->璽",
+    "source": "玉",
+    "target": "璽"
+  },
+  {
+    "id": "瓦->瓶",
+    "source": "瓦",
+    "target": "瓶"
+  },
+  {
+    "id": "甘->甚",
+    "source": "甘",
+    "target": "甚"
+  },
+  {
+    "id": "匹->甚",
+    "source": "匹",
+    "target": "甚"
+  },
+  {
+    "id": "生->産",
+    "source": "生",
+    "target": "産"
+  },
+  {
+    "id": "日->由",
+    "source": "日",
+    "target": "由"
+  },
+  {
+    "id": "日->甲",
+    "source": "日",
+    "target": "甲"
+  },
+  {
+    "id": "日->申",
+    "source": "日",
+    "target": "申"
+  },
+  {
+    "id": "田->男",
+    "source": "田",
+    "target": "男"
+  },
+  {
+    "id": "力->男",
+    "source": "力",
+    "target": "男"
+  },
+  {
+    "id": "田->町",
+    "source": "田",
+    "target": "町"
+  },
+  {
+    "id": "丁->町",
+    "source": "丁",
+    "target": "町"
+  },
+  {
+    "id": "一->画",
+    "source": "一",
+    "target": "画"
+  },
+  {
+    "id": "由->画",
+    "source": "由",
+    "target": "画"
+  },
+  {
+    "id": "田->界",
+    "source": "田",
+    "target": "界"
+  },
+  {
+    "id": "介->界",
+    "source": "介",
+    "target": "界"
+  },
+  {
+    "id": "田->畏",
+    "source": "田",
+    "target": "畏"
+  },
+  {
+    "id": "火->畑",
+    "source": "火",
+    "target": "畑"
+  },
+  {
+    "id": "田->畑",
+    "source": "田",
+    "target": "畑"
+  },
+  {
+    "id": "田->畔",
+    "source": "田",
+    "target": "畔"
+  },
+  {
+    "id": "半->畔",
+    "source": "半",
+    "target": "畔"
+  },
+  {
+    "id": "卯->留",
+    "source": "卯",
+    "target": "留"
+  },
+  {
+    "id": "田->留",
+    "source": "田",
+    "target": "留"
+  },
+  {
+    "id": "玄->畜",
+    "source": "玄",
+    "target": "畜"
+  },
+  {
+    "id": "田->畜",
+    "source": "田",
+    "target": "畜"
+  },
+  {
+    "id": "久->畝",
+    "source": "久",
+    "target": "畝"
+  },
+  {
+    "id": "田->略",
+    "source": "田",
+    "target": "略"
+  },
+  {
+    "id": "各->略",
+    "source": "各",
+    "target": "略"
+  },
+  {
+    "id": "田->番",
+    "source": "田",
+    "target": "番"
+  },
+  {
+    "id": "田->異",
+    "source": "田",
+    "target": "異"
+  },
+  {
+    "id": "共->異",
+    "source": "共",
+    "target": "異"
+  },
+  {
+    "id": "田->畳",
+    "source": "田",
+    "target": "畳"
+  },
+  {
+    "id": "田->畿",
+    "source": "田",
+    "target": "畿"
+  },
+  {
+    "id": "束->疎",
+    "source": "束",
+    "target": "疎"
+  },
+  {
+    "id": "皮->疲",
+    "source": "皮",
+    "target": "疲"
+  },
+  {
+    "id": "矢->疾",
+    "source": "矢",
+    "target": "疾"
+  },
+  {
+    "id": "丙->病",
+    "source": "丙",
+    "target": "病"
+  },
+  {
+    "id": "正->症",
+    "source": "正",
+    "target": "症"
+  },
+  {
+    "id": "豆->痘",
+    "source": "豆",
+    "target": "痘"
+  },
+  {
+    "id": "利->痢",
+    "source": "利",
+    "target": "痢"
+  },
+  {
+    "id": "知->痴",
+    "source": "知",
+    "target": "痴"
+  },
+  {
+    "id": "豆->登",
+    "source": "豆",
+    "target": "登"
+  },
+  {
+    "id": "日->白",
+    "source": "日",
+    "target": "白"
+  },
+  {
+    "id": "一->百",
+    "source": "一",
+    "target": "百"
+  },
+  {
+    "id": "白->百",
+    "source": "白",
+    "target": "百"
+  },
+  {
+    "id": "白->的",
+    "source": "白",
+    "target": "的"
+  },
+  {
+    "id": "勺->的",
+    "source": "勺",
+    "target": "的"
+  },
+  {
+    "id": "比->皆",
+    "source": "比",
+    "target": "皆"
+  },
+  {
+    "id": "白->皆",
+    "source": "白",
+    "target": "皆"
+  },
+  {
+    "id": "白->皇",
+    "source": "白",
+    "target": "皇"
+  },
+  {
+    "id": "玉->皇",
+    "source": "玉",
+    "target": "皇"
+  },
+  {
+    "id": "分->盆",
+    "source": "分",
+    "target": "盆"
+  },
+  {
+    "id": "皿->盆",
+    "source": "皿",
+    "target": "盆"
+  },
+  {
+    "id": "皿->益",
+    "source": "皿",
+    "target": "益"
+  },
+  {
+    "id": "次->盗",
+    "source": "次",
+    "target": "盗"
+  },
+  {
+    "id": "皿->盗",
+    "source": "皿",
+    "target": "盗"
+  },
+  {
+    "id": "成->盛",
+    "source": "成",
+    "target": "盛"
+  },
+  {
+    "id": "皿->盛",
+    "source": "皿",
+    "target": "盛"
+  },
+  {
+    "id": "明->盟",
+    "source": "明",
+    "target": "盟"
+  },
+  {
+    "id": "皿->盟",
+    "source": "皿",
+    "target": "盟"
+  },
+  {
+    "id": "皿->監",
+    "source": "皿",
+    "target": "監"
+  },
+  {
+    "id": "般->盤",
+    "source": "般",
+    "target": "盤"
+  },
+  {
+    "id": "皿->盤",
+    "source": "皿",
+    "target": "盤"
+  },
+  {
+    "id": "亡->盲",
+    "source": "亡",
+    "target": "盲"
+  },
+  {
+    "id": "目->盲",
+    "source": "目",
+    "target": "盲"
+  },
+  {
+    "id": "十->直",
+    "source": "十",
+    "target": "直"
+  },
+  {
+    "id": "目->直",
+    "source": "目",
+    "target": "直"
+  },
+  {
+    "id": "木->相",
+    "source": "木",
+    "target": "相"
+  },
+  {
+    "id": "目->相",
+    "source": "目",
+    "target": "相"
+  },
+  {
+    "id": "十->盾",
+    "source": "十",
+    "target": "盾"
+  },
+  {
+    "id": "目->盾",
+    "source": "目",
+    "target": "盾"
+  },
+  {
+    "id": "少->省",
+    "source": "少",
+    "target": "省"
+  },
+  {
+    "id": "目->省",
+    "source": "目",
+    "target": "省"
+  },
+  {
+    "id": "目->眉",
+    "source": "目",
+    "target": "眉"
+  },
+  {
+    "id": "手->看",
+    "source": "手",
+    "target": "看"
+  },
+  {
+    "id": "目->看",
+    "source": "目",
+    "target": "看"
+  },
+  {
+    "id": "小->県",
+    "source": "小",
+    "target": "県"
+  },
+  {
+    "id": "十->真",
+    "source": "十",
+    "target": "真"
+  },
+  {
+    "id": "具->真",
+    "source": "具",
+    "target": "真"
+  },
+  {
+    "id": "目->眠",
+    "source": "目",
+    "target": "眠"
+  },
+  {
+    "id": "民->眠",
+    "source": "民",
+    "target": "眠"
+  },
+  {
+    "id": "目->眺",
+    "source": "目",
+    "target": "眺"
+  },
+  {
+    "id": "兆->眺",
+    "source": "兆",
+    "target": "眺"
+  },
+  {
+    "id": "目->眼",
+    "source": "目",
+    "target": "眼"
+  },
+  {
+    "id": "目->着",
+    "source": "目",
+    "target": "着"
+  },
+  {
+    "id": "目->睡",
+    "source": "目",
+    "target": "睡"
+  },
+  {
+    "id": "垂->睡",
+    "source": "垂",
+    "target": "睡"
+  },
+  {
+    "id": "叔->督",
+    "source": "叔",
+    "target": "督"
+  },
+  {
+    "id": "目->督",
+    "source": "目",
+    "target": "督"
+  },
+  {
+    "id": "目->睦",
+    "source": "目",
+    "target": "睦"
+  },
+  {
+    "id": "目->瞬",
+    "source": "目",
+    "target": "瞬"
+  },
+  {
+    "id": "舜->瞬",
+    "source": "舜",
+    "target": "瞬"
+  },
+  {
+    "id": "目->瞭",
+    "source": "目",
+    "target": "瞭"
+  },
+  {
+    "id": "目->瞳",
+    "source": "目",
+    "target": "瞳"
+  },
+  {
+    "id": "童->瞳",
+    "source": "童",
+    "target": "瞳"
+  },
+  {
+    "id": "予->矛",
+    "source": "予",
+    "target": "矛"
+  },
+  {
+    "id": "天->矢",
+    "source": "天",
+    "target": "矢"
+  },
+  {
+    "id": "矢->知",
+    "source": "矢",
+    "target": "知"
+  },
+  {
+    "id": "口->知",
+    "source": "口",
+    "target": "知"
+  },
+  {
+    "id": "矢->短",
+    "source": "矢",
+    "target": "短"
+  },
+  {
+    "id": "豆->短",
+    "source": "豆",
+    "target": "短"
+  },
+  {
+    "id": "矢->矯",
+    "source": "矢",
+    "target": "矯"
+  },
+  {
+    "id": "喬->矯",
+    "source": "喬",
+    "target": "矯"
+  },
+  {
+    "id": "口->石",
+    "source": "口",
+    "target": "石"
+  },
+  {
+    "id": "石->砂",
+    "source": "石",
+    "target": "砂"
+  },
+  {
+    "id": "少->砂",
+    "source": "少",
+    "target": "砂"
+  },
+  {
+    "id": "石->研",
+    "source": "石",
+    "target": "研"
+  },
+  {
+    "id": "石->砕",
+    "source": "石",
+    "target": "砕"
+  },
+  {
+    "id": "石->砲",
+    "source": "石",
+    "target": "砲"
+  },
+  {
+    "id": "包->砲",
+    "source": "包",
+    "target": "砲"
+  },
+  {
+    "id": "石->破",
+    "source": "石",
+    "target": "破"
+  },
+  {
+    "id": "皮->破",
+    "source": "皮",
+    "target": "破"
+  },
+  {
+    "id": "石->硝",
+    "source": "石",
+    "target": "硝"
+  },
+  {
+    "id": "肖->硝",
+    "source": "肖",
+    "target": "硝"
+  },
+  {
+    "id": "石->硫",
+    "source": "石",
+    "target": "硫"
+  },
+  {
+    "id": "石->硬",
+    "source": "石",
+    "target": "硬"
+  },
+  {
+    "id": "更->硬",
+    "source": "更",
+    "target": "硬"
+  },
+  {
+    "id": "石->碁",
+    "source": "石",
+    "target": "碁"
+  },
+  {
+    "id": "石->碑",
+    "source": "石",
+    "target": "碑"
+  },
+  {
+    "id": "卑->碑",
+    "source": "卑",
+    "target": "碑"
+  },
+  {
+    "id": "石->確",
+    "source": "石",
+    "target": "確"
+  },
+  {
+    "id": "石->磁",
+    "source": "石",
+    "target": "磁"
+  },
+  {
+    "id": "麻->磨",
+    "source": "麻",
+    "target": "磨"
+  },
+  {
+    "id": "石->磨",
+    "source": "石",
+    "target": "磨"
+  },
+  {
+    "id": "石->礁",
+    "source": "石",
+    "target": "礁"
+  },
+  {
+    "id": "焦->礁",
+    "source": "焦",
+    "target": "礁"
+  },
+  {
+    "id": "石->礎",
+    "source": "石",
+    "target": "礎"
+  },
+  {
+    "id": "示->礼",
+    "source": "示",
+    "target": "礼"
+  },
+  {
+    "id": "乙->礼",
+    "source": "乙",
+    "target": "礼"
+  },
+  {
+    "id": "示->社",
+    "source": "示",
+    "target": "社"
+  },
+  {
+    "id": "土->社",
+    "source": "土",
+    "target": "社"
+  },
+  {
+    "id": "示->祈",
+    "source": "示",
+    "target": "祈"
+  },
+  {
+    "id": "斤->祈",
+    "source": "斤",
+    "target": "祈"
+  },
+  {
+    "id": "示->祉",
+    "source": "示",
+    "target": "祉"
+  },
+  {
+    "id": "止->祉",
+    "source": "止",
+    "target": "祉"
+  },
+  {
+    "id": "示->祖",
+    "source": "示",
+    "target": "祖"
+  },
+  {
+    "id": "且->祖",
+    "source": "且",
+    "target": "祖"
+  },
+  {
+    "id": "示->祝",
+    "source": "示",
+    "target": "祝"
+  },
+  {
+    "id": "兄->祝",
+    "source": "兄",
+    "target": "祝"
+  },
+  {
+    "id": "示->神",
+    "source": "示",
+    "target": "神"
+  },
+  {
+    "id": "申->神",
+    "source": "申",
+    "target": "神"
+  },
+  {
+    "id": "示->祥",
+    "source": "示",
+    "target": "祥"
+  },
+  {
+    "id": "羊->祥",
+    "source": "羊",
+    "target": "祥"
+  },
+  {
+    "id": "示->票",
+    "source": "示",
+    "target": "票"
+  },
+  {
+    "id": "示->祭",
+    "source": "示",
+    "target": "祭"
+  },
+  {
+    "id": "林->禁",
+    "source": "林",
+    "target": "禁"
+  },
+  {
+    "id": "示->禁",
+    "source": "示",
+    "target": "禁"
+  },
+  {
+    "id": "示->禅",
+    "source": "示",
+    "target": "禅"
+  },
+  {
+    "id": "単->禅",
+    "source": "単",
+    "target": "禅"
+  },
+  {
+    "id": "示->禍",
+    "source": "示",
+    "target": "禍"
+  },
+  {
+    "id": "示->福",
+    "source": "示",
+    "target": "福"
+  },
+  {
+    "id": "乃->秀",
+    "source": "乃",
+    "target": "秀"
+  },
+  {
+    "id": "火->秋",
+    "source": "火",
+    "target": "秋"
+  },
+  {
+    "id": "斗->科",
+    "source": "斗",
+    "target": "科"
+  },
+  {
+    "id": "少->秒",
+    "source": "少",
+    "target": "秒"
+  },
+  {
+    "id": "必->秘",
+    "source": "必",
+    "target": "秘"
+  },
+  {
+    "id": "且->租",
+    "source": "且",
+    "target": "租"
+  },
+  {
+    "id": "失->秩",
+    "source": "失",
+    "target": "秩"
+  },
+  {
+    "id": "多->移",
+    "source": "多",
+    "target": "移"
+  },
+  {
+    "id": "呈->程",
+    "source": "呈",
+    "target": "程"
+  },
+  {
+    "id": "重->種",
+    "source": "重",
+    "target": "種"
+  },
+  {
+    "id": "家->稼",
+    "source": "家",
+    "target": "稼"
+  },
+  {
+    "id": "高->稿",
+    "source": "高",
+    "target": "稿"
+  },
+  {
+    "id": "恵->穂",
+    "source": "恵",
+    "target": "穂"
+  },
+  {
+    "id": "責->積",
+    "source": "責",
+    "target": "積"
+  },
+  {
+    "id": "八->穴",
+    "source": "八",
+    "target": "穴"
+  },
+  {
+    "id": "穴->究",
+    "source": "穴",
+    "target": "究"
+  },
+  {
+    "id": "九->究",
+    "source": "九",
+    "target": "究"
+  },
+  {
+    "id": "穴->空",
+    "source": "穴",
+    "target": "空"
+  },
+  {
+    "id": "工->空",
+    "source": "工",
+    "target": "空"
+  },
+  {
+    "id": "穴->突",
+    "source": "穴",
+    "target": "突"
+  },
+  {
+    "id": "大->突",
+    "source": "大",
+    "target": "突"
+  },
+  {
+    "id": "穴->窃",
+    "source": "穴",
+    "target": "窃"
+  },
+  {
+    "id": "切->窃",
+    "source": "切",
+    "target": "窃"
+  },
+  {
+    "id": "穴->窒",
+    "source": "穴",
+    "target": "窒"
+  },
+  {
+    "id": "至->窒",
+    "source": "至",
+    "target": "窒"
+  },
+  {
+    "id": "穴->窓",
+    "source": "穴",
+    "target": "窓"
+  },
+  {
+    "id": "穴->窟",
+    "source": "穴",
+    "target": "窟"
+  },
+  {
+    "id": "屈->窟",
+    "source": "屈",
+    "target": "窟"
+  },
+  {
+    "id": "穴->窮",
+    "source": "穴",
+    "target": "窮"
+  },
+  {
+    "id": "穴->窯",
+    "source": "穴",
+    "target": "窯"
+  },
+  {
+    "id": "音->章",
+    "source": "音",
+    "target": "章"
+  },
+  {
+    "id": "早->章",
+    "source": "早",
+    "target": "章"
+  },
+  {
+    "id": "立->童",
+    "source": "立",
+    "target": "童"
+  },
+  {
+    "id": "里->童",
+    "source": "里",
+    "target": "童"
+  },
+  {
+    "id": "立->端",
+    "source": "立",
+    "target": "端"
+  },
+  {
+    "id": "竹->笑",
+    "source": "竹",
+    "target": "笑"
+  },
+  {
+    "id": "竹->笛",
+    "source": "竹",
+    "target": "笛"
+  },
+  {
+    "id": "由->笛",
+    "source": "由",
+    "target": "笛"
+  },
+  {
+    "id": "竹->符",
+    "source": "竹",
+    "target": "符"
+  },
+  {
+    "id": "付->符",
+    "source": "付",
+    "target": "符"
+  },
+  {
+    "id": "竹->第",
+    "source": "竹",
+    "target": "第"
+  },
+  {
+    "id": "竹->筆",
+    "source": "竹",
+    "target": "筆"
+  },
+  {
+    "id": "竹->等",
+    "source": "竹",
+    "target": "等"
+  },
+  {
+    "id": "寺->等",
+    "source": "寺",
+    "target": "等"
+  },
+  {
+    "id": "竹->筋",
+    "source": "竹",
+    "target": "筋"
+  },
+  {
+    "id": "竹->筒",
+    "source": "竹",
+    "target": "筒"
+  },
+  {
+    "id": "同->筒",
+    "source": "同",
+    "target": "筒"
+  },
+  {
+    "id": "竹->答",
+    "source": "竹",
+    "target": "答"
+  },
+  {
+    "id": "合->答",
+    "source": "合",
+    "target": "答"
+  },
+  {
+    "id": "竹->策",
+    "source": "竹",
+    "target": "策"
+  },
+  {
+    "id": "竹->箇",
+    "source": "竹",
+    "target": "箇"
+  },
+  {
+    "id": "固->箇",
+    "source": "固",
+    "target": "箇"
+  },
+  {
+    "id": "竹->箋",
+    "source": "竹",
+    "target": "箋"
+  },
+  {
+    "id": "竹->算",
+    "source": "竹",
+    "target": "算"
+  },
+  {
+    "id": "竹->管",
+    "source": "竹",
+    "target": "管"
+  },
+  {
+    "id": "官->管",
+    "source": "官",
+    "target": "管"
+  },
+  {
+    "id": "竹->箱",
+    "source": "竹",
+    "target": "箱"
+  },
+  {
+    "id": "相->箱",
+    "source": "相",
+    "target": "箱"
+  },
+  {
+    "id": "竹->箸",
+    "source": "竹",
+    "target": "箸"
+  },
+  {
+    "id": "者->箸",
+    "source": "者",
+    "target": "箸"
+  },
+  {
+    "id": "竹->節",
+    "source": "竹",
+    "target": "節"
+  },
+  {
+    "id": "即->節",
+    "source": "即",
+    "target": "節"
+  },
+  {
+    "id": "竹->範",
+    "source": "竹",
+    "target": "範"
+  },
+  {
+    "id": "木->築",
+    "source": "木",
+    "target": "築"
+  },
+  {
+    "id": "竹->篤",
+    "source": "竹",
+    "target": "篤"
+  },
+  {
+    "id": "馬->篤",
+    "source": "馬",
+    "target": "篤"
+  },
+  {
+    "id": "竹->簡",
+    "source": "竹",
+    "target": "簡"
+  },
+  {
+    "id": "間->簡",
+    "source": "間",
+    "target": "簡"
+  },
+  {
+    "id": "竹->簿",
+    "source": "竹",
+    "target": "簿"
+  },
+  {
+    "id": "竹->籍",
+    "source": "竹",
+    "target": "籍"
+  },
+  {
+    "id": "竹->籠",
+    "source": "竹",
+    "target": "籠"
+  },
+  {
+    "id": "米->粉",
+    "source": "米",
+    "target": "粉"
+  },
+  {
+    "id": "分->粉",
+    "source": "分",
+    "target": "粉"
+  },
+  {
+    "id": "米->粋",
+    "source": "米",
+    "target": "粋"
+  },
+  {
+    "id": "米->粒",
+    "source": "米",
+    "target": "粒"
+  },
+  {
+    "id": "立->粒",
+    "source": "立",
+    "target": "粒"
+  },
+  {
+    "id": "米->粗",
+    "source": "米",
+    "target": "粗"
+  },
+  {
+    "id": "且->粗",
+    "source": "且",
+    "target": "粗"
+  },
+  {
+    "id": "米->粘",
+    "source": "米",
+    "target": "粘"
+  },
+  {
+    "id": "占->粘",
+    "source": "占",
+    "target": "粘"
+  },
+  {
+    "id": "米->粛",
+    "source": "米",
+    "target": "粛"
+  },
+  {
+    "id": "米->粧",
+    "source": "米",
+    "target": "粧"
+  },
+  {
+    "id": "庄->粧",
+    "source": "庄",
+    "target": "粧"
+  },
+  {
+    "id": "米->精",
+    "source": "米",
+    "target": "精"
+  },
+  {
+    "id": "青->精",
+    "source": "青",
+    "target": "精"
+  },
+  {
+    "id": "米->糖",
+    "source": "米",
+    "target": "糖"
+  },
+  {
+    "id": "唐->糖",
+    "source": "唐",
+    "target": "糖"
+  },
+  {
+    "id": "米->糧",
+    "source": "米",
+    "target": "糧"
+  },
+  {
+    "id": "量->糧",
+    "source": "量",
+    "target": "糧"
+  },
+  {
+    "id": "糸->系",
+    "source": "糸",
+    "target": "系"
+  },
+  {
+    "id": "糸->糾",
+    "source": "糸",
+    "target": "糾"
+  },
+  {
+    "id": "糸->紀",
+    "source": "糸",
+    "target": "紀"
+  },
+  {
+    "id": "己->紀",
+    "source": "己",
+    "target": "紀"
+  },
+  {
+    "id": "糸->約",
+    "source": "糸",
+    "target": "約"
+  },
+  {
+    "id": "勺->約",
+    "source": "勺",
+    "target": "約"
+  },
+  {
+    "id": "糸->紅",
+    "source": "糸",
+    "target": "紅"
+  },
+  {
+    "id": "工->紅",
+    "source": "工",
+    "target": "紅"
+  },
+  {
+    "id": "糸->紋",
+    "source": "糸",
+    "target": "紋"
+  },
+  {
+    "id": "文->紋",
+    "source": "文",
+    "target": "紋"
+  },
+  {
+    "id": "糸->納",
+    "source": "糸",
+    "target": "納"
+  },
+  {
+    "id": "内->納",
+    "source": "内",
+    "target": "納"
+  },
+  {
+    "id": "糸->純",
+    "source": "糸",
+    "target": "純"
+  },
+  {
+    "id": "屯->純",
+    "source": "屯",
+    "target": "純"
+  },
+  {
+    "id": "糸->紙",
+    "source": "糸",
+    "target": "紙"
+  },
+  {
+    "id": "氏->紙",
+    "source": "氏",
+    "target": "紙"
+  },
+  {
+    "id": "糸->級",
+    "source": "糸",
+    "target": "級"
+  },
+  {
+    "id": "及->級",
+    "source": "及",
+    "target": "級"
+  },
+  {
+    "id": "糸->紛",
+    "source": "糸",
+    "target": "紛"
+  },
+  {
+    "id": "分->紛",
+    "source": "分",
+    "target": "紛"
+  },
+  {
+    "id": "糸->素",
+    "source": "糸",
+    "target": "素"
+  },
+  {
+    "id": "糸->紡",
+    "source": "糸",
+    "target": "紡"
+  },
+  {
+    "id": "方->紡",
+    "source": "方",
+    "target": "紡"
+  },
+  {
+    "id": "糸->索",
+    "source": "糸",
+    "target": "索"
+  },
+  {
+    "id": "糸->紫",
+    "source": "糸",
+    "target": "紫"
+  },
+  {
+    "id": "田->累",
+    "source": "田",
+    "target": "累"
+  },
+  {
+    "id": "糸->累",
+    "source": "糸",
+    "target": "累"
+  },
+  {
+    "id": "糸->細",
+    "source": "糸",
+    "target": "細"
+  },
+  {
+    "id": "田->細",
+    "source": "田",
+    "target": "細"
+  },
+  {
+    "id": "糸->紳",
+    "source": "糸",
+    "target": "紳"
+  },
+  {
+    "id": "申->紳",
+    "source": "申",
+    "target": "紳"
+  },
+  {
+    "id": "糸->紹",
+    "source": "糸",
+    "target": "紹"
+  },
+  {
+    "id": "召->紹",
+    "source": "召",
+    "target": "紹"
+  },
+  {
+    "id": "糸->紺",
+    "source": "糸",
+    "target": "紺"
+  },
+  {
+    "id": "甘->紺",
+    "source": "甘",
+    "target": "紺"
+  },
+  {
+    "id": "糸->終",
+    "source": "糸",
+    "target": "終"
+  },
+  {
+    "id": "冬->終",
+    "source": "冬",
+    "target": "終"
+  },
+  {
+    "id": "糸->組",
+    "source": "糸",
+    "target": "組"
+  },
+  {
+    "id": "且->組",
+    "source": "且",
+    "target": "組"
+  },
+  {
+    "id": "糸->経",
+    "source": "糸",
+    "target": "経"
+  },
+  {
+    "id": "糸->結",
+    "source": "糸",
+    "target": "結"
+  },
+  {
+    "id": "吉->結",
+    "source": "吉",
+    "target": "結"
+  },
+  {
+    "id": "糸->絞",
+    "source": "糸",
+    "target": "絞"
+  },
+  {
+    "id": "交->絞",
+    "source": "交",
+    "target": "絞"
+  },
+  {
+    "id": "糸->絡",
+    "source": "糸",
+    "target": "絡"
+  },
+  {
+    "id": "各->絡",
+    "source": "各",
+    "target": "絡"
+  },
+  {
+    "id": "糸->給",
+    "source": "糸",
+    "target": "給"
+  },
+  {
+    "id": "合->給",
+    "source": "合",
+    "target": "給"
+  },
+  {
+    "id": "糸->統",
+    "source": "糸",
+    "target": "統"
+  },
+  {
+    "id": "充->統",
+    "source": "充",
+    "target": "統"
+  },
+  {
+    "id": "糸->絵",
+    "source": "糸",
+    "target": "絵"
+  },
+  {
+    "id": "会->絵",
+    "source": "会",
+    "target": "絵"
+  },
+  {
+    "id": "糸->絶",
+    "source": "糸",
+    "target": "絶"
+  },
+  {
+    "id": "色->絶",
+    "source": "色",
+    "target": "絶"
+  },
+  {
+    "id": "糸->絹",
+    "source": "糸",
+    "target": "絹"
+  },
+  {
+    "id": "糸->継",
+    "source": "糸",
+    "target": "継"
+  },
+  {
+    "id": "糸->続",
+    "source": "糸",
+    "target": "続"
+  },
+  {
+    "id": "売->続",
+    "source": "売",
+    "target": "続"
+  },
+  {
+    "id": "糸->維",
+    "source": "糸",
+    "target": "維"
+  },
+  {
+    "id": "糸->綱",
+    "source": "糸",
+    "target": "綱"
+  },
+  {
+    "id": "岡->綱",
+    "source": "岡",
+    "target": "綱"
+  },
+  {
+    "id": "糸->網",
+    "source": "糸",
+    "target": "網"
+  },
+  {
+    "id": "糸->綻",
+    "source": "糸",
+    "target": "綻"
+  },
+  {
+    "id": "定->綻",
+    "source": "定",
+    "target": "綻"
+  },
+  {
+    "id": "糸->綿",
+    "source": "糸",
+    "target": "綿"
+  },
+  {
+    "id": "糸->緊",
+    "source": "糸",
+    "target": "緊"
+  },
+  {
+    "id": "糸->総",
+    "source": "糸",
+    "target": "総"
+  },
+  {
+    "id": "糸->緑",
+    "source": "糸",
+    "target": "緑"
+  },
+  {
+    "id": "糸->緒",
+    "source": "糸",
+    "target": "緒"
+  },
+  {
+    "id": "者->緒",
+    "source": "者",
+    "target": "緒"
+  },
+  {
+    "id": "糸->線",
+    "source": "糸",
+    "target": "線"
+  },
+  {
+    "id": "泉->線",
+    "source": "泉",
+    "target": "線"
+  },
+  {
+    "id": "糸->締",
+    "source": "糸",
+    "target": "締"
+  },
+  {
+    "id": "帝->締",
+    "source": "帝",
+    "target": "締"
+  },
+  {
+    "id": "糸->編",
+    "source": "糸",
+    "target": "編"
+  },
+  {
+    "id": "糸->緩",
+    "source": "糸",
+    "target": "緩"
+  },
+  {
+    "id": "糸->緯",
+    "source": "糸",
+    "target": "緯"
+  },
+  {
+    "id": "糸->練",
+    "source": "糸",
+    "target": "練"
+  },
+  {
+    "id": "東->練",
+    "source": "東",
+    "target": "練"
+  },
+  {
+    "id": "糸->緻",
+    "source": "糸",
+    "target": "緻"
+  },
+  {
+    "id": "致->緻",
+    "source": "致",
+    "target": "緻"
+  },
+  {
+    "id": "糸->縁",
+    "source": "糸",
+    "target": "縁"
+  },
+  {
+    "id": "糸->縄",
+    "source": "糸",
+    "target": "縄"
+  },
+  {
+    "id": "糸->縛",
+    "source": "糸",
+    "target": "縛"
+  },
+  {
+    "id": "糸->縦",
+    "source": "糸",
+    "target": "縦"
+  },
+  {
+    "id": "従->縦",
+    "source": "従",
+    "target": "縦"
+  },
+  {
+    "id": "糸->縫",
+    "source": "糸",
+    "target": "縫"
+  },
+  {
+    "id": "糸->縮",
+    "source": "糸",
+    "target": "縮"
+  },
+  {
+    "id": "宿->縮",
+    "source": "宿",
+    "target": "縮"
+  },
+  {
+    "id": "糸->績",
+    "source": "糸",
+    "target": "績"
+  },
+  {
+    "id": "責->績",
+    "source": "責",
+    "target": "績"
+  },
+  {
+    "id": "敏->繁",
+    "source": "敏",
+    "target": "繁"
+  },
+  {
+    "id": "糸->繁",
+    "source": "糸",
+    "target": "繁"
+  },
+  {
+    "id": "糸->繊",
+    "source": "糸",
+    "target": "繊"
+  },
+  {
+    "id": "糸->織",
+    "source": "糸",
+    "target": "織"
+  },
+  {
+    "id": "糸->繕",
+    "source": "糸",
+    "target": "繕"
+  },
+  {
+    "id": "善->繕",
+    "source": "善",
+    "target": "繕"
+  },
+  {
+    "id": "糸->繰",
+    "source": "糸",
+    "target": "繰"
+  },
+  {
+    "id": "非->罪",
+    "source": "非",
+    "target": "罪"
+  },
+  {
+    "id": "直->置",
+    "source": "直",
+    "target": "置"
+  },
+  {
+    "id": "者->署",
+    "source": "者",
+    "target": "署"
+  },
+  {
+    "id": "馬->罵",
+    "source": "馬",
+    "target": "罵"
+  },
+  {
+    "id": "能->罷",
+    "source": "能",
+    "target": "罷"
+  },
+  {
+    "id": "維->羅",
+    "source": "維",
+    "target": "羅"
+  },
+  {
+    "id": "羊->美",
+    "source": "羊",
+    "target": "美"
+  },
+  {
+    "id": "大->美",
+    "source": "大",
+    "target": "美"
+  },
+  {
+    "id": "丑->羞",
+    "source": "丑",
+    "target": "羞"
+  },
+  {
+    "id": "君->群",
+    "source": "君",
+    "target": "群"
+  },
+  {
+    "id": "羊->群",
+    "source": "羊",
+    "target": "群"
+  },
+  {
+    "id": "羊->羨",
+    "source": "羊",
+    "target": "羨"
+  },
+  {
+    "id": "羊->義",
+    "source": "羊",
+    "target": "義"
+  },
+  {
+    "id": "我->義",
+    "source": "我",
+    "target": "義"
+  },
+  {
+    "id": "公->翁",
+    "source": "公",
+    "target": "翁"
+  },
+  {
+    "id": "羽->翁",
+    "source": "羽",
+    "target": "翁"
+  },
+  {
+    "id": "羽->翌",
+    "source": "羽",
+    "target": "翌"
+  },
+  {
+    "id": "立->翌",
+    "source": "立",
+    "target": "翌"
+  },
+  {
+    "id": "羽->習",
+    "source": "羽",
+    "target": "習"
+  },
+  {
+    "id": "白->習",
+    "source": "白",
+    "target": "習"
+  },
+  {
+    "id": "番->翻",
+    "source": "番",
+    "target": "翻"
+  },
+  {
+    "id": "羽->翻",
+    "source": "羽",
+    "target": "翻"
+  },
+  {
+    "id": "羽->翼",
+    "source": "羽",
+    "target": "翼"
+  },
+  {
+    "id": "異->翼",
+    "source": "異",
+    "target": "翼"
+  },
+  {
+    "id": "老->考",
+    "source": "老",
+    "target": "考"
+  },
+  {
+    "id": "老->者",
+    "source": "老",
+    "target": "者"
+  },
+  {
+    "id": "日->者",
+    "source": "日",
+    "target": "者"
+  },
+  {
+    "id": "寸->耐",
+    "source": "寸",
+    "target": "耐"
+  },
+  {
+    "id": "井->耕",
+    "source": "井",
+    "target": "耕"
+  },
+  {
+    "id": "毛->耗",
+    "source": "毛",
+    "target": "耗"
+  },
+  {
+    "id": "玉->聖",
+    "source": "玉",
+    "target": "聖"
+  },
+  {
+    "id": "門->聞",
+    "source": "門",
+    "target": "聞"
+  },
+  {
+    "id": "耳->聞",
+    "source": "耳",
+    "target": "聞"
+  },
+  {
+    "id": "耳->聴",
+    "source": "耳",
+    "target": "聴"
+  },
+  {
+    "id": "耳->職",
+    "source": "耳",
+    "target": "職"
+  },
+  {
+    "id": "肉->肌",
+    "source": "肉",
+    "target": "肌"
+  },
+  {
+    "id": "小->肖",
+    "source": "小",
+    "target": "肖"
+  },
+  {
+    "id": "肉->肖",
+    "source": "肉",
+    "target": "肖"
+  },
+  {
+    "id": "肉->肘",
+    "source": "肉",
+    "target": "肘"
+  },
+  {
+    "id": "寸->肘",
+    "source": "寸",
+    "target": "肘"
+  },
+  {
+    "id": "肉->肝",
+    "source": "肉",
+    "target": "肝"
+  },
+  {
+    "id": "干->肝",
+    "source": "干",
+    "target": "肝"
+  },
+  {
+    "id": "肉->股",
+    "source": "肉",
+    "target": "股"
+  },
+  {
+    "id": "肉->肢",
+    "source": "肉",
+    "target": "肢"
+  },
+  {
+    "id": "支->肢",
+    "source": "支",
+    "target": "肢"
+  },
+  {
+    "id": "肉->肥",
+    "source": "肉",
+    "target": "肥"
+  },
+  {
+    "id": "巴->肥",
+    "source": "巴",
+    "target": "肥"
+  },
+  {
+    "id": "戸->肩",
+    "source": "戸",
+    "target": "肩"
+  },
+  {
+    "id": "肉->肩",
+    "source": "肉",
+    "target": "肩"
+  },
+  {
+    "id": "肉->肪",
+    "source": "肉",
+    "target": "肪"
+  },
+  {
+    "id": "方->肪",
+    "source": "方",
+    "target": "肪"
+  },
+  {
+    "id": "止->肯",
+    "source": "止",
+    "target": "肯"
+  },
+  {
+    "id": "肉->肯",
+    "source": "肉",
+    "target": "肯"
+  },
+  {
+    "id": "肉->育",
+    "source": "肉",
+    "target": "育"
+  },
+  {
+    "id": "肉->肺",
+    "source": "肉",
+    "target": "肺"
+  },
+  {
+    "id": "市->肺",
+    "source": "市",
+    "target": "肺"
+  },
+  {
+    "id": "田->胃",
+    "source": "田",
+    "target": "胃"
+  },
+  {
+    "id": "肉->胃",
+    "source": "肉",
+    "target": "胃"
+  },
+  {
+    "id": "肉->胆",
+    "source": "肉",
+    "target": "胆"
+  },
+  {
+    "id": "旦->胆",
+    "source": "旦",
+    "target": "胆"
+  },
+  {
+    "id": "北->背",
+    "source": "北",
+    "target": "背"
+  },
+  {
+    "id": "肉->背",
+    "source": "肉",
+    "target": "背"
+  },
+  {
+    "id": "肉->胎",
+    "source": "肉",
+    "target": "胎"
+  },
+  {
+    "id": "台->胎",
+    "source": "台",
+    "target": "胎"
+  },
+  {
+    "id": "肉->胞",
+    "source": "肉",
+    "target": "胞"
+  },
+  {
+    "id": "包->胞",
+    "source": "包",
+    "target": "胞"
+  },
+  {
+    "id": "肉->胴",
+    "source": "肉",
+    "target": "胴"
+  },
+  {
+    "id": "同->胴",
+    "source": "同",
+    "target": "胴"
+  },
+  {
+    "id": "肉->胸",
+    "source": "肉",
+    "target": "胸"
+  },
+  {
+    "id": "肉->脂",
+    "source": "肉",
+    "target": "脂"
+  },
+  {
+    "id": "旨->脂",
+    "source": "旨",
+    "target": "脂"
+  },
+  {
+    "id": "肉->脅",
+    "source": "肉",
+    "target": "脅"
+  },
+  {
+    "id": "肉->脇",
+    "source": "肉",
+    "target": "脇"
+  },
+  {
+    "id": "肉->脈",
+    "source": "肉",
+    "target": "脈"
+  },
+  {
+    "id": "肉->脊",
+    "source": "肉",
+    "target": "脊"
+  },
+  {
+    "id": "肉->脚",
+    "source": "肉",
+    "target": "脚"
+  },
+  {
+    "id": "却->脚",
+    "source": "却",
+    "target": "脚"
+  },
+  {
+    "id": "肉->脱",
+    "source": "肉",
+    "target": "脱"
+  },
+  {
+    "id": "肉->脳",
+    "source": "肉",
+    "target": "脳"
+  },
+  {
+    "id": "肉->腎",
+    "source": "肉",
+    "target": "腎"
+  },
+  {
+    "id": "府->腐",
+    "source": "府",
+    "target": "腐"
+  },
+  {
+    "id": "肉->腐",
+    "source": "肉",
+    "target": "腐"
+  },
+  {
+    "id": "肉->腕",
+    "source": "肉",
+    "target": "腕"
+  },
+  {
+    "id": "宛->腕",
+    "source": "宛",
+    "target": "腕"
+  },
+  {
+    "id": "肉->腫",
+    "source": "肉",
+    "target": "腫"
+  },
+  {
+    "id": "重->腫",
+    "source": "重",
+    "target": "腫"
+  },
+  {
+    "id": "肉->腰",
+    "source": "肉",
+    "target": "腰"
+  },
+  {
+    "id": "要->腰",
+    "source": "要",
+    "target": "腰"
+  },
+  {
+    "id": "肉->腸",
+    "source": "肉",
+    "target": "腸"
+  },
+  {
+    "id": "肉->腹",
+    "source": "肉",
+    "target": "腹"
+  },
+  {
+    "id": "肉->腺",
+    "source": "肉",
+    "target": "腺"
+  },
+  {
+    "id": "泉->腺",
+    "source": "泉",
+    "target": "腺"
+  },
+  {
+    "id": "胃->膚",
+    "source": "胃",
+    "target": "膚"
+  },
+  {
+    "id": "肉->膜",
+    "source": "肉",
+    "target": "膜"
+  },
+  {
+    "id": "肉->膝",
+    "source": "肉",
+    "target": "膝"
+  },
+  {
+    "id": "肉->膨",
+    "source": "肉",
+    "target": "膨"
+  },
+  {
+    "id": "肉->膳",
+    "source": "肉",
+    "target": "膳"
+  },
+  {
+    "id": "善->膳",
+    "source": "善",
+    "target": "膳"
+  },
+  {
+    "id": "肉->臆",
+    "source": "肉",
+    "target": "臆"
+  },
+  {
+    "id": "意->臆",
+    "source": "意",
+    "target": "臆"
+  },
+  {
+    "id": "肉->臓",
+    "source": "肉",
+    "target": "臓"
+  },
+  {
+    "id": "蔵->臓",
+    "source": "蔵",
+    "target": "臓"
+  },
+  {
+    "id": "臣->臨",
+    "source": "臣",
+    "target": "臨"
+  },
+  {
+    "id": "目->自",
+    "source": "目",
+    "target": "自"
+  },
+  {
+    "id": "自->臭",
+    "source": "自",
+    "target": "臭"
+  },
+  {
+    "id": "大->臭",
+    "source": "大",
+    "target": "臭"
+  },
+  {
+    "id": "土->至",
+    "source": "土",
+    "target": "至"
+  },
+  {
+    "id": "至->致",
+    "source": "至",
+    "target": "致"
+  },
+  {
+    "id": "八->興",
+    "source": "八",
+    "target": "興"
+  },
+  {
+    "id": "千->舌",
+    "source": "千",
+    "target": "舌"
+  },
+  {
+    "id": "口->舌",
+    "source": "口",
+    "target": "舌"
+  },
+  {
+    "id": "人->舎",
+    "source": "人",
+    "target": "舎"
+  },
+  {
+    "id": "吉->舎",
+    "source": "吉",
+    "target": "舎"
+  },
+  {
+    "id": "甫->舗",
+    "source": "甫",
+    "target": "舗"
+  },
+  {
+    "id": "舟->航",
+    "source": "舟",
+    "target": "航"
+  },
+  {
+    "id": "舟->般",
+    "source": "舟",
+    "target": "般"
+  },
+  {
+    "id": "舟->舶",
+    "source": "舟",
+    "target": "舶"
+  },
+  {
+    "id": "白->舶",
+    "source": "白",
+    "target": "舶"
+  },
+  {
+    "id": "舟->舷",
+    "source": "舟",
+    "target": "舷"
+  },
+  {
+    "id": "玄->舷",
+    "source": "玄",
+    "target": "舷"
+  },
+  {
+    "id": "舟->船",
+    "source": "舟",
+    "target": "船"
+  },
+  {
+    "id": "舟->艇",
+    "source": "舟",
+    "target": "艇"
+  },
+  {
+    "id": "廷->艇",
+    "source": "廷",
+    "target": "艇"
+  },
+  {
+    "id": "舟->艦",
+    "source": "舟",
+    "target": "艦"
+  },
+  {
+    "id": "監->艦",
+    "source": "監",
+    "target": "艦"
+  },
+  {
+    "id": "巴->色",
+    "source": "巴",
+    "target": "色"
+  },
+  {
+    "id": "豊->艶",
+    "source": "豊",
+    "target": "艶"
+  },
+  {
+    "id": "色->艶",
+    "source": "色",
+    "target": "艶"
+  },
+  {
+    "id": "之->芝",
+    "source": "之",
+    "target": "芝"
+  },
+  {
+    "id": "心->芯",
+    "source": "心",
+    "target": "芯"
+  },
+  {
+    "id": "化->花",
+    "source": "化",
+    "target": "花"
+  },
+  {
+    "id": "方->芳",
+    "source": "方",
+    "target": "芳"
+  },
+  {
+    "id": "牙->芽",
+    "source": "牙",
+    "target": "芽"
+  },
+  {
+    "id": "田->苗",
+    "source": "田",
+    "target": "苗"
+  },
+  {
+    "id": "可->苛",
+    "source": "可",
+    "target": "苛"
+  },
+  {
+    "id": "右->若",
+    "source": "右",
+    "target": "若"
+  },
+  {
+    "id": "古->苦",
+    "source": "古",
+    "target": "苦"
+  },
+  {
+    "id": "央->英",
+    "source": "央",
+    "target": "英"
+  },
+  {
+    "id": "次->茨",
+    "source": "次",
+    "target": "茨"
+  },
+  {
+    "id": "早->草",
+    "source": "早",
+    "target": "草"
+  },
+  {
+    "id": "壮->荘",
+    "source": "壮",
+    "target": "荘"
+  },
+  {
+    "id": "何->荷",
+    "source": "何",
+    "target": "荷"
+  },
+  {
+    "id": "果->菓",
+    "source": "果",
+    "target": "菓"
+  },
+  {
+    "id": "采->菜",
+    "source": "采",
+    "target": "菜"
+  },
+  {
+    "id": "委->萎",
+    "source": "委",
+    "target": "萎"
+  },
+  {
+    "id": "者->著",
+    "source": "者",
+    "target": "著"
+  },
+  {
+    "id": "畜->蓄",
+    "source": "畜",
+    "target": "蓄"
+  },
+  {
+    "id": "新->薪",
+    "source": "新",
+    "target": "薪"
+  },
+  {
+    "id": "楽->薬",
+    "source": "楽",
+    "target": "薬"
+  },
+  {
+    "id": "監->藍",
+    "source": "監",
+    "target": "藍"
+  },
+  {
+    "id": "八->虎",
+    "source": "八",
+    "target": "虎"
+  },
+  {
+    "id": "男->虜",
+    "source": "男",
+    "target": "虜"
+  },
+  {
+    "id": "呉->虞",
+    "source": "呉",
+    "target": "虞"
+  },
+  {
+    "id": "中->虫",
+    "source": "中",
+    "target": "虫"
+  },
+  {
+    "id": "虫->虹",
+    "source": "虫",
+    "target": "虹"
+  },
+  {
+    "id": "工->虹",
+    "source": "工",
+    "target": "虹"
+  },
+  {
+    "id": "虫->蚊",
+    "source": "虫",
+    "target": "蚊"
+  },
+  {
+    "id": "文->蚊",
+    "source": "文",
+    "target": "蚊"
+  },
+  {
+    "id": "天->蚕",
+    "source": "天",
+    "target": "蚕"
+  },
+  {
+    "id": "虫->蚕",
+    "source": "虫",
+    "target": "蚕"
+  },
+  {
+    "id": "虫->蛇",
+    "source": "虫",
+    "target": "蛇"
+  },
+  {
+    "id": "虫->蛍",
+    "source": "虫",
+    "target": "蛍"
+  },
+  {
+    "id": "亦->蛮",
+    "source": "亦",
+    "target": "蛮"
+  },
+  {
+    "id": "虫->蛮",
+    "source": "虫",
+    "target": "蛮"
+  },
+  {
+    "id": "虫->蜂",
+    "source": "虫",
+    "target": "蜂"
+  },
+  {
+    "id": "虫->蜜",
+    "source": "虫",
+    "target": "蜜"
+  },
+  {
+    "id": "虫->融",
+    "source": "虫",
+    "target": "融"
+  },
+  {
+    "id": "皿->血",
+    "source": "皿",
+    "target": "血"
+  },
+  {
+    "id": "血->衆",
+    "source": "血",
+    "target": "衆"
+  },
+  {
+    "id": "行->術",
+    "source": "行",
+    "target": "術"
+  },
+  {
+    "id": "行->街",
+    "source": "行",
+    "target": "街"
+  },
+  {
+    "id": "圭->街",
+    "source": "圭",
+    "target": "街"
+  },
+  {
+    "id": "行->衛",
+    "source": "行",
+    "target": "衛"
+  },
+  {
+    "id": "行->衝",
+    "source": "行",
+    "target": "衝"
+  },
+  {
+    "id": "重->衝",
+    "source": "重",
+    "target": "衝"
+  },
+  {
+    "id": "行->衡",
+    "source": "行",
+    "target": "衡"
+  },
+  {
+    "id": "魚->衡",
+    "source": "魚",
+    "target": "衡"
+  },
+  {
+    "id": "衣->表",
+    "source": "衣",
+    "target": "表"
+  },
+  {
+    "id": "衣->衰",
+    "source": "衣",
+    "target": "衰"
+  },
+  {
+    "id": "衣->衷",
+    "source": "衣",
+    "target": "衷"
+  },
+  {
+    "id": "代->袋",
+    "source": "代",
+    "target": "袋"
+  },
+  {
+    "id": "衣->袋",
+    "source": "衣",
+    "target": "袋"
+  },
+  {
+    "id": "衣->袖",
+    "source": "衣",
+    "target": "袖"
+  },
+  {
+    "id": "由->袖",
+    "source": "由",
+    "target": "袖"
+  },
+  {
+    "id": "衣->被",
+    "source": "衣",
+    "target": "被"
+  },
+  {
+    "id": "皮->被",
+    "source": "皮",
+    "target": "被"
+  },
+  {
+    "id": "衣->裁",
+    "source": "衣",
+    "target": "裁"
+  },
+  {
+    "id": "列->裂",
+    "source": "列",
+    "target": "裂"
+  },
+  {
+    "id": "衣->裂",
+    "source": "衣",
+    "target": "裂"
+  },
+  {
+    "id": "壮->装",
+    "source": "壮",
+    "target": "装"
+  },
+  {
+    "id": "衣->装",
+    "source": "衣",
+    "target": "装"
+  },
+  {
+    "id": "衣->裏",
+    "source": "衣",
+    "target": "裏"
+  },
+  {
+    "id": "衣->裕",
+    "source": "衣",
+    "target": "裕"
+  },
+  {
+    "id": "谷->裕",
+    "source": "谷",
+    "target": "裕"
+  },
+  {
+    "id": "衣->補",
+    "source": "衣",
+    "target": "補"
+  },
+  {
+    "id": "甫->補",
+    "source": "甫",
+    "target": "補"
+  },
+  {
+    "id": "衣->裸",
+    "source": "衣",
+    "target": "裸"
+  },
+  {
+    "id": "果->裸",
+    "source": "果",
+    "target": "裸"
+  },
+  {
+    "id": "制->製",
+    "source": "制",
+    "target": "製"
+  },
+  {
+    "id": "衣->製",
+    "source": "衣",
+    "target": "製"
+  },
+  {
+    "id": "衣->裾",
+    "source": "衣",
+    "target": "裾"
+  },
+  {
+    "id": "居->裾",
+    "source": "居",
+    "target": "裾"
+  },
+  {
+    "id": "衣->複",
+    "source": "衣",
+    "target": "複"
+  },
+  {
+    "id": "衣->褐",
+    "source": "衣",
+    "target": "褐"
+  },
+  {
+    "id": "衣->褒",
+    "source": "衣",
+    "target": "褒"
+  },
+  {
+    "id": "保->褒",
+    "source": "保",
+    "target": "褒"
+  },
+  {
+    "id": "衣->襟",
+    "source": "衣",
+    "target": "襟"
+  },
+  {
+    "id": "禁->襟",
+    "source": "禁",
+    "target": "襟"
+  },
+  {
+    "id": "衣->襲",
+    "source": "衣",
+    "target": "襲"
+  },
+  {
+    "id": "女->要",
+    "source": "女",
+    "target": "要"
+  },
+  {
+    "id": "復->覆",
+    "source": "復",
+    "target": "覆"
+  },
+  {
+    "id": "目->見",
+    "source": "目",
+    "target": "見"
+  },
+  {
+    "id": "夫->規",
+    "source": "夫",
+    "target": "規"
+  },
+  {
+    "id": "見->規",
+    "source": "見",
+    "target": "規"
+  },
+  {
+    "id": "示->視",
+    "source": "示",
+    "target": "視"
+  },
+  {
+    "id": "見->視",
+    "source": "見",
+    "target": "視"
+  },
+  {
+    "id": "見->覚",
+    "source": "見",
+    "target": "覚"
+  },
+  {
+    "id": "見->覧",
+    "source": "見",
+    "target": "覧"
+  },
+  {
+    "id": "見->親",
+    "source": "見",
+    "target": "親"
+  },
+  {
+    "id": "見->観",
+    "source": "見",
+    "target": "観"
+  },
+  {
+    "id": "角->解",
+    "source": "角",
+    "target": "解"
+  },
+  {
+    "id": "角->触",
+    "source": "角",
+    "target": "触"
+  },
+  {
+    "id": "虫->触",
+    "source": "虫",
+    "target": "触"
+  },
+  {
+    "id": "口->言",
+    "source": "口",
+    "target": "言"
+  },
+  {
+    "id": "言->訂",
+    "source": "言",
+    "target": "訂"
+  },
+  {
+    "id": "丁->訂",
+    "source": "丁",
+    "target": "訂"
+  },
+  {
+    "id": "言->訃",
+    "source": "言",
+    "target": "訃"
+  },
+  {
+    "id": "言->計",
+    "source": "言",
+    "target": "計"
+  },
+  {
+    "id": "十->計",
+    "source": "十",
+    "target": "計"
+  },
+  {
+    "id": "言->討",
+    "source": "言",
+    "target": "討"
+  },
+  {
+    "id": "寸->討",
+    "source": "寸",
+    "target": "討"
+  },
+  {
+    "id": "言->訓",
+    "source": "言",
+    "target": "訓"
+  },
+  {
+    "id": "言->託",
+    "source": "言",
+    "target": "託"
+  },
+  {
+    "id": "言->記",
+    "source": "言",
+    "target": "記"
+  },
+  {
+    "id": "己->記",
+    "source": "己",
+    "target": "記"
+  },
+  {
+    "id": "言->訟",
+    "source": "言",
+    "target": "訟"
+  },
+  {
+    "id": "公->訟",
+    "source": "公",
+    "target": "訟"
+  },
+  {
+    "id": "言->訪",
+    "source": "言",
+    "target": "訪"
+  },
+  {
+    "id": "方->訪",
+    "source": "方",
+    "target": "訪"
+  },
+  {
+    "id": "言->設",
+    "source": "言",
+    "target": "設"
+  },
+  {
+    "id": "言->許",
+    "source": "言",
+    "target": "許"
+  },
+  {
+    "id": "午->許",
+    "source": "午",
+    "target": "許"
+  },
+  {
+    "id": "言->訳",
+    "source": "言",
+    "target": "訳"
+  },
+  {
+    "id": "尺->訳",
+    "source": "尺",
+    "target": "訳"
+  },
+  {
+    "id": "言->訴",
+    "source": "言",
+    "target": "訴"
+  },
+  {
+    "id": "斥->訴",
+    "source": "斥",
+    "target": "訴"
+  },
+  {
+    "id": "言->診",
+    "source": "言",
+    "target": "診"
+  },
+  {
+    "id": "言->証",
+    "source": "言",
+    "target": "証"
+  },
+  {
+    "id": "正->証",
+    "source": "正",
+    "target": "証"
+  },
+  {
+    "id": "言->詐",
+    "source": "言",
+    "target": "詐"
+  },
+  {
+    "id": "言->詔",
+    "source": "言",
+    "target": "詔"
+  },
+  {
+    "id": "召->詔",
+    "source": "召",
+    "target": "詔"
+  },
+  {
+    "id": "言->評",
+    "source": "言",
+    "target": "評"
+  },
+  {
+    "id": "平->評",
+    "source": "平",
+    "target": "評"
+  },
+  {
+    "id": "言->詞",
+    "source": "言",
+    "target": "詞"
+  },
+  {
+    "id": "司->詞",
+    "source": "司",
+    "target": "詞"
+  },
+  {
+    "id": "言->詠",
+    "source": "言",
+    "target": "詠"
+  },
+  {
+    "id": "永->詠",
+    "source": "永",
+    "target": "詠"
+  },
+  {
+    "id": "言->詣",
+    "source": "言",
+    "target": "詣"
+  },
+  {
+    "id": "旨->詣",
+    "source": "旨",
+    "target": "詣"
+  },
+  {
+    "id": "言->試",
+    "source": "言",
+    "target": "試"
+  },
+  {
+    "id": "式->試",
+    "source": "式",
+    "target": "試"
+  },
+  {
+    "id": "言->詩",
+    "source": "言",
+    "target": "詩"
+  },
+  {
+    "id": "寺->詩",
+    "source": "寺",
+    "target": "詩"
+  },
+  {
+    "id": "言->詮",
+    "source": "言",
+    "target": "詮"
+  },
+  {
+    "id": "全->詮",
+    "source": "全",
+    "target": "詮"
+  },
+  {
+    "id": "言->詰",
+    "source": "言",
+    "target": "詰"
+  },
+  {
+    "id": "吉->詰",
+    "source": "吉",
+    "target": "詰"
+  },
+  {
+    "id": "言->話",
+    "source": "言",
+    "target": "話"
+  },
+  {
+    "id": "舌->話",
+    "source": "舌",
+    "target": "話"
+  },
+  {
+    "id": "言->該",
+    "source": "言",
+    "target": "該"
+  },
+  {
+    "id": "亥->該",
+    "source": "亥",
+    "target": "該"
+  },
+  {
+    "id": "言->詳",
+    "source": "言",
+    "target": "詳"
+  },
+  {
+    "id": "羊->詳",
+    "source": "羊",
+    "target": "詳"
+  },
+  {
+    "id": "言->誇",
+    "source": "言",
+    "target": "誇"
+  },
+  {
+    "id": "言->誉",
+    "source": "言",
+    "target": "誉"
+  },
+  {
+    "id": "言->誌",
+    "source": "言",
+    "target": "誌"
+  },
+  {
+    "id": "志->誌",
+    "source": "志",
+    "target": "誌"
+  },
+  {
+    "id": "言->認",
+    "source": "言",
+    "target": "認"
+  },
+  {
+    "id": "忍->認",
+    "source": "忍",
+    "target": "認"
+  },
+  {
+    "id": "折->誓",
+    "source": "折",
+    "target": "誓"
+  },
+  {
+    "id": "言->誓",
+    "source": "言",
+    "target": "誓"
+  },
+  {
+    "id": "言->誕",
+    "source": "言",
+    "target": "誕"
+  },
+  {
+    "id": "延->誕",
+    "source": "延",
+    "target": "誕"
+  },
+  {
+    "id": "言->誘",
+    "source": "言",
+    "target": "誘"
+  },
+  {
+    "id": "秀->誘",
+    "source": "秀",
+    "target": "誘"
+  },
+  {
+    "id": "言->語",
+    "source": "言",
+    "target": "語"
+  },
+  {
+    "id": "吾->語",
+    "source": "吾",
+    "target": "語"
+  },
+  {
+    "id": "言->誠",
+    "source": "言",
+    "target": "誠"
+  },
+  {
+    "id": "成->誠",
+    "source": "成",
+    "target": "誠"
+  },
+  {
+    "id": "言->誤",
+    "source": "言",
+    "target": "誤"
+  },
+  {
+    "id": "呉->誤",
+    "source": "呉",
+    "target": "誤"
+  },
+  {
+    "id": "言->説",
+    "source": "言",
+    "target": "説"
+  },
+  {
+    "id": "言->読",
+    "source": "言",
+    "target": "読"
+  },
+  {
+    "id": "売->読",
+    "source": "売",
+    "target": "読"
+  },
+  {
+    "id": "言->誰",
+    "source": "言",
+    "target": "誰"
+  },
+  {
+    "id": "言->課",
+    "source": "言",
+    "target": "課"
+  },
+  {
+    "id": "果->課",
+    "source": "果",
+    "target": "課"
+  },
+  {
+    "id": "言->調",
+    "source": "言",
+    "target": "調"
+  },
+  {
+    "id": "周->調",
+    "source": "周",
+    "target": "調"
+  },
+  {
+    "id": "言->談",
+    "source": "言",
+    "target": "談"
+  },
+  {
+    "id": "炎->談",
+    "source": "炎",
+    "target": "談"
+  },
+  {
+    "id": "言->請",
+    "source": "言",
+    "target": "請"
+  },
+  {
+    "id": "青->請",
+    "source": "青",
+    "target": "請"
+  },
+  {
+    "id": "言->論",
+    "source": "言",
+    "target": "論"
+  },
+  {
+    "id": "言->諦",
+    "source": "言",
+    "target": "諦"
+  },
+  {
+    "id": "帝->諦",
+    "source": "帝",
+    "target": "諦"
+  },
+  {
+    "id": "言->諧",
+    "source": "言",
+    "target": "諧"
+  },
+  {
+    "id": "皆->諧",
+    "source": "皆",
+    "target": "諧"
+  },
+  {
+    "id": "言->諭",
+    "source": "言",
+    "target": "諭"
+  },
+  {
+    "id": "言->諮",
+    "source": "言",
+    "target": "諮"
+  },
+  {
+    "id": "言->諸",
+    "source": "言",
+    "target": "諸"
+  },
+  {
+    "id": "者->諸",
+    "source": "者",
+    "target": "諸"
+  },
+  {
+    "id": "言->諾",
+    "source": "言",
+    "target": "諾"
+  },
+  {
+    "id": "若->諾",
+    "source": "若",
+    "target": "諾"
+  },
+  {
+    "id": "言->謀",
+    "source": "言",
+    "target": "謀"
+  },
+  {
+    "id": "某->謀",
+    "source": "某",
+    "target": "謀"
+  },
+  {
+    "id": "言->謁",
+    "source": "言",
+    "target": "謁"
+  },
+  {
+    "id": "朕->謄",
+    "source": "朕",
+    "target": "謄"
+  },
+  {
+    "id": "言->謎",
+    "source": "言",
+    "target": "謎"
+  },
+  {
+    "id": "迷->謎",
+    "source": "迷",
+    "target": "謎"
+  },
+  {
+    "id": "言->謙",
+    "source": "言",
+    "target": "謙"
+  },
+  {
+    "id": "兼->謙",
+    "source": "兼",
+    "target": "謙"
+  },
+  {
+    "id": "言->講",
+    "source": "言",
+    "target": "講"
+  },
+  {
+    "id": "言->謝",
+    "source": "言",
+    "target": "謝"
+  },
+  {
+    "id": "射->謝",
+    "source": "射",
+    "target": "謝"
+  },
+  {
+    "id": "言->謡",
+    "source": "言",
+    "target": "謡"
+  },
+  {
+    "id": "言->謹",
+    "source": "言",
+    "target": "謹"
+  },
+  {
+    "id": "言->識",
+    "source": "言",
+    "target": "識"
+  },
+  {
+    "id": "言->譜",
+    "source": "言",
+    "target": "譜"
+  },
+  {
+    "id": "普->譜",
+    "source": "普",
+    "target": "譜"
+  },
+  {
+    "id": "敬->警",
+    "source": "敬",
+    "target": "警"
+  },
+  {
+    "id": "言->警",
+    "source": "言",
+    "target": "警"
+  },
+  {
+    "id": "言->議",
+    "source": "言",
+    "target": "議"
+  },
+  {
+    "id": "義->議",
+    "source": "義",
+    "target": "議"
+  },
+  {
+    "id": "言->譲",
+    "source": "言",
+    "target": "譲"
+  },
+  {
+    "id": "言->護",
+    "source": "言",
+    "target": "護"
+  },
+  {
+    "id": "曲->豊",
+    "source": "曲",
+    "target": "豊"
+  },
+  {
+    "id": "豆->豊",
+    "source": "豆",
+    "target": "豊"
+  },
+  {
+    "id": "肉->豚",
+    "source": "肉",
+    "target": "豚"
+  },
+  {
+    "id": "目->貝",
+    "source": "目",
+    "target": "貝"
+  },
+  {
+    "id": "八->貝",
+    "source": "八",
+    "target": "貝"
+  },
+  {
+    "id": "貝->貞",
+    "source": "貝",
+    "target": "貞"
+  },
+  {
+    "id": "貝->負",
+    "source": "貝",
+    "target": "負"
+  },
+  {
+    "id": "貝->財",
+    "source": "貝",
+    "target": "財"
+  },
+  {
+    "id": "才->財",
+    "source": "才",
+    "target": "財"
+  },
+  {
+    "id": "工->貢",
+    "source": "工",
+    "target": "貢"
+  },
+  {
+    "id": "貝->貢",
+    "source": "貝",
+    "target": "貢"
+  },
+  {
+    "id": "分->貧",
+    "source": "分",
+    "target": "貧"
+  },
+  {
+    "id": "貝->貧",
+    "source": "貝",
+    "target": "貧"
+  },
+  {
+    "id": "化->貨",
+    "source": "化",
+    "target": "貨"
+  },
+  {
+    "id": "貝->貨",
+    "source": "貝",
+    "target": "貨"
+  },
+  {
+    "id": "貝->販",
+    "source": "貝",
+    "target": "販"
+  },
+  {
+    "id": "反->販",
+    "source": "反",
+    "target": "販"
+  },
+  {
+    "id": "今->貪",
+    "source": "今",
+    "target": "貪"
+  },
+  {
+    "id": "貝->貪",
+    "source": "貝",
+    "target": "貪"
+  },
+  {
+    "id": "母->貫",
+    "source": "母",
+    "target": "貫"
+  },
+  {
+    "id": "貝->貫",
+    "source": "貝",
+    "target": "貫"
+  },
+  {
+    "id": "貝->責",
+    "source": "貝",
+    "target": "責"
+  },
+  {
+    "id": "貝->貯",
+    "source": "貝",
+    "target": "貯"
+  },
+  {
+    "id": "貝->貴",
+    "source": "貝",
+    "target": "貴"
+  },
+  {
+    "id": "貝->買",
+    "source": "貝",
+    "target": "買"
+  },
+  {
+    "id": "代->貸",
+    "source": "代",
+    "target": "貸"
+  },
+  {
+    "id": "貝->貸",
+    "source": "貝",
+    "target": "貸"
+  },
+  {
+    "id": "貝->費",
+    "source": "貝",
+    "target": "費"
+  },
+  {
+    "id": "貝->貼",
+    "source": "貝",
+    "target": "貼"
+  },
+  {
+    "id": "占->貼",
+    "source": "占",
+    "target": "貼"
+  },
+  {
+    "id": "卯->貿",
+    "source": "卯",
+    "target": "貿"
+  },
+  {
+    "id": "貝->貿",
+    "source": "貝",
+    "target": "貿"
+  },
+  {
+    "id": "加->賀",
+    "source": "加",
+    "target": "賀"
+  },
+  {
+    "id": "貝->賀",
+    "source": "貝",
+    "target": "賀"
+  },
+  {
+    "id": "貝->賂",
+    "source": "貝",
+    "target": "賂"
+  },
+  {
+    "id": "各->賂",
+    "source": "各",
+    "target": "賂"
+  },
+  {
+    "id": "任->賃",
+    "source": "任",
+    "target": "賃"
+  },
+  {
+    "id": "貝->賃",
+    "source": "貝",
+    "target": "賃"
+  },
+  {
+    "id": "貝->賄",
+    "source": "貝",
+    "target": "賄"
+  },
+  {
+    "id": "有->賄",
+    "source": "有",
+    "target": "賄"
+  },
+  {
+    "id": "次->資",
+    "source": "次",
+    "target": "資"
+  },
+  {
+    "id": "貝->資",
+    "source": "貝",
+    "target": "資"
+  },
+  {
+    "id": "貝->賊",
+    "source": "貝",
+    "target": "賊"
+  },
+  {
+    "id": "貝->賓",
+    "source": "貝",
+    "target": "賓"
+  },
+  {
+    "id": "貝->賛",
+    "source": "貝",
+    "target": "賛"
+  },
+  {
+    "id": "貝->賜",
+    "source": "貝",
+    "target": "賜"
+  },
+  {
+    "id": "易->賜",
+    "source": "易",
+    "target": "賜"
+  },
+  {
+    "id": "尚->賞",
+    "source": "尚",
+    "target": "賞"
+  },
+  {
+    "id": "貝->賞",
+    "source": "貝",
+    "target": "賞"
+  },
+  {
+    "id": "貝->賠",
+    "source": "貝",
+    "target": "賠"
+  },
+  {
+    "id": "貝->賢",
+    "source": "貝",
+    "target": "賢"
+  },
+  {
+    "id": "貝->賦",
+    "source": "貝",
+    "target": "賦"
+  },
+  {
+    "id": "武->賦",
+    "source": "武",
+    "target": "賦"
+  },
+  {
+    "id": "貝->質",
+    "source": "貝",
+    "target": "質"
+  },
+  {
+    "id": "貝->賭",
+    "source": "貝",
+    "target": "賭"
+  },
+  {
+    "id": "者->賭",
+    "source": "者",
+    "target": "賭"
+  },
+  {
+    "id": "貝->購",
+    "source": "貝",
+    "target": "購"
+  },
+  {
+    "id": "貝->贈",
+    "source": "貝",
+    "target": "贈"
+  },
+  {
+    "id": "曽->贈",
+    "source": "曽",
+    "target": "贈"
+  },
+  {
+    "id": "土->赤",
+    "source": "土",
+    "target": "赤"
+  },
+  {
+    "id": "赤->赦",
+    "source": "赤",
+    "target": "赦"
+  },
+  {
+    "id": "土->走",
+    "source": "土",
+    "target": "走"
+  },
+  {
+    "id": "走->赴",
+    "source": "走",
+    "target": "赴"
+  },
+  {
+    "id": "走->起",
+    "source": "走",
+    "target": "起"
+  },
+  {
+    "id": "己->起",
+    "source": "己",
+    "target": "起"
+  },
+  {
+    "id": "走->超",
+    "source": "走",
+    "target": "超"
+  },
+  {
+    "id": "召->超",
+    "source": "召",
+    "target": "超"
+  },
+  {
+    "id": "走->越",
+    "source": "走",
+    "target": "越"
+  },
+  {
+    "id": "走->趣",
+    "source": "走",
+    "target": "趣"
+  },
+  {
+    "id": "取->趣",
+    "source": "取",
+    "target": "趣"
+  },
+  {
+    "id": "口->足",
+    "source": "口",
+    "target": "足"
+  },
+  {
+    "id": "足->距",
+    "source": "足",
+    "target": "距"
+  },
+  {
+    "id": "巨->距",
+    "source": "巨",
+    "target": "距"
+  },
+  {
+    "id": "足->跡",
+    "source": "足",
+    "target": "跡"
+  },
+  {
+    "id": "亦->跡",
+    "source": "亦",
+    "target": "跡"
+  },
+  {
+    "id": "足->路",
+    "source": "足",
+    "target": "路"
+  },
+  {
+    "id": "各->路",
+    "source": "各",
+    "target": "路"
+  },
+  {
+    "id": "足->跳",
+    "source": "足",
+    "target": "跳"
+  },
+  {
+    "id": "兆->跳",
+    "source": "兆",
+    "target": "跳"
+  },
+  {
+    "id": "足->践",
+    "source": "足",
+    "target": "践"
+  },
+  {
+    "id": "足->踊",
+    "source": "足",
+    "target": "踊"
+  },
+  {
+    "id": "足->踏",
+    "source": "足",
+    "target": "踏"
+  },
+  {
+    "id": "足->踪",
+    "source": "足",
+    "target": "踪"
+  },
+  {
+    "id": "宗->踪",
+    "source": "宗",
+    "target": "踪"
+  },
+  {
+    "id": "足->蹴",
+    "source": "足",
+    "target": "蹴"
+  },
+  {
+    "id": "就->蹴",
+    "source": "就",
+    "target": "蹴"
+  },
+  {
+    "id": "足->躍",
+    "source": "足",
+    "target": "躍"
+  },
+  {
+    "id": "車->軌",
+    "source": "車",
+    "target": "軌"
+  },
+  {
+    "id": "九->軌",
+    "source": "九",
+    "target": "軌"
+  },
+  {
+    "id": "車->軍",
+    "source": "車",
+    "target": "軍"
+  },
+  {
+    "id": "車->軒",
+    "source": "車",
+    "target": "軒"
+  },
+  {
+    "id": "干->軒",
+    "source": "干",
+    "target": "軒"
+  },
+  {
+    "id": "車->軟",
+    "source": "車",
+    "target": "軟"
+  },
+  {
+    "id": "欠->軟",
+    "source": "欠",
+    "target": "軟"
+  },
+  {
+    "id": "車->転",
+    "source": "車",
+    "target": "転"
+  },
+  {
+    "id": "車->軸",
+    "source": "車",
+    "target": "軸"
+  },
+  {
+    "id": "由->軸",
+    "source": "由",
+    "target": "軸"
+  },
+  {
+    "id": "車->軽",
+    "source": "車",
+    "target": "軽"
+  },
+  {
+    "id": "車->較",
+    "source": "車",
+    "target": "較"
+  },
+  {
+    "id": "交->較",
+    "source": "交",
+    "target": "較"
+  },
+  {
+    "id": "車->載",
+    "source": "車",
+    "target": "載"
+  },
+  {
+    "id": "光->輝",
+    "source": "光",
+    "target": "輝"
+  },
+  {
+    "id": "軍->輝",
+    "source": "軍",
+    "target": "輝"
+  },
+  {
+    "id": "非->輩",
+    "source": "非",
+    "target": "輩"
+  },
+  {
+    "id": "車->輩",
+    "source": "車",
+    "target": "輩"
+  },
+  {
+    "id": "車->輪",
+    "source": "車",
+    "target": "輪"
+  },
+  {
+    "id": "車->輸",
+    "source": "車",
+    "target": "輸"
+  },
+  {
+    "id": "車->轄",
+    "source": "車",
+    "target": "轄"
+  },
+  {
+    "id": "害->轄",
+    "source": "害",
+    "target": "轄"
+  },
+  {
+    "id": "立->辛",
+    "source": "立",
+    "target": "辛"
+  },
+  {
+    "id": "十->辛",
+    "source": "十",
+    "target": "辛"
+  },
+  {
+    "id": "舌->辞",
+    "source": "舌",
+    "target": "辞"
+  },
+  {
+    "id": "辛->辞",
+    "source": "辛",
+    "target": "辞"
+  },
+  {
+    "id": "辛->辣",
+    "source": "辛",
+    "target": "辣"
+  },
+  {
+    "id": "束->辣",
+    "source": "束",
+    "target": "辣"
+  },
+  {
+    "id": "辰->辱",
+    "source": "辰",
+    "target": "辱"
+  },
+  {
+    "id": "寸->辱",
+    "source": "寸",
+    "target": "辱"
+  },
+  {
+    "id": "曲->農",
+    "source": "曲",
+    "target": "農"
+  },
+  {
+    "id": "辰->農",
+    "source": "辰",
+    "target": "農"
+  },
+  {
+    "id": "刀->辺",
+    "source": "刀",
+    "target": "辺"
+  },
+  {
+    "id": "入->込",
+    "source": "入",
+    "target": "込"
+  },
+  {
+    "id": "斤->近",
+    "source": "斤",
+    "target": "近"
+  },
+  {
+    "id": "反->返",
+    "source": "反",
+    "target": "返"
+  },
+  {
+    "id": "白->迫",
+    "source": "白",
+    "target": "迫"
+  },
+  {
+    "id": "失->迭",
+    "source": "失",
+    "target": "迭"
+  },
+  {
+    "id": "米->迷",
+    "source": "米",
+    "target": "迷"
+  },
+  {
+    "id": "兆->逃",
+    "source": "兆",
+    "target": "逃"
+  },
+  {
+    "id": "秀->透",
+    "source": "秀",
+    "target": "透"
+  },
+  {
+    "id": "余->途",
+    "source": "余",
+    "target": "途"
+  },
+  {
+    "id": "折->逝",
+    "source": "折",
+    "target": "逝"
+  },
+  {
+    "id": "束->速",
+    "source": "束",
+    "target": "速"
+  },
+  {
+    "id": "告->造",
+    "source": "告",
+    "target": "造"
+  },
+  {
+    "id": "車->連",
+    "source": "車",
+    "target": "連"
+  },
+  {
+    "id": "周->週",
+    "source": "周",
+    "target": "週"
+  },
+  {
+    "id": "免->逸",
+    "source": "免",
+    "target": "逸"
+  },
+  {
+    "id": "軍->運",
+    "source": "軍",
+    "target": "運"
+  },
+  {
+    "id": "首->道",
+    "source": "首",
+    "target": "道"
+  },
+  {
+    "id": "孫->遜",
+    "source": "孫",
+    "target": "遜"
+  },
+  {
+    "id": "朔->遡",
+    "source": "朔",
+    "target": "遡"
+  },
+  {
+    "id": "曹->遭",
+    "source": "曹",
+    "target": "遭"
+  },
+  {
+    "id": "庶->遮",
+    "source": "庶",
+    "target": "遮"
+  },
+  {
+    "id": "尊->遵",
+    "source": "尊",
+    "target": "遵"
+  },
+  {
+    "id": "巽->選",
+    "source": "巽",
+    "target": "選"
+  },
+  {
+    "id": "貴->遺",
+    "source": "貴",
+    "target": "遺"
+  },
+  {
+    "id": "邑->那",
+    "source": "邑",
+    "target": "那"
+  },
+  {
+    "id": "邑->邦",
+    "source": "邑",
+    "target": "邦"
+  },
+  {
+    "id": "牙->邪",
+    "source": "牙",
+    "target": "邪"
+  },
+  {
+    "id": "邑->邪",
+    "source": "邑",
+    "target": "邪"
+  },
+  {
+    "id": "邑->邸",
+    "source": "邑",
+    "target": "邸"
+  },
+  {
+    "id": "交->郊",
+    "source": "交",
+    "target": "郊"
+  },
+  {
+    "id": "邑->郊",
+    "source": "邑",
+    "target": "郊"
+  },
+  {
+    "id": "良->郎",
+    "source": "良",
+    "target": "郎"
+  },
+  {
+    "id": "邑->郎",
+    "source": "邑",
+    "target": "郎"
+  },
+  {
+    "id": "君->郡",
+    "source": "君",
+    "target": "郡"
+  },
+  {
+    "id": "邑->郡",
+    "source": "邑",
+    "target": "郡"
+  },
+  {
+    "id": "邑->部",
+    "source": "邑",
+    "target": "部"
+  },
+  {
+    "id": "享->郭",
+    "source": "享",
+    "target": "郭"
+  },
+  {
+    "id": "邑->郭",
+    "source": "邑",
+    "target": "郭"
+  },
+  {
+    "id": "垂->郵",
+    "source": "垂",
+    "target": "郵"
+  },
+  {
+    "id": "邑->郵",
+    "source": "邑",
+    "target": "郵"
+  },
+  {
+    "id": "邑->郷",
+    "source": "邑",
+    "target": "郷"
+  },
+  {
+    "id": "者->都",
+    "source": "者",
+    "target": "都"
+  },
+  {
+    "id": "邑->都",
+    "source": "邑",
+    "target": "都"
+  },
+  {
+    "id": "酉->酌",
+    "source": "酉",
+    "target": "酌"
+  },
+  {
+    "id": "勺->酌",
+    "source": "勺",
+    "target": "酌"
+  },
+  {
+    "id": "酉->配",
+    "source": "酉",
+    "target": "配"
+  },
+  {
+    "id": "己->配",
+    "source": "己",
+    "target": "配"
+  },
+  {
+    "id": "酉->酎",
+    "source": "酉",
+    "target": "酎"
+  },
+  {
+    "id": "寸->酎",
+    "source": "寸",
+    "target": "酎"
+  },
+  {
+    "id": "水->酒",
+    "source": "水",
+    "target": "酒"
+  },
+  {
+    "id": "酉->酒",
+    "source": "酉",
+    "target": "酒"
+  },
+  {
+    "id": "酉->酔",
+    "source": "酉",
+    "target": "酔"
+  },
+  {
+    "id": "酉->酢",
+    "source": "酉",
+    "target": "酢"
+  },
+  {
+    "id": "酉->酪",
+    "source": "酉",
+    "target": "酪"
+  },
+  {
+    "id": "各->酪",
+    "source": "各",
+    "target": "酪"
+  },
+  {
+    "id": "酉->酬",
+    "source": "酉",
+    "target": "酬"
+  },
+  {
+    "id": "州->酬",
+    "source": "州",
+    "target": "酬"
+  },
+  {
+    "id": "酉->酵",
+    "source": "酉",
+    "target": "酵"
+  },
+  {
+    "id": "孝->酵",
+    "source": "孝",
+    "target": "酵"
+  },
+  {
+    "id": "酉->酷",
+    "source": "酉",
+    "target": "酷"
+  },
+  {
+    "id": "告->酷",
+    "source": "告",
+    "target": "酷"
+  },
+  {
+    "id": "酉->酸",
+    "source": "酉",
+    "target": "酸"
+  },
+  {
+    "id": "酉->醒",
+    "source": "酉",
+    "target": "醒"
+  },
+  {
+    "id": "星->醒",
+    "source": "星",
+    "target": "醒"
+  },
+  {
+    "id": "酉->醜",
+    "source": "酉",
+    "target": "醜"
+  },
+  {
+    "id": "鬼->醜",
+    "source": "鬼",
+    "target": "醜"
+  },
+  {
+    "id": "酉->醸",
+    "source": "酉",
+    "target": "醸"
+  },
+  {
+    "id": "爪->采",
+    "source": "爪",
+    "target": "采"
+  },
+  {
+    "id": "木->采",
+    "source": "木",
+    "target": "采"
+  },
+  {
+    "id": "尺->釈",
+    "source": "尺",
+    "target": "釈"
+  },
+  {
+    "id": "日->里",
+    "source": "日",
+    "target": "里"
+  },
+  {
+    "id": "千->重",
+    "source": "千",
+    "target": "重"
+  },
+  {
+    "id": "里->重",
+    "source": "里",
+    "target": "重"
+  },
+  {
+    "id": "里->野",
+    "source": "里",
+    "target": "野"
+  },
+  {
+    "id": "予->野",
+    "source": "予",
+    "target": "野"
+  },
+  {
+    "id": "旦->量",
+    "source": "旦",
+    "target": "量"
+  },
+  {
+    "id": "里->量",
+    "source": "里",
+    "target": "量"
+  },
+  {
+    "id": "父->釜",
+    "source": "父",
+    "target": "釜"
+  },
+  {
+    "id": "金->釜",
+    "source": "金",
+    "target": "釜"
+  },
+  {
+    "id": "金->針",
+    "source": "金",
+    "target": "針"
+  },
+  {
+    "id": "十->針",
+    "source": "十",
+    "target": "針"
+  },
+  {
+    "id": "金->釣",
+    "source": "金",
+    "target": "釣"
+  },
+  {
+    "id": "勺->釣",
+    "source": "勺",
+    "target": "釣"
+  },
+  {
+    "id": "金->鈍",
+    "source": "金",
+    "target": "鈍"
+  },
+  {
+    "id": "屯->鈍",
+    "source": "屯",
+    "target": "鈍"
+  },
+  {
+    "id": "金->鈴",
+    "source": "金",
+    "target": "鈴"
+  },
+  {
+    "id": "令->鈴",
+    "source": "令",
+    "target": "鈴"
+  },
+  {
+    "id": "金->鉄",
+    "source": "金",
+    "target": "鉄"
+  },
+  {
+    "id": "失->鉄",
+    "source": "失",
+    "target": "鉄"
+  },
+  {
+    "id": "金->鉛",
+    "source": "金",
+    "target": "鉛"
+  },
+  {
+    "id": "金->鉢",
+    "source": "金",
+    "target": "鉢"
+  },
+  {
+    "id": "本->鉢",
+    "source": "本",
+    "target": "鉢"
+  },
+  {
+    "id": "金->鉱",
+    "source": "金",
+    "target": "鉱"
+  },
+  {
+    "id": "広->鉱",
+    "source": "広",
+    "target": "鉱"
+  },
+  {
+    "id": "金->銀",
+    "source": "金",
+    "target": "銀"
+  },
+  {
+    "id": "金->銃",
+    "source": "金",
+    "target": "銃"
+  },
+  {
+    "id": "充->銃",
+    "source": "充",
+    "target": "銃"
+  },
+  {
+    "id": "金->銅",
+    "source": "金",
+    "target": "銅"
+  },
+  {
+    "id": "同->銅",
+    "source": "同",
+    "target": "銅"
+  },
+  {
+    "id": "金->銘",
+    "source": "金",
+    "target": "銘"
+  },
+  {
+    "id": "名->銘",
+    "source": "名",
+    "target": "銘"
+  },
+  {
+    "id": "金->銭",
+    "source": "金",
+    "target": "銭"
+  },
+  {
+    "id": "金->鋭",
+    "source": "金",
+    "target": "鋭"
+  },
+  {
+    "id": "金->鋳",
+    "source": "金",
+    "target": "鋳"
+  },
+  {
+    "id": "寿->鋳",
+    "source": "寿",
+    "target": "鋳"
+  },
+  {
+    "id": "金->鋼",
+    "source": "金",
+    "target": "鋼"
+  },
+  {
+    "id": "岡->鋼",
+    "source": "岡",
+    "target": "鋼"
+  },
+  {
+    "id": "金->錠",
+    "source": "金",
+    "target": "錠"
+  },
+  {
+    "id": "定->錠",
+    "source": "定",
+    "target": "錠"
+  },
+  {
+    "id": "金->錦",
+    "source": "金",
+    "target": "錦"
+  },
+  {
+    "id": "金->錬",
+    "source": "金",
+    "target": "錬"
+  },
+  {
+    "id": "東->錬",
+    "source": "東",
+    "target": "錬"
+  },
+  {
+    "id": "金->錮",
+    "source": "金",
+    "target": "錮"
+  },
+  {
+    "id": "固->錮",
+    "source": "固",
+    "target": "錮"
+  },
+  {
+    "id": "金->錯",
+    "source": "金",
+    "target": "錯"
+  },
+  {
+    "id": "昔->錯",
+    "source": "昔",
+    "target": "錯"
+  },
+  {
+    "id": "金->録",
+    "source": "金",
+    "target": "録"
+  },
+  {
+    "id": "金->鍋",
+    "source": "金",
+    "target": "鍋"
+  },
+  {
+    "id": "金->鍛",
+    "source": "金",
+    "target": "鍛"
+  },
+  {
+    "id": "段->鍛",
+    "source": "段",
+    "target": "鍛"
+  },
+  {
+    "id": "金->鍵",
+    "source": "金",
+    "target": "鍵"
+  },
+  {
+    "id": "建->鍵",
+    "source": "建",
+    "target": "鍵"
+  },
+  {
+    "id": "金->鎌",
+    "source": "金",
+    "target": "鎌"
+  },
+  {
+    "id": "兼->鎌",
+    "source": "兼",
+    "target": "鎌"
+  },
+  {
+    "id": "金->鎖",
+    "source": "金",
+    "target": "鎖"
+  },
+  {
+    "id": "金->鎮",
+    "source": "金",
+    "target": "鎮"
+  },
+  {
+    "id": "真->鎮",
+    "source": "真",
+    "target": "鎮"
+  },
+  {
+    "id": "金->鏡",
+    "source": "金",
+    "target": "鏡"
+  },
+  {
+    "id": "金->鐘",
+    "source": "金",
+    "target": "鐘"
+  },
+  {
+    "id": "童->鐘",
+    "source": "童",
+    "target": "鐘"
+  },
+  {
+    "id": "金->鑑",
+    "source": "金",
+    "target": "鑑"
+  },
+  {
+    "id": "監->鑑",
+    "source": "監",
+    "target": "鑑"
+  },
+  {
+    "id": "門->閉",
+    "source": "門",
+    "target": "閉"
+  },
+  {
+    "id": "才->閉",
+    "source": "才",
+    "target": "閉"
+  },
+  {
+    "id": "門->開",
+    "source": "門",
+    "target": "開"
+  },
+  {
+    "id": "門->閑",
+    "source": "門",
+    "target": "閑"
+  },
+  {
+    "id": "木->閑",
+    "source": "木",
+    "target": "閑"
+  },
+  {
+    "id": "門->間",
+    "source": "門",
+    "target": "間"
+  },
+  {
+    "id": "日->間",
+    "source": "日",
+    "target": "間"
+  },
+  {
+    "id": "門->関",
+    "source": "門",
+    "target": "関"
+  },
+  {
+    "id": "門->閣",
+    "source": "門",
+    "target": "閣"
+  },
+  {
+    "id": "各->閣",
+    "source": "各",
+    "target": "閣"
+  },
+  {
+    "id": "門->閥",
+    "source": "門",
+    "target": "閥"
+  },
+  {
+    "id": "伐->閥",
+    "source": "伐",
+    "target": "閥"
+  },
+  {
+    "id": "門->閲",
+    "source": "門",
+    "target": "閲"
+  },
+  {
+    "id": "門->闇",
+    "source": "門",
+    "target": "闇"
+  },
+  {
+    "id": "音->闇",
+    "source": "音",
+    "target": "闇"
+  },
+  {
+    "id": "門->闘",
+    "source": "門",
+    "target": "闘"
+  },
+  {
+    "id": "豆->闘",
+    "source": "豆",
+    "target": "闘"
+  },
+  {
+    "id": "寸->闘",
+    "source": "寸",
+    "target": "闘"
+  },
+  {
+    "id": "十->阜",
+    "source": "十",
+    "target": "阜"
+  },
+  {
+    "id": "阜->阪",
+    "source": "阜",
+    "target": "阪"
+  },
+  {
+    "id": "反->阪",
+    "source": "反",
+    "target": "阪"
+  },
+  {
+    "id": "阜->防",
+    "source": "阜",
+    "target": "防"
+  },
+  {
+    "id": "方->防",
+    "source": "方",
+    "target": "防"
+  },
+  {
+    "id": "阜->阻",
+    "source": "阜",
+    "target": "阻"
+  },
+  {
+    "id": "且->阻",
+    "source": "且",
+    "target": "阻"
+  },
+  {
+    "id": "阜->附",
+    "source": "阜",
+    "target": "附"
+  },
+  {
+    "id": "付->附",
+    "source": "付",
+    "target": "附"
+  },
+  {
+    "id": "阜->降",
+    "source": "阜",
+    "target": "降"
+  },
+  {
+    "id": "阜->限",
+    "source": "阜",
+    "target": "限"
+  },
+  {
+    "id": "阜->陛",
+    "source": "阜",
+    "target": "陛"
+  },
+  {
+    "id": "阜->院",
+    "source": "阜",
+    "target": "院"
+  },
+  {
+    "id": "完->院",
+    "source": "完",
+    "target": "院"
+  },
+  {
+    "id": "阜->陣",
+    "source": "阜",
+    "target": "陣"
+  },
+  {
+    "id": "車->陣",
+    "source": "車",
+    "target": "陣"
+  },
+  {
+    "id": "阜->除",
+    "source": "阜",
+    "target": "除"
+  },
+  {
+    "id": "余->除",
+    "source": "余",
+    "target": "除"
+  },
+  {
+    "id": "阜->陥",
+    "source": "阜",
+    "target": "陥"
+  },
+  {
+    "id": "阜->陪",
+    "source": "阜",
+    "target": "陪"
+  },
+  {
+    "id": "阜->陰",
+    "source": "阜",
+    "target": "陰"
+  },
+  {
+    "id": "阜->陳",
+    "source": "阜",
+    "target": "陳"
+  },
+  {
+    "id": "東->陳",
+    "source": "東",
+    "target": "陳"
+  },
+  {
+    "id": "阜->陵",
+    "source": "阜",
+    "target": "陵"
+  },
+  {
+    "id": "阜->陶",
+    "source": "阜",
+    "target": "陶"
+  },
+  {
+    "id": "阜->陸",
+    "source": "阜",
+    "target": "陸"
+  },
+  {
+    "id": "阜->険",
+    "source": "阜",
+    "target": "険"
+  },
+  {
+    "id": "阜->陽",
+    "source": "阜",
+    "target": "陽"
+  },
+  {
+    "id": "阜->隅",
+    "source": "阜",
+    "target": "隅"
+  },
+  {
+    "id": "阜->隆",
+    "source": "阜",
+    "target": "隆"
+  },
+  {
+    "id": "阜->隊",
+    "source": "阜",
+    "target": "隊"
+  },
+  {
+    "id": "阜->階",
+    "source": "阜",
+    "target": "階"
+  },
+  {
+    "id": "皆->階",
+    "source": "皆",
+    "target": "階"
+  },
+  {
+    "id": "阜->隔",
+    "source": "阜",
+    "target": "隔"
+  },
+  {
+    "id": "阜->隙",
+    "source": "阜",
+    "target": "隙"
+  },
+  {
+    "id": "阜->際",
+    "source": "阜",
+    "target": "際"
+  },
+  {
+    "id": "祭->際",
+    "source": "祭",
+    "target": "際"
+  },
+  {
+    "id": "阜->障",
+    "source": "阜",
+    "target": "障"
+  },
+  {
+    "id": "章->障",
+    "source": "章",
+    "target": "障"
+  },
+  {
+    "id": "阜->隠",
+    "source": "阜",
+    "target": "隠"
+  },
+  {
+    "id": "阜->隣",
+    "source": "阜",
+    "target": "隣"
+  },
+  {
+    "id": "又->隻",
+    "source": "又",
+    "target": "隻"
+  },
+  {
+    "id": "牙->雅",
+    "source": "牙",
+    "target": "雅"
+  },
+  {
+    "id": "木->集",
+    "source": "木",
+    "target": "集"
+  },
+  {
+    "id": "戸->雇",
+    "source": "戸",
+    "target": "雇"
+  },
+  {
+    "id": "雨->雪",
+    "source": "雨",
+    "target": "雪"
+  },
+  {
+    "id": "雨->雰",
+    "source": "雨",
+    "target": "雰"
+  },
+  {
+    "id": "分->雰",
+    "source": "分",
+    "target": "雰"
+  },
+  {
+    "id": "雨->雲",
+    "source": "雨",
+    "target": "雲"
+  },
+  {
+    "id": "雨->零",
+    "source": "雨",
+    "target": "零"
+  },
+  {
+    "id": "令->零",
+    "source": "令",
+    "target": "零"
+  },
+  {
+    "id": "雨->雷",
+    "source": "雨",
+    "target": "雷"
+  },
+  {
+    "id": "田->雷",
+    "source": "田",
+    "target": "雷"
+  },
+  {
+    "id": "雨->電",
+    "source": "雨",
+    "target": "電"
+  },
+  {
+    "id": "雨->需",
+    "source": "雨",
+    "target": "需"
+  },
+  {
+    "id": "雨->震",
+    "source": "雨",
+    "target": "震"
+  },
+  {
+    "id": "辰->震",
+    "source": "辰",
+    "target": "震"
+  },
+  {
+    "id": "雨->霊",
+    "source": "雨",
+    "target": "霊"
+  },
+  {
+    "id": "一->霊",
+    "source": "一",
+    "target": "霊"
+  },
+  {
+    "id": "雨->霜",
+    "source": "雨",
+    "target": "霜"
+  },
+  {
+    "id": "相->霜",
+    "source": "相",
+    "target": "霜"
+  },
+  {
+    "id": "雨->霧",
+    "source": "雨",
+    "target": "霧"
+  },
+  {
+    "id": "務->霧",
+    "source": "務",
+    "target": "霧"
+  },
+  {
+    "id": "雨->露",
+    "source": "雨",
+    "target": "露"
+  },
+  {
+    "id": "路->露",
+    "source": "路",
+    "target": "露"
+  },
+  {
+    "id": "月->青",
+    "source": "月",
+    "target": "青"
+  },
+  {
+    "id": "青->静",
+    "source": "青",
+    "target": "静"
+  },
+  {
+    "id": "争->静",
+    "source": "争",
+    "target": "静"
+  },
+  {
+    "id": "革->靴",
+    "source": "革",
+    "target": "靴"
+  },
+  {
+    "id": "化->靴",
+    "source": "化",
+    "target": "靴"
+  },
+  {
+    "id": "立->音",
+    "source": "立",
+    "target": "音"
+  },
+  {
+    "id": "日->音",
+    "source": "日",
+    "target": "音"
+  },
+  {
+    "id": "音->韻",
+    "source": "音",
+    "target": "韻"
+  },
+  {
+    "id": "員->韻",
+    "source": "員",
+    "target": "韻"
+  },
+  {
+    "id": "郷->響",
+    "source": "郷",
+    "target": "響"
+  },
+  {
+    "id": "音->響",
+    "source": "音",
+    "target": "響"
+  },
+  {
+    "id": "丁->頂",
+    "source": "丁",
+    "target": "頂"
+  },
+  {
+    "id": "工->項",
+    "source": "工",
+    "target": "項"
+  },
+  {
+    "id": "予->預",
+    "source": "予",
+    "target": "預"
+  },
+  {
+    "id": "元->頑",
+    "source": "元",
+    "target": "頑"
+  },
+  {
+    "id": "分->頒",
+    "source": "分",
+    "target": "頒"
+  },
+  {
+    "id": "屯->頓",
+    "source": "屯",
+    "target": "頓"
+  },
+  {
+    "id": "令->領",
+    "source": "令",
+    "target": "領"
+  },
+  {
+    "id": "豆->頭",
+    "source": "豆",
+    "target": "頭"
+  },
+  {
+    "id": "歩->頻",
+    "source": "歩",
+    "target": "頻"
+  },
+  {
+    "id": "束->頼",
+    "source": "束",
+    "target": "頼"
+  },
+  {
+    "id": "是->題",
+    "source": "是",
+    "target": "題"
+  },
+  {
+    "id": "客->額",
+    "source": "客",
+    "target": "額"
+  },
+  {
+    "id": "彦->顔",
+    "source": "彦",
+    "target": "顔"
+  },
+  {
+    "id": "原->願",
+    "source": "原",
+    "target": "願"
+  },
+  {
+    "id": "雇->顧",
+    "source": "雇",
+    "target": "顧"
+  },
+  {
+    "id": "升->飛",
+    "source": "升",
+    "target": "飛"
+  },
+  {
+    "id": "食->飢",
+    "source": "食",
+    "target": "飢"
+  },
+  {
+    "id": "食->飯",
+    "source": "食",
+    "target": "飯"
+  },
+  {
+    "id": "反->飯",
+    "source": "反",
+    "target": "飯"
+  },
+  {
+    "id": "食->飲",
+    "source": "食",
+    "target": "飲"
+  },
+  {
+    "id": "欠->飲",
+    "source": "欠",
+    "target": "飲"
+  },
+  {
+    "id": "食->飼",
+    "source": "食",
+    "target": "飼"
+  },
+  {
+    "id": "司->飼",
+    "source": "司",
+    "target": "飼"
+  },
+  {
+    "id": "食->飽",
+    "source": "食",
+    "target": "飽"
+  },
+  {
+    "id": "包->飽",
+    "source": "包",
+    "target": "飽"
+  },
+  {
+    "id": "食->飾",
+    "source": "食",
+    "target": "飾"
+  },
+  {
+    "id": "食->餅",
+    "source": "食",
+    "target": "餅"
+  },
+  {
+    "id": "羊->養",
+    "source": "羊",
+    "target": "養"
+  },
+  {
+    "id": "食->養",
+    "source": "食",
+    "target": "養"
+  },
+  {
+    "id": "食->餌",
+    "source": "食",
+    "target": "餌"
+  },
+  {
+    "id": "耳->餌",
+    "source": "耳",
+    "target": "餌"
+  },
+  {
+    "id": "食->餓",
+    "source": "食",
+    "target": "餓"
+  },
+  {
+    "id": "我->餓",
+    "source": "我",
+    "target": "餓"
+  },
+  {
+    "id": "食->館",
+    "source": "食",
+    "target": "館"
+  },
+  {
+    "id": "官->館",
+    "source": "官",
+    "target": "館"
+  },
+  {
+    "id": "自->首",
+    "source": "自",
+    "target": "首"
+  },
+  {
+    "id": "日->香",
+    "source": "日",
+    "target": "香"
+  },
+  {
+    "id": "火->馬",
+    "source": "火",
+    "target": "馬"
+  },
+  {
+    "id": "馬->駄",
+    "source": "馬",
+    "target": "駄"
+  },
+  {
+    "id": "太->駄",
+    "source": "太",
+    "target": "駄"
+  },
+  {
+    "id": "馬->駅",
+    "source": "馬",
+    "target": "駅"
+  },
+  {
+    "id": "尺->駅",
+    "source": "尺",
+    "target": "駅"
+  },
+  {
+    "id": "馬->駆",
+    "source": "馬",
+    "target": "駆"
+  },
+  {
+    "id": "区->駆",
+    "source": "区",
+    "target": "駆"
+  },
+  {
+    "id": "馬->駐",
+    "source": "馬",
+    "target": "駐"
+  },
+  {
+    "id": "主->駐",
+    "source": "主",
+    "target": "駐"
+  },
+  {
+    "id": "馬->駒",
+    "source": "馬",
+    "target": "駒"
+  },
+  {
+    "id": "句->駒",
+    "source": "句",
+    "target": "駒"
+  },
+  {
+    "id": "馬->騎",
+    "source": "馬",
+    "target": "騎"
+  },
+  {
+    "id": "奇->騎",
+    "source": "奇",
+    "target": "騎"
+  },
+  {
+    "id": "馬->騒",
+    "source": "馬",
+    "target": "騒"
+  },
+  {
+    "id": "馬->験",
+    "source": "馬",
+    "target": "験"
+  },
+  {
+    "id": "肉->騰",
+    "source": "肉",
+    "target": "騰"
+  },
+  {
+    "id": "敬->驚",
+    "source": "敬",
+    "target": "驚"
+  },
+  {
+    "id": "馬->驚",
+    "source": "馬",
+    "target": "驚"
+  },
+  {
+    "id": "月->骨",
+    "source": "月",
+    "target": "骨"
+  },
+  {
+    "id": "骨->骸",
+    "source": "骨",
+    "target": "骸"
+  },
+  {
+    "id": "亥->骸",
+    "source": "亥",
+    "target": "骸"
+  },
+  {
+    "id": "骨->髄",
+    "source": "骨",
+    "target": "髄"
+  },
+  {
+    "id": "友->髪",
+    "source": "友",
+    "target": "髪"
+  },
+  {
+    "id": "鬼->魂",
+    "source": "鬼",
+    "target": "魂"
+  },
+  {
+    "id": "鬼->魅",
+    "source": "鬼",
+    "target": "魅"
+  },
+  {
+    "id": "未->魅",
+    "source": "未",
+    "target": "魅"
+  },
+  {
+    "id": "麻->魔",
+    "source": "麻",
+    "target": "魔"
+  },
+  {
+    "id": "鬼->魔",
+    "source": "鬼",
+    "target": "魔"
+  },
+  {
+    "id": "魚->鮮",
+    "source": "魚",
+    "target": "鮮"
+  },
+  {
+    "id": "羊->鮮",
+    "source": "羊",
+    "target": "鮮"
+  },
+  {
+    "id": "魚->鯨",
+    "source": "魚",
+    "target": "鯨"
+  },
+  {
+    "id": "京->鯨",
+    "source": "京",
+    "target": "鯨"
+  },
+  {
+    "id": "火->鳥",
+    "source": "火",
+    "target": "鳥"
+  },
+  {
+    "id": "口->鳴",
+    "source": "口",
+    "target": "鳴"
+  },
+  {
+    "id": "鳥->鳴",
+    "source": "鳥",
+    "target": "鳴"
+  },
+  {
+    "id": "鳥->鶏",
+    "source": "鳥",
+    "target": "鶏"
+  },
+  {
+    "id": "鳥->鶴",
+    "source": "鳥",
+    "target": "鶴"
+  },
+  {
+    "id": "林->麓",
+    "source": "林",
+    "target": "麓"
+  },
+  {
+    "id": "鹿->麓",
+    "source": "鹿",
+    "target": "麓"
+  },
+  {
+    "id": "鹿->麗",
+    "source": "鹿",
+    "target": "麗"
+  },
+  {
+    "id": "面->麺",
+    "source": "面",
+    "target": "麺"
+  },
+  {
+    "id": "林->麻",
+    "source": "林",
+    "target": "麻"
+  },
+  {
+    "id": "由->黄",
+    "source": "由",
+    "target": "黄"
+  },
+  {
+    "id": "八->黄",
+    "source": "八",
+    "target": "黄"
+  },
+  {
+    "id": "里->黒",
+    "source": "里",
+    "target": "黒"
+  },
+  {
+    "id": "火->黒",
+    "source": "火",
+    "target": "黒"
+  },
+  {
+    "id": "支->鼓",
+    "source": "支",
+    "target": "鼓"
+  },
+  {
+    "id": "自->鼻",
+    "source": "自",
+    "target": "鼻"
+  },
+  {
+    "id": "令->齢",
+    "source": "令",
+    "target": "齢"
+  },
+  {
+    "id": "口->𠮟",
+    "source": "口",
+    "target": "𠮟"
+  },
+  {
+    "id": "七->𠮟",
+    "source": "七",
+    "target": "𠮟"
+  }
+]

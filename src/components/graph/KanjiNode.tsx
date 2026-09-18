@@ -1,8 +1,9 @@
 import type { MouseEvent } from 'react'
 import { Handle, Position, type NodeProps } from 'reactflow'
 
-import { hasChildKanji } from '../../data/kanjiCatalog'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
+import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
 import { useMasteryStore } from '../../store/useMasteryStore'
 import type { KanjiNodeData } from '../../types/kanji'
 import { jlptStyles } from './jlptStyles'
@@ -15,12 +16,20 @@ function KanjiNode({ id, data, selected }: KanjiNodeProps) {
   const styles = jlptStyles[data.jlptLevel]
   const isExpanded = useKanjiGraphStore((state) => state.expandedIds.has(id))
   const toggleExpand = useKanjiGraphStore((state) => state.toggleExpand)
+  const focusKanjiForExpand = useKanjiSelectionStore((state) => state.focusKanjiForExpand)
   const isMastered = useMasteryStore((state) => Boolean(state.masteredIds[id]))
-  const expandable = hasChildKanji(id)
+  const expandable = useKanjiDatasetStore(
+    (state) => (state.childIndex[id]?.length ?? 0) > 0,
+  )
 
   const handleExpandClick = (event: MouseEvent) => {
     event.stopPropagation()
-    toggleExpand(id)
+    const newlyAddedIds = toggleExpand(id)
+    // null means this click collapsed the node instead of expanding it -
+    // selection/detail-panel/viewport must stay untouched on collapse.
+    if (newlyAddedIds !== null) {
+      focusKanjiForExpand(data, newlyAddedIds)
+    }
   }
 
   const ringClass = selected

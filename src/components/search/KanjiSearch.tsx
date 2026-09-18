@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 
-import { allKanji } from '../../data/kanjiCatalog'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
 import type { KanjiInfo } from '../../types/kanji'
@@ -9,6 +9,7 @@ function KanjiSearch() {
   const [query, setQuery] = useState('')
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
+  const allKanji = useKanjiDatasetStore((state) => state.allKanji)
 
   const results = useMemo(() => {
     const trimmed = query.trim()
@@ -20,7 +21,7 @@ function KanjiSearch() {
         kanji.character.includes(trimmed) ||
         kanji.meaning.toLowerCase().includes(lower),
     )
-  }, [query])
+  }, [query, allKanji])
 
   const handleSelect = (kanji: KanjiInfo) => {
     setQuery('')

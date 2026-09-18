@@ -1,18 +1,21 @@
-import { getKanjiInfo } from '../../data/kanjiCatalog'
 import { computeLearningPath } from '../graph/graphPath'
+import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
 
 function LearningPath({ character }: { character: string }) {
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
-  const path = computeLearningPath(character)
+  const catalog = useKanjiDatasetStore((state) => state.catalog)
+  const path = computeLearningPath(character, catalog)
 
   if (path.length === 0) return null
 
   const goToStep = (step: string) => {
+    const info = catalog[step]
+    if (!info) return
     revealKanji(step)
-    focusKanji(getKanjiInfo(step))
+    focusKanji(info)
   }
 
   return (
