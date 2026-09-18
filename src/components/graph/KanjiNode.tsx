@@ -56,7 +56,7 @@ function KanjiNode({ id, data, selected }: KanjiNodeProps) {
 
   return (
     <div
-      className={`kanji-node-card relative flex w-28 flex-col items-center gap-1 rounded-lg border-2 px-4 py-3 shadow-lg transition-shadow ${styles.border} ${styles.bg} ${ringClass}`}
+      className={`kanji-node-card relative flex w-28 flex-col items-center gap-1 rounded-lg border-2 px-4 py-3 shadow-lg transition-shadow pointer-coarse:w-32 pointer-coarse:py-4 ${styles.border} ${styles.bg} ${ringClass}`}
     >
       <Handle type="target" position={Position.Top} className="!bg-slate-500" />
 
@@ -92,7 +92,11 @@ function KanjiNode({ id, data, selected }: KanjiNodeProps) {
           type="button"
           onClick={handleExpandClick}
           title={isExpanded ? 'Collapse' : 'Expand'}
-          className="absolute -bottom-2 -right-2 flex h-6 w-6 items-center justify-center rounded-full border border-slate-600 bg-slate-800 text-xs text-slate-200 hover:bg-slate-700"
+          aria-label={isExpanded ? 'Collapse' : 'Expand'}
+          // pointer-coarse: bumps the hit target to the 44px accessibility
+          // minimum on touch devices without changing the compact desktop
+          // (mouse) size.
+          className="absolute -bottom-2 -right-2 flex h-6 w-6 items-center justify-center rounded-full border border-slate-600 bg-slate-800 text-xs text-slate-200 hover:bg-slate-700 pointer-coarse:-bottom-3 pointer-coarse:-right-3 pointer-coarse:h-11 pointer-coarse:w-11 pointer-coarse:text-base"
         >
           {isExpanded ? '▼' : '▶'}
         </button>

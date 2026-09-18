@@ -6,7 +6,14 @@ import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
 import { useViewModeStore } from '../../store/useViewModeStore'
 import type { KanjiInfo } from '../../types/kanji'
 
-function KanjiSearch() {
+interface KanjiSearchProps {
+  // Desktop/tablet search switches to Graph view on select; the mobile Learn
+  // screen instead opens the detail bottom sheet in place, so it passes
+  // false here to skip the view-mode change.
+  navigateToGraph?: boolean
+}
+
+function KanjiSearch({ navigateToGraph = true }: KanjiSearchProps) {
   const [query, setQuery] = useState('')
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
@@ -29,7 +36,7 @@ function KanjiSearch() {
     setQuery('')
     revealKanji(kanji.character)
     focusKanji(kanji)
-    setViewMode('graph')
+    if (navigateToGraph) setViewMode('graph')
   }
 
   return (

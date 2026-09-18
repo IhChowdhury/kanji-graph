@@ -1,17 +1,15 @@
 import { useEffect } from 'react'
 
-import GraphCanvas from '../components/layout/GraphCanvas'
-import GraphViewNav from '../components/layout/GraphViewNav'
-import Header from '../components/layout/Header'
-import Sidebar from '../components/layout/Sidebar'
-import KanjiListView from '../components/list/KanjiListView'
-import KanjiDetailPanel from '../components/panels/KanjiDetailPanel'
+import DesktopShell from '../components/layout/DesktopShell'
+import FoldableShell from '../components/foldable/FoldableShell'
+import MobileShell from '../components/mobile/MobileShell'
+import TabletShell from '../components/tablet/TabletShell'
+import { useViewport } from '../hooks/useViewport'
 import { DEFAULT_JLPT_LEVEL, useKanjiDatasetStore } from '../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../store/useKanjiGraphStore'
-import { useViewModeStore } from '../store/useViewModeStore'
 
 function HomePage() {
-  const viewMode = useViewModeStore((state) => state.viewMode)
+  const { breakpoint, isFoldableSegmented } = useViewport()
 
   const initializeDataset = useKanjiDatasetStore((state) => state.initialize)
   const defaultLevelStatus = useKanjiDatasetStore(
@@ -19,11 +17,12 @@ function HomePage() {
   )
   const seedRootsIfNeeded = useKanjiGraphStore((state) => state.seedRootsIfNeeded)
 
-  // Lives here (rather than inside GraphCanvas) because Kanji List is the
-  // default landing view - GraphCanvas may never mount on a first visit, so
-  // nothing else is guaranteed to trigger the initial data load. Both calls
-  // are idempotent (see useKanjiDatasetStore/useKanjiGraphStore), so
-  // switching views never re-fetches or re-seeds.
+  // Lives here (rather than inside any one shell) because which shell mounts
+  // first depends on viewport - e.g. MobileShell's default Learn screen
+  // never mounts GraphCanvas at all - so nothing else is guaranteed to
+  // trigger the initial data load. Both calls are idempotent (see
+  // useKanjiDatasetStore/useKanjiGraphStore), so switching shells on
+  // resize/fold never re-fetches or re-seeds.
   useEffect(() => {
     void initializeDataset()
   }, [initializeDataset])
@@ -34,25 +33,10 @@ function HomePage() {
     }
   }, [defaultLevelStatus, seedRootsIfNeeded])
 
-  return (
-    <div className="flex h-screen flex-col">
-      <Header />
-      <div className="flex flex-1 overflow-hidden">
-        <Sidebar />
-        {viewMode === 'list' ? (
-          <KanjiListView />
-        ) : (
-          <>
-            <div className="flex flex-1 flex-col overflow-hidden">
-              <GraphViewNav />
-              <GraphCanvas />
-            </div>
-            <KanjiDetailPanel />
-          </>
-        )}
-      </div>
-    </div>
-  )
+  if (isFoldableSegmented) return <FoldableShell />
+  if (breakpoint === 'mobile') return <MobileShell />
+  if (breakpoint === 'tablet') return <TabletShell />
+  return <DesktopShell />
 }
 
 export default HomePage

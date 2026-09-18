@@ -34,7 +34,16 @@ function KanjiListCard({ kanji, onSelect }: { kanji: KanjiInfo; onSelect: () => 
   )
 }
 
-function KanjiListView() {
+interface KanjiListViewProps {
+  // Overrides the default select behavior (reveal + focus + switch to Graph
+  // view) - used by the mobile Learn screen, which instead opens the detail
+  // bottom sheet in place rather than navigating away from the list.
+  onSelectKanji?: (kanji: KanjiInfo) => void
+  hideHeading?: boolean
+  className?: string
+}
+
+function KanjiListView({ onSelectKanji, hideHeading, className }: KanjiListViewProps) {
   const allKanji = useKanjiDatasetStore((state) => state.allKanji)
   const enabledLevels = useJlptFilterStore((state) => state.enabledLevels)
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
@@ -54,16 +63,22 @@ function KanjiListView() {
   )
 
   const handleSelect = (kanji: KanjiInfo) => {
+    if (onSelectKanji) {
+      onSelectKanji(kanji)
+      return
+    }
     revealKanji(kanji.character)
     focusKanji(kanji)
     setViewMode('graph')
   }
 
   return (
-    <main className="relative flex-1 overflow-y-auto bg-slate-950 p-6">
-      <h1 className="mb-4 text-sm font-semibold uppercase tracking-wide text-slate-400">
-        Kanji List
-      </h1>
+    <div className={`relative flex-1 overflow-y-auto bg-slate-950 p-6 ${className ?? ''}`}>
+      {!hideHeading && (
+        <h1 className="mb-4 text-sm font-semibold uppercase tracking-wide text-slate-400">
+          Kanji List
+        </h1>
+      )}
 
       {visibleKanji.length > 0 ? (
         <div className="grid grid-cols-[repeat(auto-fill,minmax(6rem,1fr))] gap-3">
@@ -82,7 +97,7 @@ function KanjiListView() {
       )}
 
       <DatasetStatusOverlay />
-    </main>
+    </div>
   )
 }
 

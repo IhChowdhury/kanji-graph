@@ -8,6 +8,33 @@ body,
 
 body {
   margin: 0;
+  /* Premium feel on touch: no 300ms tap delay, no accidental double-tap
+     zoom on buttons/cards, while text remains selectable as normal. */
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+/* Visible keyboard focus ring everywhere, without adding a ring to mouse/
+   touch interactions (:focus-visible already restricts to keyboard nav in
+   modern browsers). */
+:focus-visible {
+  outline: 2px solid #34d399;
+  outline-offset: 2px;
+}
+
+/* Mobile landscape: a short viewport has no room to spare, so the bottom
+   nav switches from icon-over-label to icon-beside-label and tightens its
+   padding - every target stays >=44px tall via BottomNav's min-h-11. */
+@media (max-height: 500px) and (orientation: landscape) {
+  .mobile-bottom-nav__item {
+    flex-direction: row;
+    gap: 0.375rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+  }
 }
 
 /* Smoothly animate nodes gliding to their new layout position instead of

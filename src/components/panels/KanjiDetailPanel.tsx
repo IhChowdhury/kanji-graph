@@ -26,7 +26,7 @@ function KanjiDetailPanel() {
   const toggleMastered = useMasteryStore((state) => state.toggleMastered)
 
   return (
-    <aside className="flex w-80 shrink-0 flex-col overflow-y-auto border-l border-slate-800 bg-slate-900 p-4">
+    <aside className="flex h-full w-full flex-col overflow-y-auto border-l border-slate-800 bg-slate-900 p-4">
       <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-400">
         Details
       </h2>

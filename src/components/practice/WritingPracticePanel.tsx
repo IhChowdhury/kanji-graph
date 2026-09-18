@@ -29,12 +29,9 @@ import {
   type Vector,
 } from './strokeGeometry'
 
-const CANVAS_SIZE = 260
+const DEFAULT_CANVAS_SIZE = 260
 const INK_COLOR = '#2563eb'
 const CORRECT_COLOR = '#16a34a'
-
-// KanjiVG paths live in a 0-109 viewBox; the canvas is CANVAS_SIZE square.
-const REFERENCE_SCALE = CANVAS_SIZE / 109
 
 // Number of points sampled along each reference stroke's curve (via
 // getPointAtLength) to build its bounding box - more than just start/end,
@@ -44,33 +41,39 @@ const REFERENCE_SAMPLE_COUNT = 16
 
 // Strict stroke-order/shape gate thresholds (see scoring.ts for how these
 // also drive the continuous per-stroke accuracy scoring, not just
-// accept/reject).
-const GATE: GateThresholds = {
-  // How far off (in degrees) a drawn stroke's overall direction may be from
-  // the reference stroke's direction and still count as correct. Generous
-  // enough for imprecise mouse/touch input, strict enough to catch a
-  // genuinely wrong or reversed stroke.
-  maxAngleDiffDegrees: 70,
-  // How far (in canvas pixels) a drawn stroke's start/end may be from the
-  // *specific* expected stroke's start/end and still count as correct.
-  // Direction alone isn't enough to identify which stroke was drawn - many
-  // kanji have several strokes pointing the same general way (e.g. multiple
-  // horizontal strokes), so without a position check, drawing any stroke
-  // with a similar direction to the current one would be wrongly accepted
-  // regardless of where it was actually drawn.
-  maxPointDistance: CANVAS_SIZE * 0.3,
-  // A drawn stroke's path length must be within this fraction of the
-  // reference's length (in either direction - e.g. 0.35 allows anywhere
-  // from 35% to ~286% of the reference length), and its bounding-box
-  // overlap (IoU) with the reference must be at least MIN_BBOX_OVERLAP.
-  // These exist specifically to catch a stroke whose start, end, and net
-  // angle all happen to land close to the reference but whose actual path
-  // is a scribble/wiggle far longer (or a wildly different shape/extent)
-  // than a real stroke - the "shape differs significantly" bug this
-  // scoring pass was written to fix. Deliberately generous (not
-  // exact-match) so ordinary imprecise handwriting still passes.
-  minLengthRatio: 0.35,
-  minBboxOverlap: 0.15,
+// accept/reject). A function of canvas size since maxPointDistance is a
+// pixel tolerance - the mobile Practice screen renders a much larger canvas
+// than the desktop/tablet detail-panel embed, so the tolerance has to scale
+// with it or the gate becomes stricter (in visual terms) the bigger the
+// canvas gets.
+function buildGate(canvasSize: number): GateThresholds {
+  return {
+    // How far off (in degrees) a drawn stroke's overall direction may be
+    // from the reference stroke's direction and still count as correct.
+    // Generous enough for imprecise mouse/touch input, strict enough to
+    // catch a genuinely wrong or reversed stroke.
+    maxAngleDiffDegrees: 70,
+    // How far (in canvas pixels) a drawn stroke's start/end may be from the
+    // *specific* expected stroke's start/end and still count as correct.
+    // Direction alone isn't enough to identify which stroke was drawn - many
+    // kanji have several strokes pointing the same general way (e.g.
+    // multiple horizontal strokes), so without a position check, drawing
+    // any stroke with a similar direction to the current one would be
+    // wrongly accepted regardless of where it was actually drawn.
+    maxPointDistance: canvasSize * 0.3,
+    // A drawn stroke's path length must be within this fraction of the
+    // reference's length (in either direction - e.g. 0.35 allows anywhere
+    // from 35% to ~286% of the reference length), and its bounding-box
+    // overlap (IoU) with the reference must be at least MIN_BBOX_OVERLAP.
+    // These exist specifically to catch a stroke whose start, end, and net
+    // angle all happen to land close to the reference but whose actual path
+    // is a scribble/wiggle far longer (or a wildly different shape/extent)
+    // than a real stroke - the "shape differs significantly" bug this
+    // scoring pass was written to fix. Deliberately generous (not
+    // exact-match) so ordinary imprecise handwriting still passes.
+    minLengthRatio: 0.35,
+    minBboxOverlap: 0.15,
+  }
 }
 
 interface ReferenceStroke {
@@ -105,7 +108,23 @@ function drawStroke(ctx: CanvasRenderingContext2D, points: Point[], color: strin
   ctx.stroke()
 }
 
-function WritingPracticePanel({ character }: { character: string }) {
+interface WritingPracticePanelProps {
+  character: string
+  // Canvas side length in pixels. Defaults to the compact desktop/tablet
+  // detail-panel size; the mobile Practice screen passes a much larger,
+  // viewport-derived size instead (see PracticeScreen.tsx).
+  size?: number
+  // The dedicated mobile Practice screen has its own screen-level heading,
+  // so it hides this component's own "Writing Practice" label to avoid
+  // showing it twice.
+  hideHeading?: boolean
+}
+
+function WritingPracticePanel({
+  character,
+  size = DEFAULT_CANVAS_SIZE,
+  hideHeading,
+}: WritingPracticePanelProps) {
   const { status, svgText } = useStrokeOrderSvg(character)
   // The ordered stroke sequence KanjiVG authored for this kanji - this
   // array's order *is* the expected stroke sequence to validate against.
@@ -114,6 +133,10 @@ function WritingPracticePanel({ character }: { character: string }) {
     [svgText],
   )
   const total = strokePaths.length
+
+  // KanjiVG paths live in a 0-109 viewBox; the canvas is `size` square.
+  const referenceScale = size / 109
+  const gate = useMemo(() => buildGate(size), [size])
 
   const referencePathRefs = useRef<(SVGPathElement | null)[]>([])
   const referenceStrokesRef = useRef<ReferenceStroke[]>([])
@@ -131,7 +154,7 @@ function WritingPracticePanel({ character }: { character: string }) {
       const sampledPoints: Point[] = []
       for (let i = 0; i < REFERENCE_SAMPLE_COUNT; i += 1) {
         const raw = el.getPointAtLength((i / (REFERENCE_SAMPLE_COUNT - 1)) * svgLength)
-        sampledPoints.push({ x: raw.x * REFERENCE_SCALE, y: raw.y * REFERENCE_SCALE })
+        sampledPoints.push({ x: raw.x * referenceScale, y: raw.y * referenceScale })
       }
 
       const start = sampledPoints[0]
@@ -141,11 +164,11 @@ function WritingPracticePanel({ character }: { character: string }) {
         start,
         end,
         vector: { x: end.x - start.x, y: end.y - start.y },
-        length: svgLength * REFERENCE_SCALE,
+        length: svgLength * referenceScale,
         boundingBox: boundingBox(sampledPoints),
       }
     })
-  }, [strokePaths])
+  }, [strokePaths, referenceScale])
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const isDrawingRef = useRef(false)
@@ -212,8 +235,8 @@ function WritingPracticePanel({ character }: { character: string }) {
     if (!canvas) return { x: 0, y: 0 }
     const rect = canvas.getBoundingClientRect()
     return {
-      x: ((event.clientX - rect.left) / rect.width) * CANVAS_SIZE,
-      y: ((event.clientY - rect.top) / rect.height) * CANVAS_SIZE,
+      x: ((event.clientX - rect.left) / rect.width) * size,
+      y: ((event.clientY - rect.top) / rect.height) * size,
     }
   }
 
@@ -272,8 +295,8 @@ function WritingPracticePanel({ character }: { character: string }) {
       bboxOverlap: boundingBoxIoU(boundingBox(strokePoints), expected.boundingBox),
     }
 
-    if (passesStrokeGate(metrics, GATE)) {
-      const strokeScore = scoreAcceptedStroke(metrics, GATE)
+    if (passesStrokeGate(metrics, gate)) {
+      const strokeScore = scoreAcceptedStroke(metrics, gate)
       strokeScoresRef.current = [...strokeScoresRef.current, strokeScore]
       setStrokeAccuracy(strokeAccuracyPercent(strokeScore))
 
@@ -312,9 +335,11 @@ function WritingPracticePanel({ character }: { character: string }) {
 
   return (
     <div>
-      <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-        Writing Practice
-      </h3>
+      {!hideHeading && (
+        <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+          Writing Practice
+        </h3>
+      )}
 
       {!isPracticeReady ? (
         <p className="mt-2 text-sm text-slate-500">
@@ -324,7 +349,10 @@ function WritingPracticePanel({ character }: { character: string }) {
         </p>
       ) : (
         <div key={character} className="mt-2 flex flex-col gap-2">
-          <div className="relative aspect-square w-full max-w-[260px] overflow-hidden rounded-md border border-slate-700 bg-white">
+          <div
+            className="relative aspect-square w-full overflow-hidden rounded-md border border-slate-700 bg-white"
+            style={{ maxWidth: size }}
+          >
             <svg
               viewBox="0 0 109 109"
               className="pointer-events-none absolute inset-0 h-full w-full"
@@ -363,8 +391,8 @@ function WritingPracticePanel({ character }: { character: string }) {
 
             <canvas
               ref={canvasRef}
-              width={CANVAS_SIZE}
-              height={CANVAS_SIZE}
+              width={size}
+              height={size}
               className="absolute inset-0 h-full w-full touch-none"
               onPointerDown={handlePointerDown}
               onPointerMove={handlePointerMove}

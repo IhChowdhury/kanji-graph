@@ -12,6 +12,7 @@ import ReactFlow, {
 import 'reactflow/dist/style.css'
 
 import DatasetStatusOverlay from './DatasetStatusOverlay'
+import { useViewport } from '../../hooks/useViewport'
 import { computeAncestorPath } from '../graph/graphPath'
 import { NODE_HEIGHT, NODE_WIDTH, layoutGraph } from '../graph/graphLayout'
 import { computeLearningFocusGraph } from '../graph/learningFocus'
@@ -42,6 +43,7 @@ function GraphCanvasInner() {
   const enabledLevels = useJlptFilterStore((state) => state.enabledLevels)
   const { dailyKanji } = useDailyKanji()
   const { setCenter, getViewport } = useReactFlow()
+  const { breakpoint, isCoarsePointer } = useViewport()
 
   const catalog = useKanjiDatasetStore((state) => state.catalog)
   const childIndex = useKanjiDatasetStore((state) => state.childIndex)
@@ -263,16 +265,26 @@ function GraphCanvasInner() {
         minZoom={0.2}
         maxZoom={2}
         proOptions={{ hideAttribution: true }}
+        // Node positions are always recomputed from layoutGraph on the next
+        // render (see fullLayoutNodes/focusLayoutNodes above), so dragging
+        // never persists anything - disabling it on coarse-pointer (touch)
+        // devices only removes a source of accidental mis-selection, it
+        // doesn't remove real functionality.
+        nodesDraggable={!isCoarsePointer}
+        selectNodesOnDrag={false}
+        panOnScroll
       >
         <Background variant={BackgroundVariant.Dots} gap={16} size={1} />
         <Controls />
-        <MiniMap
-          pannable
-          zoomable
-          className="!bg-slate-900"
-          maskColor="rgba(15, 23, 42, 0.6)"
-          nodeColor="#64748b"
-        />
+        {breakpoint !== 'mobile' && (
+          <MiniMap
+            pannable
+            zoomable
+            className="!bg-slate-900"
+            maskColor="rgba(15, 23, 42, 0.6)"
+            nodeColor="#64748b"
+          />
+        )}
       </ReactFlow>
       <DatasetStatusOverlay />
     </>
@@ -280,12 +292,16 @@ function GraphCanvasInner() {
 }
 
 function GraphCanvas() {
+  // A plain <div>, not <main> - GraphCanvas is embedded as a sub-region in
+  // several different shells (Desktop, Tablet, Foldable, mobile
+  // GraphScreen), each of which owns its own single <main> landmark; nesting
+  // a second <main> inside one would be invalid.
   return (
-    <main className="relative flex-1 bg-slate-950">
+    <div className="relative flex-1 bg-slate-950">
       <ReactFlowProvider>
         <GraphCanvasInner />
       </ReactFlowProvider>
-    </main>
+    </div>
   )
 }
 
