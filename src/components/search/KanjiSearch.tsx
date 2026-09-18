@@ -3,12 +3,14 @@ import { useMemo, useState } from 'react'
 import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
+import { useViewModeStore } from '../../store/useViewModeStore'
 import type { KanjiInfo } from '../../types/kanji'
 
 function KanjiSearch() {
   const [query, setQuery] = useState('')
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
+  const setViewMode = useViewModeStore((state) => state.setViewMode)
   const allKanji = useKanjiDatasetStore((state) => state.allKanji)
 
   const results = useMemo(() => {
@@ -27,6 +29,7 @@ function KanjiSearch() {
     setQuery('')
     revealKanji(kanji.character)
     focusKanji(kanji)
+    setViewMode('graph')
   }
 
   return (

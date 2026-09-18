@@ -1,4 +1,6 @@
 import { computeLearningPath } from '../graph/graphPath'
+import { isKanjiVisible } from '../../data/kanjiVisibility'
+import { useJlptFilterStore } from '../../store/useJlptFilterStore'
 import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
@@ -7,7 +9,10 @@ function LearningPath({ character }: { character: string }) {
   const revealKanji = useKanjiGraphStore((state) => state.revealKanji)
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
   const catalog = useKanjiDatasetStore((state) => state.catalog)
-  const path = computeLearningPath(character, catalog)
+  const enabledLevels = useJlptFilterStore((state) => state.enabledLevels)
+  const path = computeLearningPath(character, catalog, (id) =>
+    isKanjiVisible(id, catalog, enabledLevels),
+  )
 
   if (path.length === 0) return null
 

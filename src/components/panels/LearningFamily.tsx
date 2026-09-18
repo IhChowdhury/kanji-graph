@@ -1,7 +1,11 @@
+import { isKanjiVisible } from '../../data/kanjiVisibility'
+import { useJlptFilterStore } from '../../store/useJlptFilterStore'
 import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
 import type { KanjiInfo } from '../../types/kanji'
+
+const HIDDEN_RELATIONSHIPS_NOTE = 'Additional relationships exist in hidden JLPT levels.'
 
 function KanjiChip({
   character,
@@ -25,11 +29,13 @@ function KanjiChipGroup({
   title,
   characters,
   emptyLabel,
+  hiddenNote,
   onSelect,
 }: {
   title: string
   characters: string[]
   emptyLabel: string
+  hiddenNote?: string
   onSelect: (character: string) => void
 }) {
   return (
@@ -48,6 +54,7 @@ function KanjiChipGroup({
       ) : (
         <p className="mt-1 text-sm text-slate-500">{emptyLabel}</p>
       )}
+      {hiddenNote && <p className="mt-1 text-xs italic text-slate-500">{hiddenNote}</p>}
     </div>
   )
 }
@@ -57,15 +64,20 @@ function LearningFamily({ kanji }: { kanji: KanjiInfo }) {
   const focusKanji = useKanjiSelectionStore((state) => state.focusKanji)
   const catalog = useKanjiDatasetStore((state) => state.catalog)
   const childIndex = useKanjiDatasetStore((state) => state.childIndex)
+  const enabledLevels = useJlptFilterStore((state) => state.enabledLevels)
 
-  // Parents are shown from the kanji's own component list even if one
-  // hasn't loaded yet (still a real relationship); clicking one that isn't
-  // loaded is a no-op below rather than a crash.
-  const parents = kanji.components
-  const children = (childIndex[kanji.character] ?? [])
-    .map((id) => catalog[id])
-    .filter((info): info is KanjiInfo => Boolean(info))
-    .map((info) => info.character)
+  // Every real parent/child relationship, including ones whose data isn't
+  // loaded or whose JLPT level is currently disabled - narrowed to just the
+  // visible ones below so the panel never exposes a relationship the graph
+  // itself is hiding (see isKanjiVisible).
+  const allParents = kanji.components
+  const allChildren = childIndex[kanji.character] ?? []
+
+  const parents = allParents.filter((id) => isKanjiVisible(id, catalog, enabledLevels))
+  const children = allChildren.filter((id) => isKanjiVisible(id, catalog, enabledLevels))
+
+  const hasHiddenParents = parents.length < allParents.length
+  const hasHiddenChildren = children.length < allChildren.length
 
   const navigateTo = (character: string) => {
     const info = catalog[character]
@@ -90,6 +102,7 @@ function LearningFamily({ kanji }: { kanji: KanjiInfo }) {
         title="Parent Kanji"
         characters={parents}
         emptyLabel="None - this is a root kanji"
+        hiddenNote={hasHiddenParents ? HIDDEN_RELATIONSHIPS_NOTE : undefined}
         onSelect={navigateTo}
       />
 
@@ -97,6 +110,7 @@ function LearningFamily({ kanji }: { kanji: KanjiInfo }) {
         title="Child Kanji"
         characters={children}
         emptyLabel="No kanji build on this one yet"
+        hiddenNote={hasHiddenChildren ? HIDDEN_RELATIONSHIPS_NOTE : undefined}
         onSelect={navigateTo}
       />
     </div>

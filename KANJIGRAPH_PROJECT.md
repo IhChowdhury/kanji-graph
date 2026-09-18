@@ -209,3 +209,7 @@ The old `extractStrokeGroupMarkup` re-scanned the full KanjiVG XML text with `in
 ### Is the project ready for further work on the full dataset?
 
 Yes for what was asked (generate the complete dataset with quality reporting and a rebuildable pipeline). The natural next step, if wanted, is deciding whether/how to expose `joyo` in the UI (a product decision, not implied by this task) and revisiting the Dagre/collapse performance items now that N2/N3 give real several-hundred-to-thousand-kanji buckets to test against, rather than the ~100-kanji buckets Phase 1 was validated with.
+
+## Addendum: dataset initialization moved out of `GraphCanvas`
+
+A later session added a Kanji List View as the app's default landing screen (see `ARCHITECTURE.md`'s "Kanji List View / Graph View navigation"), which meant `GraphCanvas` - previously the sole place that called `useKanjiDatasetStore.initialize()` and `useKanjiGraphStore.seedRootsIfNeeded()` - might never mount at all on a first visit. Both calls moved up to `HomePage`, which is always mounted regardless of which view is active. Both remain idempotent (unchanged from Phase 1's description above), so this is purely a wiring fix, not a behavior or performance change - level-loading/caching semantics, the manifest/level status machine, and the cross-level edge policy are all exactly as documented above.

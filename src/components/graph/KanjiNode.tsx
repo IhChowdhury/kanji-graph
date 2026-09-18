@@ -1,6 +1,7 @@
 import type { MouseEvent } from 'react'
 import { Handle, Position, type NodeProps } from 'reactflow'
 
+import { useGraphModeStore } from '../../store/useGraphModeStore'
 import { useKanjiDatasetStore } from '../../store/useKanjiDatasetStore'
 import { useKanjiGraphStore } from '../../store/useKanjiGraphStore'
 import { useKanjiSelectionStore } from '../../store/useKanjiSelectionStore'
@@ -9,18 +10,27 @@ import type { KanjiNodeData } from '../../types/kanji'
 import { jlptStyles } from './jlptStyles'
 
 interface KanjiNodeProps extends NodeProps<KanjiNodeData> {
-  data: KanjiNodeData & { onPath?: boolean; isStudyTarget?: boolean }
+  data: KanjiNodeData & {
+    onPath?: boolean
+    isStudyTarget?: boolean
+    focusTier?: 'child' | 'grandchild'
+  }
 }
 
 function KanjiNode({ id, data, selected }: KanjiNodeProps) {
   const styles = jlptStyles[data.jlptLevel]
+  const isFocusMode = useGraphModeStore((state) => state.mode === 'focus')
   const isExpanded = useKanjiGraphStore((state) => state.expandedIds.has(id))
   const toggleExpand = useKanjiGraphStore((state) => state.toggleExpand)
   const focusKanjiForExpand = useKanjiSelectionStore((state) => state.focusKanjiForExpand)
   const isMastered = useMasteryStore((state) => Boolean(state.masteredIds[id]))
-  const expandable = useKanjiDatasetStore(
+  const hasChildren = useKanjiDatasetStore(
     (state) => (state.childIndex[id]?.length ?? 0) > 0,
   )
+  // Learning Focus Mode already shows a node's children (and grandchildren)
+  // automatically, so the manual expand/collapse control - which only makes
+  // sense for the Full Graph exploration tree - is hidden there.
+  const expandable = hasChildren && !isFocusMode
 
   const handleExpandClick = (event: MouseEvent) => {
     event.stopPropagation()
@@ -36,9 +46,13 @@ function KanjiNode({ id, data, selected }: KanjiNodeProps) {
     ? 'ring-4 ring-white/80'
     : data.onPath
       ? 'ring-4 ring-amber-400/70'
-      : data.isStudyTarget
-        ? 'ring-4 ring-sky-400/70'
-        : ''
+      : data.focusTier === 'child'
+        ? 'ring-2 ring-teal-400/60'
+        : data.focusTier === 'grandchild'
+          ? 'ring-2 ring-teal-400/30'
+          : data.isStudyTarget
+            ? 'ring-4 ring-sky-400/70'
+            : ''
 
   return (
     <div

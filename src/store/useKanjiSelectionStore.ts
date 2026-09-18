@@ -2,11 +2,13 @@ import { create } from 'zustand'
 
 import type { KanjiInfo } from '../types/kanji'
 
-// Plain node click / search / reveal / breadcrumb nav: fit just the focused
-// node, at the existing tuned duration - unchanged from before expand had
-// its own richer viewport behavior (see GraphCanvas.tsx's fit effect).
-const DEFAULT_FOCUS_DURATION_MS = 800
-// Expand: shorter, snappier animation per spec (300-500ms).
+// Plain node click / search / reveal / breadcrumb nav: GraphCanvas pans
+// (setCenter only, current zoom preserved - never fitView) to bring the
+// newly-selected node into view, animated within the spec's 300-500ms band.
+const DEFAULT_FOCUS_DURATION_MS = 400
+// Expand: same band, though currently unused for viewport purposes - an
+// expand-triggered focus never moves the viewport at all (see
+// GraphCanvas.tsx's centering effect, gated on isExpandFocus).
 const EXPAND_FOCUS_DURATION_MS = 400
 
 const NO_EXTRA_NODE_IDS: string[] = []
@@ -30,6 +32,8 @@ interface KanjiSelectionState {
   isExpandFocus: boolean
   focusKanji: (kanji: KanjiInfo) => void
   focusKanjiForExpand: (kanji: KanjiInfo, extraNodeIds: string[]) => void
+  /** Deselects the current kanji - e.g. navigating back to the Kanji List. */
+  clearFocus: () => void
 }
 
 export const useKanjiSelectionStore = create<KanjiSelectionState>((set) => ({
@@ -63,4 +67,12 @@ export const useKanjiSelectionStore = create<KanjiSelectionState>((set) => ({
       focusDurationMs: EXPAND_FOCUS_DURATION_MS,
       isExpandFocus: true,
     })),
+
+  clearFocus: () =>
+    set({
+      selectedKanji: null,
+      focusNodeId: null,
+      focusExtraNodeIds: NO_EXTRA_NODE_IDS,
+      isExpandFocus: false,
+    }),
 }))

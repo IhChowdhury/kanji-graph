@@ -113,6 +113,28 @@ Unrelated nodes automatically fade to reduce visual noise.
 
 ---
 
+## 🎯 Learning Focus Mode
+
+Study one Kanji family at a time instead of a giant graph.
+
+- **Learning Focus Mode** (default) — shows only the selected Kanji, its parents, its children, and grandchildren. Everything else is hidden entirely, not just faded.
+- **Full Graph Mode** — the complete expandable graph, for open-ended exploration.
+
+Toggle between them anytime; your choice is remembered on your next visit.
+
+Selecting a Kanji smoothly centers it in view without ever forcing a zoom change — you stay in full control of pan and zoom.
+
+---
+
+## 🧭 Kanji List ↔ Graph View Navigation
+
+Browse a searchable, JLPT-filtered list of every loaded Kanji, then dive into its graph and learning path with one click.
+
+- **← Back to Kanji List** returns you to exactly where you left off — search text, JLPT filters, mastery progress, and Study Mode state are all preserved.
+- A **breadcrumb trail** (`Kanji List > 木 > 休`) tracks how you got to the current Kanji, and any step is clickable.
+
+---
+
 ## 📝 Writing Practice Mode
 
 Practice writing Kanji directly inside the application.
@@ -268,23 +290,21 @@ The application is automatically deployed via GitHub Actions to GitHub Pages.
 - Search
 - JLPT Filtering
 - Learning Paths
+- Learning Family View (parent/child chips, JLPT-filter-aware)
 - Expand / Collapse Nodes
+- Learning Focus Mode / Full Graph Mode toggle
+- Kanji List ↔ Graph View navigation with breadcrumb trail
+- Smooth, zoom-preserving selection centering
 - Progress Tracking
 - Study Mode
 - Writing Practice
 - Stroke Animation
-- Stroke Order Validation
+- Stroke Order Validation (direction, position, length, and shape/bounding-box all scored)
 - Attempt History
 
 ---
 
 ## 🔜 Planned
-
-### Learning Enhancements
-
-- Stroke Direction Validation
-- Shape Accuracy Scoring
-- Learning Family View
 
 ### Productivity Features
 

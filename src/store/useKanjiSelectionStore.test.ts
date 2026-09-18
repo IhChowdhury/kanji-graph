@@ -30,7 +30,7 @@ describe('focusKanji (plain focus: node click, search, reveal, breadcrumb nav)',
     expect(state.focusNodeId).toBe('休')
     expect(state.isExpandFocus).toBe(false)
     expect(state.focusExtraNodeIds).toEqual([])
-    expect(state.focusDurationMs).toBe(800)
+    expect(state.focusDurationMs).toBe(400)
   })
 
   it('clears a previous expand focus\'s extra ids/flag when focusing normally afterward', () => {
@@ -40,7 +40,7 @@ describe('focusKanji (plain focus: node click, search, reveal, breadcrumb nav)',
 
     expect(state.isExpandFocus).toBe(false)
     expect(state.focusExtraNodeIds).toEqual([])
-    expect(state.focusDurationMs).toBe(800)
+    expect(state.focusDurationMs).toBe(400)
   })
 
   it('increments focusToken on every call, even for the same kanji', () => {
@@ -72,5 +72,21 @@ describe('focusKanjiForExpand', () => {
 
     expect(state.isExpandFocus).toBe(true)
     expect(state.focusExtraNodeIds).toEqual([])
+  })
+})
+
+describe('clearFocus', () => {
+  it('deselects the current kanji without touching focusToken', () => {
+    useKanjiSelectionStore.getState().focusKanji(kanji('木'))
+    const tokenBeforeClear = useKanjiSelectionStore.getState().focusToken
+
+    useKanjiSelectionStore.getState().clearFocus()
+    const state = useKanjiSelectionStore.getState()
+
+    expect(state.selectedKanji).toBeNull()
+    expect(state.focusNodeId).toBeNull()
+    expect(state.focusExtraNodeIds).toEqual([])
+    expect(state.isExpandFocus).toBe(false)
+    expect(state.focusToken).toBe(tokenBeforeClear)
   })
 })

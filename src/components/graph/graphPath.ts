@@ -64,18 +64,25 @@ export function computeAncestorPath(
  * Returns [] if nothing is selected. Stops early (rather than throwing) if a
  * step's data isn't loaded yet - e.g. a cross-level parent whose JLPT level
  * hasn't been enabled - since the catalog only ever contains loaded levels.
+ *
+ * `isVisible` additionally stops the walk before adding an ancestor that's
+ * loaded but currently JLPT-filtered out, so the chain never exposes a
+ * kanji the rest of the UI is hiding (see isKanjiVisible). The selected
+ * character itself is always included regardless of `isVisible` - it's the
+ * current selection, not a relationship being surfaced.
  */
 export function computeLearningPath(
   character: string | null,
   catalog: Record<string, KanjiInfo>,
+  isVisible: (character: string) => boolean = () => true,
 ): string[] {
   if (!character) return []
 
-  const chain: string[] = []
-  const visited = new Set<string>()
-  let current: string | undefined = character
+  const chain: string[] = [character]
+  const visited = new Set<string>([character])
+  let current = catalog[character]?.components[0]
 
-  while (current && !visited.has(current)) {
+  while (current && !visited.has(current) && isVisible(current)) {
     visited.add(current)
     chain.push(current)
     current = catalog[current]?.components[0]
